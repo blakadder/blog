@@ -1,9 +1,9 @@
 # Site
-name: "Blakadder's Smarthome Shenanigans"
+name: "Blakadder's smarthome shenanigans"
 title: "BSS"
 description: "Blakadder's explorations in DIY smart home"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.png'
 baseurl: ''
 google_analytics: 'UA-140681905-1'
 disqus: 'blakadder'
@@ -19,7 +19,6 @@ authors:
     display_name: blakadder
     avatar: 'assets/images/avatar.png'
     email: arguson@gmail.com
-    web: https://www.blakadder.com
     twitter: https://twitter.com/blakadder_
     description: "Chief shenaniganeer!"
 
