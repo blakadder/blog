@@ -8,7 +8,7 @@ image: assets/images/frankenstein_header.jpg
 toc: true
 ---
 
-What do you do when you have a box of unused devices? Frankenstein em up!
+What do you do when you have a box of unused devices? **Frankenstein 'em into something new!**
 
 Some time ago I received a [Sonoff IW101](http://s.click.aliexpress.com/e/_dU9bwtx) switch for testing and discovering a [template](https://templates.blakadder.com/sonoff_IW101.html). 
 
