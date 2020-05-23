@@ -22,7 +22,7 @@ After disassembling the switch once again and checking the layout I noticed it h
 
 ## The Build
 
-I scrounged a 16A rated power cable from a broken power strip, got some wire terminals and the IP66 box. 
+I scrounged a 16A rated power cable from a broken power strip, got some wire terminals and the IP66 box. The cable socket was bought in a hardware store.
 
 I removed the switch PCB from the IW101 board since its is not really needed here. IW101 board is secured with a small screw to the existing hole in the box which lined it up squarely in the middle. Perfect!
 
