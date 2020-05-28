@@ -2,8 +2,8 @@
 layout: post
 title:  "Dryer Notifications with Home Assistant GUI only"
 author: blak
-categories: [ Tasmota, Home Assistant ]
-tags: [ home assistant, how to ]
+categories: [ tasmota, home assistant, how to ]
+tags: [  ]
 image: assets/images/dryer_header.jpg
 toc: true
 ---

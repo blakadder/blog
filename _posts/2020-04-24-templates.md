@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Visit Tasmota Device Templates Repository"
-categories: [ Tasmota ]
-tags: [ tasmota ]
+categories: [ tasmota ]
+tags: [  ]
 image: assets/images/templates-site.jpg
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Smarter Coffee"
 author: blak
-categories: [ Home Assistant ]
-tags: [ home assistant, how to ]
+categories: [ home assistant, how to ]
+tags: [  ]
 image: assets/images/coffee.jpg
 toc: true
 ---

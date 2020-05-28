@@ -2,8 +2,8 @@
 layout: post
 title:  "Frankenstein Saturday"
 author: blak
-categories: [ Tasmota]
-tags: [ diy, tasmota ]
+categories: [ diy, tasmota ]
+tags: [  ]
 image: assets/images/frankenstein_header.jpg
 toc: true
 ---
