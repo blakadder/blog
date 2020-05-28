@@ -182,7 +182,7 @@ According to those numbers the following sensor is created with templated condit
             Drying
           {% elif states('sensor.dryer_energy_power') | float >= 4 %}
             Anti Crease
-          {% elif 1 > states('sensor.dryer_energy_power') | float <= 3 %}
+          {% elif states('sensor.dryer_energy_power') | float <= 3 and states('sensor.dryer_energy_power') | float > 1 %}
             Idle
           {% elif states('sensor.dryer_energy_power') | float <= 1 %}   
             Off
