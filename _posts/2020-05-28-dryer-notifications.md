@@ -94,7 +94,7 @@ To make sure this automation won't falsely trigger it needs to be disabled until
 
 ![dryer.started automation](/assets/images/dryer_started_simple.jpg)
 
-Again, adjust the power change trigger to your dryer values. In this case it will trigger as soon as used power is over 300W and will enable the "dryer.finished" rule.
+Again, adjust the power change trigger to your dryer values. In this case it will trigger as soon as used power is over 300W and will enable the "dryer.finished" rule. 
 
 ## Extra Sensors
 
