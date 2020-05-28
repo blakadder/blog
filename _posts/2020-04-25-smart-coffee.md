@@ -3,7 +3,7 @@ layout: post
 title:  "Smarter Coffee"
 author: blak
 categories: [ Home Assistant ]
-tags: [ automation ]
+tags: [ home assistant, how to ]
 image: assets/images/coffee.jpg
 toc: true
 ---
@@ -33,7 +33,7 @@ I used:
 Some requirements:
 - kettle integrated in HA using the [configuration](https://templates.blakadder.com/proficook_PC-WKS_1167.html)
 - have your HA scripts synced and available in Google Home app
-- set up [TTS](https://www.home-assistant.io/integrations/tts/) in HA
+- set up [TTS](https://www.home assistant.io/integrations/tts/) in HA
 - create a coffee brewing timer in configuration.yaml
 
 ```yaml
