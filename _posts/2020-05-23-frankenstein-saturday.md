@@ -45,7 +45,7 @@ Now just some [power monitoring calibration](https://tasmota.github.io/docs/Powe
 
 ![](/assets/images/frankenstein_3.jpg)
 
-All that's left is configuring the topic and Device Name for it to be autodiscovered in Home Assistant and put to work as the dryer monitor. But that's a story for a [different blog post](dryer-notifications).
+All that's left is configuring the topic and Device Name for it to be autodiscovered in Home Assistant and put to work as the dryer monitor. But that's a story for a [different blog post](/dryer-notifications).
 
 ## Finished Product
 
