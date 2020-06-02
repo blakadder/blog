@@ -41,7 +41,7 @@ Tasmota is already flashed on the device but the template had to be changed to r
 
 Set the relay to always on with `PowerOnState 4` and this way it can't be turned off randomly. That is fine since we're only interested in power monitoring.
 
-Now just some [power monitoring calibration](https://tasmota.github.io/docs/Power-Monitoring-Calibration/) using a 100W incadescent bulb and a cheap power meter I got years ago.
+Now just some [power monitoring calibration](https://tasmota.github.io/docs/Power-Monitoring-Calibration/) using a 100W incadescent bulb and a cheap power meter I got years ago. But that's a story for a [different blog post](dryer-notifications).
 
 ![](/assets/images/frankenstein_3.jpg)
 
