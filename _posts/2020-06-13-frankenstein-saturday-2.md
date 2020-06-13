@@ -15,7 +15,7 @@ In the previous article about [Zemismart ZM25TQ](zemismart-zm25tq) roller shades
 
 Lets open it up!
 
-![how to effectively open the motor](/assets/images/blinds/thehookup_open_blinds.jpg)
+[![how to effectively open the motor](/assets/images/blinds/thehookup_open_blinds.jpg)](https://youtu.be/2qeZd59Yfpc?t=112)
 
 But no, let's try and keep at least 99% of it intact. First you need to remove the end cap where the cabling is by unscrewing the two screws and pulling it out. From the opposite side you need to remove the safety pin with push pin pliers. Next locate three mettalic dots on the tube. Those are small pins holding the motor in place, you have to push them in to free the end cap and motor casing from the tube. 
 
