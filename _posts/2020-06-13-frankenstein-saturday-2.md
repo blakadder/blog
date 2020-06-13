@@ -43,7 +43,7 @@ I took some time tracing and checking connections with a multimeter and WR4 and 
 
 ![WR4 pinout](/assets/images/blinds/wr4_pinout.jpg)
 
-Now that the pinout is known I can try and hook up a CH340G serial-to-USB adapter and see if I get any serial traffic using RealTerm set to serial baudrate 9600 which is the default Tuya baudrate. Good news, I can see some serial messages starting with `55AA` which means default Tuya protocol is used.
+Now that the pinout is known I can try and hook up a [CH340G](https://www.aliexpress.com/item/32827321415.html?spm=a2g0o.productlist.0.0.7fef1c9c3DFv70&ws_ab_test=searchweb0_0%2Csearchweb201602_%2Csearchweb201603_&algo_pvid=f059a5c9-4e55-4769-a665-9e249e772504&aff_platform=portals-tool&btsid=0be3743b15920748636897622e6d9c&sk=_dSNOUoO&aff_trace_key=304b7e39af4d4642b13d269d29715660-1592074908156-07805-_dSNOUoO&terminal_id=5ab3b3bf703c438dac102dcfef054d7e&tmLog=new_Detail&algo_expid=f059a5c9-4e55-4769-a665-9e249e772504-20&aff_request_id=304b7e39af4d4642b13d269d29715660-1592074908156-07805-_dSNOUoO) serial-to-USB adapter and see if I get any serial traffic using RealTerm set to serial baudrate 9600 which is the default Tuya baudrate. Good news, I can see some serial messages starting with `55AA` which means default Tuya protocol is used.
 
 For the next phase of examination I took a NodeMCU flashed with Tasmota and module set to TuyaMCU (54). Hooked up TX to WR4 TX, RX to WR4 RX, 3.3v to WR4 VCC and GND to GND and powered everything using the motor power supply (be very careful around the mains part of the power supply!). This is to see if Tasmota will be able to communicate with the MCU.
 
