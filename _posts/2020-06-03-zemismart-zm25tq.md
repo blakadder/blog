@@ -83,6 +83,6 @@ Enter the Smart Curtains device page and you’ll see a Smart Curtain entity wit
 
 Albeit an easy solution it is far from perfect. You only get open, stop and close commands and no positional data or setting position like in the app. Worst of all still uses the cloud and there is a small delay which, arguably, does not matter in this use case but you notice it and it nags you.
 
-In the next part of the review we'll do some surgery and get Tasmota on it!
+In the next part of the review we'll do some [surgery and get Tasmota on it](frankenstein-saturday-2) !
 
 ![](/assets/images/blinds/disassembled.jpg)
