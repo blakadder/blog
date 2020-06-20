@@ -7,6 +7,7 @@ tags: [  ]
 image: assets/images/zm25tq_header.jpg
 toc: false
 ---
+
 Review of the Zemismart ZM25TQ roller shade motor and how to integrate it in Home Assistant using Tuya integration.
 
 _**Full disclosure:** This is a review sample sent to me free of charge by Zemismart. Review is not influenced by that fact and is solely my opinion._
@@ -31,14 +32,18 @@ Well that’s just peachy, no easy Tasmota flash for this one. Well, let’s see
 
 ## Assembly
 
-Who knew 38mm tubes for blinds would be difficult to find locally? I had to source some aluminium tubes from the hardware store to slide the tubular motor in, then attach the blinds using some double sided tape.
+Who knew 38mm tubes for blinds would be difficult to find locally? I had to source some aluminum tubes from the hardware store to slide the tubular motor in, then attach the blinds using some double sided tape.
 The motor comes with all the required mounting gear and it is was to install in the window. 
 
 ![](/assets/images/blinds/motor_parts.jpg)
 
 My motor came with the EU Type C plug but the seller assured me they have different plug types available. One problem could be the short cable which would require you to have a plug less than 1m away from the blinds which is not the case in most of the houses. They could've thought that part through a bit more... In this case having a plug already attached only makes the job of extending it more difficult.
 
-Once working it is fairly fast and very quiet when running. Since there are people way better at video production than me, here's TheHookUp's Rob with the same roller shades motor in action:
+Once working it is fairly fast and very quiet when running. Here it is on a 140mm wide shade roll with a thick walled 40mm aluminum tube.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jU6OOKDAzoU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Since there are people way better at video production than me, here's TheHookUp's Rob with the same roller shades motor in action:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2qeZd59Yfpc?start=130" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -51,10 +56,11 @@ Sadly the Tuya app installs it as a Curtain motor which isn’t so bad but the d
 
 ![](/assets/images/blinds/tuya_app.jpg)
 
-### Motor Calibration 
+### Motor Calibration
+
 Before being able to use all the features of the motor you have to calibrate its start and end positions. Unfortunately, the app only shows a warning that a calibration is needed but does not give any options to do it or, at least, link to some instructions. For that you have to use the supplied remote and provided instructions leaflet. But wait, the remote in the booklet is completely different from the one I got!? Grrr…
 
-Instructions refer to a "SET" button on the remote and the graphic points to the bottom of the remote. My remote is completely different and there is no button labelled "SET" anywhere on it. I have to be honest, it took me at least 10 minutes to figure out there’s a black dot on the back side that can be pushed. Lo and behold it is the totally unlabelled "SET" button. We’re back in business!
+Instructions refer to a "SET" button on the remote and the graphic points to the bottom of the remote. My remote is completely different and there is no button labelled "SET" anywhere on it. I have to be honest, it took me at least 10 minutes to figure out there’s a black dot on the back side that can be pushed. Lo and behold it is the totally unlabeled "SET" button. We’re back in business!
 
 And whaddaya know, the instructions work, phew!
 
@@ -83,6 +89,6 @@ Enter the Smart Curtains device page and you’ll see a Smart Curtain entity wit
 
 Albeit an easy solution it is far from perfect. You only get open, stop and close commands and no positional data or setting position like in the app. Worst of all still uses the cloud and there is a small delay which, arguably, does not matter in this use case but you notice it and it nags you.
 
-In the next part of the review we'll do some [surgery and get Tasmota on it](frankenstein-saturday-2) !
+In the next part of the review we'll do some [surgery and get Tasmota on it](/frankenstein-saturday-2) !
 
 ![](/assets/images/blinds/disassembled.jpg)

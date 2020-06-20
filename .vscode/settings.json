@@ -1,0 +1,15 @@
+{
+    "spellright.language": [
+        "en",
+        "hr"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "cSpell.words": [
+        "tasmota",
+        "tuya"
+    ]
+}

@@ -17,7 +17,7 @@ Lets open it up!
 
 [![how to effectively open the motor](/assets/images/blinds/thehookup_open_blinds.jpg)](https://youtu.be/2qeZd59Yfpc?t=112)
 
-But no, let's try and keep at least 99% of it intact. First you need to remove the end cap where the cabling is by unscrewing the two screws and pulling it out. From the opposite side you need to remove the safety pin with push pin pliers. Next locate three mettalic dots on the tube. Those are small pins holding the motor in place, you have to push them in to free the end cap and motor casing from the tube. 
+But no, let's try and keep at least 99% of it intact. First you need to remove the end cap where the cabling is by unscrewing the two screws and pulling it out. From the opposite side you need to remove the safety pin with push pin pliers. Next locate three metallic dots on the tube. Those are small pins holding the motor in place, you have to push them in to free the end cap and motor casing from the tube. 
 
 ![Pin locations](/assets/images/blinds/push_pins.jpg)
 
@@ -31,7 +31,7 @@ Once we have it out its time to examine what is inside. We can see a motor with 
 
 ![WR4 Module](/assets/images/blinds/wr4_module.jpg)
 
-The control PCB carries the [Realtek WR4](https://docs.tuya.com/en/iot/device-development/module/wifi-module/wifiwr4module) module. On the other side the main control MCU hides under the two capacitors. It is marked SK6T6C and a short google search later we know its [STM8S003F3](https://www.st.com/resource/en/datasheet/stm8s003f3.pdf). We can see 24V, 5V and 3.3V markings on the PCB. That means there's different voltages running around and we have to be careful not to accidentally connect things to wrong voltage. 24V being the biggest number also tells us that the PSU is probably 24V and that the motor runs on 24V as well. Checking STM85003F3 datasheed shows its operating on 5V and WR4 is on 3.3V.
+The control PCB carries the [Realtek WR4](https://docs.tuya.com/en/iot/device-development/module/wifi-module/wifiwr4module) module. On the other side the main control MCU hides under the two capacitors. It is marked SK6T6C and a short google search later we know its [STM8S003F3](https://www.st.com/resource/en/datasheet/stm8s003f3.pdf). We can see 24V, 5V and 3.3V markings on the PCB. That means there's different voltages running around and we have to be careful not to accidentally connect things to wrong voltage. 24V being the biggest number also tells us that the PSU is probably 24V and that the motor runs on 24V as well. Checking STM85003F3 datasheet shows its operating on 5V and WR4 is on 3.3V.
 
 ![MCU side](/assets/images/blinds/motor.jpg)
 
@@ -49,7 +49,7 @@ For the next phase of examination I took a NodeMCU flashed with Tasmota and modu
 
 And yes, when I operate the motor with the remote I can see tuya statuses from the MCU in the webUI of the console, excellent! But, when I try sending serial commands or tuyasend commands, nothing happened. That must mean there's some issue on the TX pin. I took the MCU datasheet and locate its TX and RX pins which would be connected to the Wi-Fi module RX and TX and checked how are they connected with a multimeter.
 
-That revealed that both RX and TX pins have resistors in line to drop voltage from MCU's 5v operating voltage. I tried hooking the TX pin using a level shifter but that didn't work so I simply connected the NodeMCU right before the resistor (ESP8266 is, supposedly, 5v tolerant but there's still a debate going on on how safe that is). I tried sending my favourite `SerialSend5 55aa0001000000` and boom, MCU responds with all dpID statuses (while I did try and decypher what they all do now, that will be covered in another article). Hell yeah, we have first contact!
+That revealed that both RX and TX pins have resistors in line to drop voltage from MCU's 5v operating voltage. I tried hooking the TX pin using a level shifter but that didn't work so I simply connected the NodeMCU right before the resistor (ESP8266 is, supposedly, 5v tolerant but there's still a debate going on on how safe that is). I tried sending my favourite `SerialSend5 55aa0001000000` and boom, MCU responds with all dpID statuses (while I did try and decipher what they all do now, that will be covered in another article). Hell yeah, we have first contact!
 
 ## Bye Realtek!
 
@@ -71,7 +71,7 @@ Wrapped everything in electrical tape for safety and security. Plug the motor ba
 
 ## Assembly
 
-This is the point where everything came crashing down! Everything due to my stupidity, stubornness and trying to finish everything up at 2am while hopped up on solder fumes. 
+This is the point where everything came crashing down! Everything due to my stupidity, stubbornness and trying to finish everything up at 2am while hopped up on solder fumes. 
 
 Remember how we got the motor out? Now, my 2 am brain told me to put it back in using the same process but in reverse. So I put everything in the tube and pushed it in slowly, once it got stuck I took a rod and started pushing as hard as I could on the power supply to push everything in. Not only did the motor not pass the halfway point, the ominous sounds of things breaking filled the room. Uh-oh! After pulling everything out I witnessed my "masterpiece", cracked PSU PCB, tore the main L wire, ripped one of the button wires together with its pad and tore both wires powering the control PCB. Well F#$%!!!
 
@@ -79,7 +79,7 @@ Remember how we got the motor out? Now, my 2 am brain told me to put it back in 
 
 ![72 hours later](/assets/images/blinds/72_hours_later.jpg)
 
-After a cooldown period of a few days I went back in with renewed vigor and a functioning brain. I had a plan: 
+After a cool down period of a few days I went back in with renewed vigor and a functioning brain. I had a plan: 
 - fix everything I busted up 
 - return the motor to the tube without breaking everything again 
 
@@ -89,7 +89,7 @@ First the button wire. I found where the pad was connecting to, scraped off the 
 
 Witness the monster! Can't get more Frankenstein that this. 
 
-How did the motor return to its tube? It was actually pretty obvious second time around, just push it in from the motor side. But, to do that I had to cut off the plug and desolder the small button first. After that everything slotted in with relative ease, I just had to pay attention that the pin holes on the tube align with the holes on the motor casing. I used small screws to secure this time in case I need to take it all apart again. Resoldered the button and didn't bother with the plug since I will install it to bare wires in the wall anyway. Returne the endcaps and security pin and everything was almost the same as when we started.
+How did the motor return to its tube? It was actually pretty obvious second time around, just push it in from the motor side. But, to do that I had to cut off the plug and desolder the small button first. After that everything slotted in with relative ease, I just had to pay attention that the pin holes on the tube align with the holes on the motor casing. I used small screws to secure this time in case I need to take it all apart again. Re-soldered the button and didn't bother with the plug since I will install it to bare wires in the wall anyway. Returned the end caps and security pin and everything was almost the same as when we started.
 
 Plugged everything in to check and its working, Wi-Fi signal is good and motor is spinning. In the next installment we'll see how to control it in Tasmota and Home Assistant. 
 
