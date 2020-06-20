@@ -10,7 +10,7 @@ toc: true
 
 Configure Tuya based motors for covers (curtains, roller shades, blinds, ...) in Tasmota and Home Assistant
 
-Previously on the [Zemismart ZM25TQ](zemismart-zm25tq) [tasmotizing saga](2020-06-13-frankenstein-saturday-2) we got rid of the funky Realtek chip and installed a normal ESP8266 based module with Tasmota running on it perfectly. In this less-than-epic conclusion we will tackle device configuration in Tasmota and how to integrate it in Home Assistant. 
+Previously on the [Zemismart ZM25TQ](/zemismart-zm25tq) [tasmotizing saga](/frankenstein-saturday-2) we got rid of the funky Realtek chip and installed a normal ESP8266 based module with Tasmota running on it perfectly. In this less-than-epic conclusion we will tackle device configuration in Tasmota and how to integrate it in Home Assistant. 
 
 ## Determining Functions
 
