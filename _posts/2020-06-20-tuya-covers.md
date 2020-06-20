@@ -88,7 +88,7 @@ Enable the rule with `Rule 1`
 #### Cover
 
 ```yaml
-cover:
+{% raw %}cover:
   - platform: mqtt
     # requires dpid5 = 1
     name: "Shades"
@@ -104,7 +104,7 @@ cover:
     set_position_template: '2,{{ position }}'
     availability_topic: "tele/zm25tq/LWT"
     payload_available: "Online"
-    payload_not_available: "Offline"
+    payload_not_available: "Offline"{% endraw %}
 ```
 
 #### Motor Error Sensor
