@@ -46,11 +46,11 @@ After Tasmota is properly configured and module is set to `TuyaMCU (54)` it is t
 
 That's a lot of dpId's! Apart from playing with the device and discovering what each does there are a few shortcuts to find out their functions
 
-Many previously discovered functions are listed in [dpID Function Tables](https://tasmota.github.io/docs/TuyaMCU/#dpid-function-tables) in Tasmota documentation
+Many previously discovered functions are listed in [dpID Function Tables](https://tasmota.github.io/docs/TuyaMCU/#dpid-function-tables) in Tasmota documentation.
 
 Register for an account at https://iot.tuya.com where you can build your own Tuya device. During the build process it will show you default dpId's used for all functions available for that device type. After creating my own Curtain Motor I could confirm all of the findings.
 
-If you want to do it the hard way, or if you have no choice jump to [Discovering dpId functions](#discovering-dpid-functions)
+If you want to do it the hard way, or if you have no choice jump to [Discovering dpId functions](#discovering-dpid-functions).
 
 ## Tasmota Setup
 First of all, you will not need shutter support in Tasmota. All the calculations and shutter positions are done by the MCU, all Tasmota has to do is send proper commands to the MCU.
