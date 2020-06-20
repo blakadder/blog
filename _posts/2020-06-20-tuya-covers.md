@@ -241,6 +241,28 @@ If you have set up shades as a dimmer in Tasmota you can use this configuration.
 
 Configure Motor Error and Motor Direction using one of the examples above.
 
+## Sync states on Home Assistant restart
+To always have current state in HA you need to create an automation, first action will sync all Tasmota devices and second one is directed only at the motor. It will list all dpId states whenever HA is restarted which will trigger all the defined rules and update values.
+
+automations.yaml
+```yaml
+- id: 359be2dd845b3892c30e
+  alias: sync tasmota state
+  initial_state: true
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+  - service: mqtt.publish
+    data:
+      topic: cmnd/tasmotas/state
+      payload: ''
+  - service: mqtt.publish
+    data:
+      topic: cmnd/zm25tq/serialsend5
+      payload: 55aa0001000000
+```
+
 ## Bonus: Motor direction with status icons
 If you want the motor direction switch to display current direction in an icon add this to the existing mqtt.switch configuration.
 
