@@ -91,6 +91,6 @@ Witness the monster! Can't get more Frankenstein that this.
 
 How did the motor return to its tube? It was actually pretty obvious second time around, just push it in from the motor side. But, to do that I had to cut off the plug and desolder the small button first. After that everything slotted in with relative ease, I just had to pay attention that the pin holes on the tube align with the holes on the motor casing. I used small screws to secure this time in case I need to take it all apart again. Re-soldered the button and didn't bother with the plug since I will install it to bare wires in the wall anyway. Returned the end caps and security pin and everything was almost the same as when we started.
 
-Plugged everything in to check and its working, Wi-Fi signal is good and motor is spinning. In the next installment we'll see how to control it in Tasmota and Home Assistant. 
+Plugged everything in to check and its working, Wi-Fi signal is good and motor is spinning. In the next installment we'll see how to [control it in Tasmota and Home Assistant](/tuya-covers). 
 
 
