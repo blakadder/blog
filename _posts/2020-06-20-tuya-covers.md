@@ -57,7 +57,7 @@ First of all, you will not need shutter support in Tasmota. All the calculations
 
 We know dpId 1 controls the blinds but uses 0/1/2 payloads. That means we cannot assign it as an on/off relay unless we only want open and stop functionality. Since TuyaMCU maps dpId 1 as Power1 by default we need to move it to either a non-existing dpId or a report only dpId. I chose to move it to dpId 7 with `TuyaMCU 11,7`. This way it will turn on or off when the remote is used.
 
-To control the blinds from Tasmota webUI we will map dpId 2 as a dimmer with `TuyaMCU 21,2` and control them with the dimmer slider or using Dimmer commands. This is not a perfect solution but it will have to do. 
+To control the blinds from Tasmota webUI we will map dpId 2 as a dimmer with `TuyaMCU 21,2` and control them with the dimmer slider or using Dimmer commands. This is not a perfect solution but it will have to do. To have linear control use command `LedTable 0`.
 
 To fix the issue of the slider not updating because a different dpId shows the position status and not dpId 2 we need a rule that watches dimmer status dpId 3 and forwards them to Dimmer command.
 
