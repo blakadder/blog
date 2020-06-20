@@ -168,7 +168,7 @@ There is some weirdness with HA's current_position attribute where the state wou
         {{ value_json['TuyaReceived']['DpType2Id3'] | int }}
         {% endif %}  
     set_position_topic: "cmnd/zm25tq/TuyaSend2"
-    set_position_template: '2,{{ position }}'
+    set_position_template: "2,{{ position }}"
     availability_topic: "tele/zm25tq/LWT"
     payload_available: "Online"
     payload_not_available: "Offline"{% endraw %}
