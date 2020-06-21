@@ -325,7 +325,7 @@ and once it reached the inputted position a response from dpId 3:
 ```
 
 ### dpId 5
-Next is dpId 4 which should be pretty simple to discover. DpIdType 1 means it has binary (0 or 1) values. `TuyaSend 5,0` gives a response but nothing happens, same as `TuyaSend 5,1`. Later on, after playing with it a bit more while using the remote I found out it changes motor's spin direction.
+Next is dpId 5 which should be pretty simple to discover. DpIdType 1 means it has binary (0 or 1) values. `TuyaSend 5,0` gives a response but nothing happens, same as `TuyaSend 5,1`. Later on, after playing with it a bit more while using the remote I found out it changes motor's spin direction.
 
 ### dpId 7
 Another Type4 (enum) dpId which didn't appear once in the console after the first SerialSend command. `TuyaSend4 7,0` through `TuyaSend4 7,3` yielded no response so we again assume its a **report only** status but we don't know when its used. 
