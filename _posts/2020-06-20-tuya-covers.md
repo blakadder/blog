@@ -91,7 +91,7 @@ Enable the rule with `Rule 1`
 {% raw %}cover:
   - platform: mqtt
     # requires dpid5 = 1
-    name: "Shades"
+    name: "Zemismart Shades"
     device_class: shade 
     command_topic: "cmnd/zm25tq/TuyaSend4"
     payload_open: "1,0"
@@ -100,8 +100,9 @@ Enable the rule with `Rule 1`
     position_open: 0
     position_closed: 100
     position_topic: "stat/zm25tq/POSITION"
+    value_template: '{{ value_json }}'
     set_position_topic: "cmnd/zm25tq/TuyaSend2"
-    set_position_template: '2,{{ position }}'
+    set_position_template: '2,{{ 100 - position }}'
     availability_topic: "tele/zm25tq/LWT"
     payload_available: "Online"
     payload_not_available: "Offline"{% endraw %}
@@ -270,7 +271,7 @@ If you want the motor direction switch to display current direction in an icon a
 {% raw %}switch:
   - platform: template
     switches:
-      zemismart_motor_direction:
+      shades_motor_direction:
         value_template: "{{ is_state('switch.motor_direction', 'on') }}"
         turn_on:
           service: switch.turn_on
