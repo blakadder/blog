@@ -91,7 +91,7 @@ Enable the rule with `Rule 1`
 {% raw %}cover:
   - platform: mqtt
     # requires dpid5 = 1
-    name: "Zemismart Shades"
+    name: "Shades"
     device_class: shade 
     command_topic: "cmnd/zm25tq/TuyaSend4"
     payload_open: "1,0"
