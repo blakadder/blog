@@ -448,14 +448,19 @@ img, img:hover {
         margin-bottom:30px;
     }
     code {
-        font-size: 15px;
-        color: #94918d;
+        // font-size: 15px;
+        color: #0A0A0A;
+        background: #D5D8DC;
+        padding: 0px 2px;
+        box-shadow: 2px 2px 0 0 rgba(0,0,0,0.1);
+      
     }
     code[class*="language-"], pre[class*="language-"] {
         font-size:15px;
         margin-bottom:30px;
         background: #fff;
         color:inherit;
+        box-shadow: none;
     }
     div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-toolbar > .toolbar span {
         margin-right:2px;
