@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tasmota Lights in Home Assistant with Template Schema"
+title: "Tasmota Lights in Home Assistant Using Template Schema"
 author: blak
 categories: [ how to, home assistant, tasmota]
 tags: [ ]
