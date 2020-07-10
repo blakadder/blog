@@ -18,3 +18,9 @@ comments: false
 <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message* (Be gentle)" required></textarea>    
 <input class="btn btn-dark" type="submit" value="Send">
 </form>
+
+<div class="blog-grid-container">
+    {% for post in site.posts %}
+        {% include postbox.html %}
+    {% endfor %}
+</div>
