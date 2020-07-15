@@ -10,11 +10,11 @@ toc: true
 
 Xiaomi's battery powered 1080p video doorbell review and why its not the doorbell for you.
 
-_**Full disclosure:** This is a review sample sent to me free of charge by Banggood. Review is not influenced by that fact and is solely my opinion which will be painfully obvious very soon._
+_**Full disclosure:** This is a review sample sent to me free of charge by [Banggood](https://www.banggood.com?p=CM27171011078201412U&custlinkid=1201630). Review is not influenced by that fact and is solely my opinion which will be painfully obvious very soon._
 
 ## Introduction
 
-[Xiaomi Smart Video Doorbell 2](https://www.banggood.com/custlink/mmvyrGySKu) is available on Banggood for under 40$. Codenamed MJML02-FJ, it is the second iteration of the smart, battery powered, doorbell from Xiaomi. It comes equipped with a 1080p camera with infrared night vision and motion detection. Doorbell has an intercom feature with the ability to change your voice. Videos can be streamed to the Mi Home app and stored in Xiaomi's (paid) cloud storage service.
+[Xiaomi Smart Video Doorbell 2](https://www.banggood.com/custlink/mmvyrGySKu) is available on [Banggood](https://www.banggood.com?p=CM27171011078201412U&custlinkid=1201630) for under 40$. Codenamed MJML02-FJ, it is the second iteration of the smart, battery powered, doorbell from Xiaomi. It comes equipped with a 1080p camera with infrared night vision and motion detection. Doorbell has an intercom feature with the ability to change your voice. Videos can be streamed to the Mi Home app and stored in Xiaomi's (paid) cloud storage service.
 
 ## First Impressions
 When I took it out of the typical modest Xiaomi packaging I was optimistic. Nice piano black finish and squared shape gives it a much classier appearance than the first version. Next to it was the smaller doorbell receiver with a US plug. That device only serves to sound the doorbell chimes once paired with the doorbell. A very nice touch from Xiaomi is that the doorbell comes with batteries, two packs of three AA's. "Nice", I thought to myself, "They even gave me spare batteries". 
@@ -75,7 +75,7 @@ Even looking past that, there's are too many wrong aspects of it:
  - incredibly weak Wi-Fi reception
  - still very buggy app
 
-Sadly, Xiaomi completely dropped the ball on this one. Thank again to Banggood for sending me the doorbell. I had high expectations since I've been happy with all of my Xiaomi products so far.
+Sadly, Xiaomi completely dropped the ball on this one. Thank again to [Banggood](https://www.banggood.com?p=CM27171011078201412U&custlinkid=1201630) for sending me the doorbell. I had high expectations since I've been happy with all of my Xiaomi products so far.
 
 P.S. Opening up the device shows some promising access ports, the might or might not be a sequel to this disappointing review.
 
