@@ -2,7 +2,7 @@
 layout: post
 title:  "Frankenstein Saturday 2: Electric Roller Shade Boogaloo"
 author: blak
-categories: [ diy, how to, tasmota]
+categories: [ diy, how to, tasmota, frankenstein ]
 tags: [  ]
 image: assets/images/blinds/disassembled.jpg
 toc: true
