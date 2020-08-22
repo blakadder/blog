@@ -50,8 +50,6 @@ Paired with weak Wi-Fi reception and the Mainland China server there is a giant 
 
 Speaking of notifications, time displayed in the notification is the Beijing time so you can't immediately know when the doorbell was activated. You can see the actual time only when you open the app and see the log.
 
-App will 
-
 Cloud storage for the videos is free for only 3 days. For more you need to purchase a subscription plan.
 
 A lot of the features in the app are tied into Xiao Ai line of voice assistant products or are targeted only for the Chinese market. 
