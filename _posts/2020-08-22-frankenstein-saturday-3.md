@@ -2,7 +2,7 @@
 layout: post
 title: "Frankenstein Saturday 3: ESP-12 Drop-in Replacement"
 author: blak
-categories: [ diy, frankenstein, how-to ]
+categories: [ diy, frankenstein, how to ]
 tags: [ ]
 image: assets/images/header_frankenstein_saturday_3.jpg
 toc: true
