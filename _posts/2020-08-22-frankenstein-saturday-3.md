@@ -70,7 +70,7 @@ With this module the requirements were the same and it was just a simple matter 
 
 Remove the LED from the ESP-12F if you don't want your bulb to have a blueish flash when powered on.
 
-Everything is set. All it remains is to reassemble the bulb, power it on and find out the right PWM pin assignment. Here's the bulb's template:
+Everything is set. All that remains is to reassemble the bulb, power it on and find out the right PWM pin assignment. Here's the bulb's template:
 
 ```
 {"NAME":"Fcmila CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":15,"BASE":18}
