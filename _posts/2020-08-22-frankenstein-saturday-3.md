@@ -62,7 +62,7 @@ Flashing a bare ESP-12x is a bit more involved than your typical ESP board. Many
 Once you got it flashed and configured Wi-Fi, it is ready to go to its new home.
 
 ## Replacing the old module
-All ESP-12x modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot normally. Ii is best to check with a multimeter whether the previous module had similar requirements and that those pins have continuity with GND for low and VCC for high. If not you will have to connect them with some wire or whatnot.
+All ESP-12x modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot normally. It is best to check with a multimeter whether the previous module had similar requirements and that those pins have continuity with GND for low and VCC for high. If not you will have to connect them with some wire or whatnot.
 
 With this module the requirements were the same and it was just a simple matter of soldering in the ESP-12F to all the tinned pins.
 
