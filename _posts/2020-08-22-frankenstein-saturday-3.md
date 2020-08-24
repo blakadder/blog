@@ -11,7 +11,7 @@ toc: true
 How to flash an ESP-12 module and make a drop-in replacement of a nonESP82xx Wi-Fi module for which you don't have any datasheet or pinout.
 
 ## Why even do this?
-I found some [dirt cheap Wi-Fi CCT bulbs](https://s.click.aliexpress.com/e/_d8vNcBW) that claims 15W 1500lm and an above average color range of 2000K to 7000K. All that for around 5$ per bulb. There must be catch...
+I found some [dirt cheap Wi-Fi CCT bulbs](https://s.click.aliexpress.com/e/_d8vNcBW) that claims 15W 1500lm and an above average color range of 2000K to 7000K. All that for around 5$ per bulb. There must be a catch...
 
 First sign there is, is that it uses the "Cloud Intelligence" app which could mean no Tuya-Convert.
 
