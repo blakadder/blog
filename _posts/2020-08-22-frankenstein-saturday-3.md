@@ -40,7 +40,7 @@ Time to go deeper by removing the metal shield on the module. That gave another 
 
 ![C-Chip](/assets/images/fcmila/cchip.jpg)
 
-Next step, remove the module from the board. Maybe its has marked pins on the back like many ESP82xx modules do.  But it's doable even with a simple soldering iron thanks to [this video](https://youtu.be/CVsmwFAkf7I?t=254) but I got a simple [soldering heat gun](https://s.click.aliexpress.com/e/_dT8mnP6) instead. I sense this procedure might happen a lot more with the glut of new Wi-Fi modules.
+Next step, remove the module from the board. Maybe its has marked pins on the back like many ESP82xx modules do.  That is doable even with a simple soldering iron thanks to [this video](https://youtu.be/CVsmwFAkf7I?t=254) but I got a simple [soldering heat gun](https://s.click.aliexpress.com/e/_dT8mnP6) instead. I sense this procedure might happen a lot more with the glut of new Wi-Fi modules.
 
 Removing the module was a good move, it revealed which pins are connected to the bulb and also that the layout looks very similar to an ESP-12 module. All signs point to: "This should work".
 
