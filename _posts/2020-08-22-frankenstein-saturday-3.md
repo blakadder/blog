@@ -28,7 +28,7 @@ I immediately tried to disassemble it and the diffuser dome popped off with ease
 
 The main PCB holds the power supply and the unknown Wi-Fi module. The nice thing is that its connected to the E27 screw base with wires and it can be slightly pulled out of the plastic enclosure to make it easier to work with.
 
-The module has a lot of markings but googling any of those didn't reveal anything. Notice the date: 2020-07-13. Freshly made Wi-Fi modules are the best! Time to find out the manufacturer using the MAC address. For that it need to connect to my Wi-Fi which means I have to use it how it was intended, with the Cloud Intelligence app. Ew!
+The module has a lot of markings but googling any of those didn't reveal anything. Notice the date: 2020-07-13. Freshly made Wi-Fi modules are the best! Time to find out the manufacturer using the MAC address. For that it needed to connect to my Wi-Fi which means I have to use the bulb it how it was intended, with the Cloud Intelligence app. Ew!
 
 Connecting to the terrible Cloud Intelligence app was painful. Registration took forever, paring process took forever and I had to resort to using the alternative pairing mode in the end. The app is laggy and commands take a few seconds to come through. The app itself looks like a ripoff of Tuya Smartlife app, not sure if its a good thing or a bad thing.
 
