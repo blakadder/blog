@@ -46,7 +46,7 @@ Removing the module was a good move, it revealed which pins are connected to the
 
 ![Disassembled bulb](/assets/images/fcmila/c-8138.jpg)
 
-First to test the theory. Soldered some wires to the 3V3, GND, P07 and P09 marked pins and connected them up to a NodeMCU with Tasmota flashed on it. Reconnected the LED PCB back and screwed the bulb into a bulb receptacle. Put it as far away as possible and powered it on. Yes, that's being mains powered and that's why its far away.
+First to test the theory. Soldered some wires to the PCB pads that were connecting to CC8000 3V3, GND, P07 and P09 marked pins. Then I connected the wires to a NodeMCU with Tasmota flashed on it. Reconnected back the LED PCB and screwed the bulb into a bulb receptacle. Put it as far away as possible and powered it on. Yes, that's being mains powered and that's why its far away.
 
 NodeMCU powered up which is good. After configuring the pins to PWM1 and PWM2 (which is a CCT light) the lights turned on. Pins are correct and it's time to make a permanent change.
 
