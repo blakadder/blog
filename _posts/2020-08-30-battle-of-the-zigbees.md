@@ -90,3 +90,7 @@ While not perfect, Sonoff still offers a competitive range of sensors with a sig
 Xiaomi devices have a bad rep of falling off the Zigbee network depending on the router devices included. My network runs on [zzh!](https://zigbee.blakadder.com/Electrolama_zzh.html) and [Zigbee2MQTT](https://www.zigbee2mqtt.io/) with a mix of manufacturers and a few [DIY routers](https://zigbee.blakadder.com/ptvo.router.html) and I didn't experience such issues.
 
 Aqara also announced their T1 line of Zigbee 3.0 sensors which should come out later this year. Maybe you should just wait for those and ignore this comparison ;)
+
+P.S. [Never forget](https://youtu.be/1DTYjp4m9EM?t=378):
+
+<div style='position:relative;padding-bottom:56.250%;'><iframe src="//gifs.com/embed/ooh-the-zigbee-QnzE4l" frameborder="0" scrolling="no" width="640" height="360" style="backface-visibility: hidden; transform: scale(1); position: absolute; height: 100%; width: 100%;"></iframe></div>
