@@ -11,7 +11,7 @@ toc: true
 How to flash an ESP-12 module and make a drop-in replacement of a nonESP82xx Wi-Fi module for which you don't have any datasheet or pinout.
 
 ## Why even do this?
-I found some [dirt cheap Wi-Fi CCT bulbs](https://s.click.aliexpress.com/e/_d8vNcBW) that claims 15W 1500lm and an above average color range of 2000K to 7000K. All that for around 5$ per bulb. There must be catch...
+I found some [dirt cheap Wi-Fi CCT bulbs](https://s.click.aliexpress.com/e/_d8vNcBW) that claims 15W 1500lm and an above average color range of 2000K to 7000K. All that for around 5$ per bulb. There must be a catch...
 
 First sign there is, is that it uses the "Cloud Intelligence" app which could mean no Tuya-Convert.
 
@@ -26,9 +26,9 @@ I immediately tried to disassemble it and the diffuser dome popped off with ease
 
 ![Disassembled bulb](/assets/images/fcmila/old_module.jpg)
 
-The main PCB hold the power supply and the unknown Wi-Fi module. The nice thing is that its connected to the E27 screw base with wires and it can be slightly pulled out of the plastic enclosure to make it easier to work with.
+The main PCB holds the power supply and the unknown Wi-Fi module. The nice thing is that its connected to the E27 screw base with wires and it can be slightly pulled out of the plastic enclosure to make it easier to work with.
 
-The module has a lot of markings but googling any of those didn't reveal anything. Notice the date: 2020-07-13. Freshly made Wi-Fi modules are the best! Time to find out the manufacturer using the MAC address. For that it need to connect to my Wi-Fi which means I have to use it how it was intended, with the Cloud Intelligence app. Ew!
+The module has a lot of markings but googling any of those didn't reveal anything. Notice the date: 2020-07-13. Freshly made Wi-Fi modules are the best! Time to find out the manufacturer using the MAC address. For that it needed to connect to my Wi-Fi which means I have to use the bulb it how it was intended, with the Cloud Intelligence app. Ew!
 
 Connecting to the terrible Cloud Intelligence app was painful. Registration took forever, paring process took forever and I had to resort to using the alternative pairing mode in the end. The app is laggy and commands take a few seconds to come through. The app itself looks like a ripoff of Tuya Smartlife app, not sure if its a good thing or a bad thing.
 
@@ -40,13 +40,13 @@ Time to go deeper by removing the metal shield on the module. That gave another 
 
 ![C-Chip](/assets/images/fcmila/cchip.jpg)
 
-Next step, remove the module from the board. Maybe its has marked pins on the back like many ESP82xx modules do.  But it's doable even with a simple soldering iron thanks to [this video](https://youtu.be/CVsmwFAkf7I?t=254) but I got a simple [soldering heat gun](https://s.click.aliexpress.com/e/_dT8mnP6) instead. I sense this procedure might happen a lot more with the glut of new Wi-Fi modules.
+Next step, remove the module from the board. Maybe its has marked pins on the back like many ESP82xx modules do.  That is doable even with a simple soldering iron thanks to [this video](https://youtu.be/CVsmwFAkf7I?t=254) but I got a simple [soldering heat gun](https://s.click.aliexpress.com/e/_dT8mnP6) instead. I sense this procedure might happen a lot more with the glut of new Wi-Fi modules.
 
 Removing the module was a good move, it revealed which pins are connected to the bulb and also that the layout looks very similar to an ESP-12 module. All signs point to: "This should work".
 
 ![Disassembled bulb](/assets/images/fcmila/c-8138.jpg)
 
-First to test the theory. Soldered some wires to the 3V3, GND, P07 and P09 marked pins and connected them up to a NodeMCU with Tasmota flashed on it. Reconnected the LED PCB back and screwed the bulb into a bulb receptacle. Put it as far away as possible and powered it on. Yes, that's being mains powered and that's why its far away.
+First to test the theory. Soldered some wires to the PCB pads that were connecting to CC8000 3V3, GND, P07 and P09 marked pins. Then I connected the wires to a NodeMCU with Tasmota flashed on it. Reconnected back the LED PCB and screwed the bulb into a bulb receptacle. Put it as far away as possible and powered it on. Yes, that's being mains powered and that's why its far away.
 
 NodeMCU powered up which is good. After configuring the pins to PWM1 and PWM2 (which is a CCT light) the lights turned on. Pins are correct and it's time to make a permanent change.
 
@@ -70,10 +70,10 @@ With this module the requirements were the same and it was just a simple matter 
 
 Remove the LED from the ESP-12F if you don't want your bulb to have a blueish flash when powered on.
 
-Everything is set. All that remains is to reassemble the bulb, power it on and find out the right PWM pin assignment. Here's the bulb's template:
+Everything is set. All that remains is to reassemble the bulb, power it on and find out the right PWM pin assignment. Here's the modified bulb's Tasmota template:
 
-```
-{"NAME":"Fcmila CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":15,"BASE":18}
+```json
+{"NAME":"Fcmila CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}
 ```
 
 ![Reassembled](/assets/images/fcmila/reassembled.jpg)
