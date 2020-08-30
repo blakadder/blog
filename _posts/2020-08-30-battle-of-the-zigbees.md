@@ -75,7 +75,7 @@ The plastic is still the cheap, chintzy one compared to the nice, milky white an
 
 While Aqara does have an illumination sensor, the readings are sent only when a motion is detected so it is not as useful as it could be. It is still good for light check once motion is detected. 
 
-Motion sensing range is similar and both were constantly triggered at 6m range. Sonoff has a full 360 field of vision and would perform better when mounted on the ceiling. Aqara is better suited for wall mounting and the articulating holder makes it easy to adjust the motion sensing area which is not easily doable on Sonoff.
+Motion sensing range is similar and both were constantly triggered at 6m range. Sonoff has a 110° field of vision  and would perform better when mounted on the ceiling. Aqara is better suited for wall mounting and the articulating holder makes it easy to adjust the motion sensing area which is not easily doable on Sonoff.
 
 Both sensors have a motion sensing delay once triggered. On Sonoff it is 60 seconds and on Aqara its a whopping 180 seconds.
 
