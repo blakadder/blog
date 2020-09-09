@@ -77,11 +77,11 @@ While Aqara does have an illumination sensor, the readings are sent only when a 
 
 Motion sensing range is similar and both were constantly triggered at 6m range. Sonoff has a 110° field of vision  and would perform better when mounted on the ceiling. Aqara is better suited for wall mounting and the articulating holder makes it easy to adjust the motion sensing area which is not easily doable on Sonoff.
 
-Both sensors have a motion sensing delay once triggered. On Sonoff it is 60 seconds and on Aqara its a whopping 180 seconds.
+Both sensors have a motion sensing delay once triggered. On Sonoff it is 60 seconds and on Aqara it varies between 60s and <s>180</s> 120 seconds (edit: This depends on the gateway used, the sensor itself has a 60 second delay hardcoded).
 
 Price of Sonoff Motion Sensor is 9.49$ and Aqara is 11.99$-12.99$ with the mount.
 
-I'm really surprised with Sonoff's sensor, specially after a few rounds of utter disappointments. The 60 second delay make it work much nicer. While the mounting options are different and illumination is a nice bonus, Sonoff still gets a win here but it's a close one and will, again, depend on your needs.
+I'm really surprised with Sonoff's sensor, specially after a few rounds of utter disappointments. <s>The 60 second delay make it work much nicer.</s> While the mounting options are different and illumination is a nice bonus, Sonoff still gets a win here but it's a close one and will, again, depend on your needs.
 
 ## Conclusion
 
