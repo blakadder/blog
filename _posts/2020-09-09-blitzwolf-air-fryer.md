@@ -70,7 +70,7 @@ The nuggets cooked just fine, can't expect greatness from a bag of frozen nuggs.
 ![Air Fryer](/assets/images/airfryer/fryer5.jpg)
 
 ## Do you really need one?
-During the week I prepared frozen fries, croquettes, "grill" cheese sandwiches, mini pizzas and ultimately a tray of lasagna with varying degrees of success. The ready made lasagna was a surprise standout. The promotional images show a whole chicken inside but it seems Chinese chickens are smaller than European ones cause all the ones my freezer couldn't fit. 
+During the week I prepared frozen fries, croquettes, "grilled" cheese sandwiches, mini pizzas and ultimately a tray of lasagna with varying degrees of success. The ready made lasagna was a surprise standout. The promotional images show a whole chicken inside but it seems Chinese chickens are smaller than European ones cause all the ones my freezer couldn't fit. 
 
 Ultimately the air fryer excels at reheating food and cooking frozen goodies (fries, croquettes, onion rings, mini pizzas, ...). It doesn't do well with "wet" foods since everything just drips into the catch tray and makes a huge mess. I'm very fine with that limitation and so is the rest of the household. It has reduced the use of the oven, a welcome relief during summer heats and reheated food is nice and crisp unlike the soggy mess that you get from the microwave. 
 
