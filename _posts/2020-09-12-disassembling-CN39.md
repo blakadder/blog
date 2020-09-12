@@ -4,10 +4,10 @@ title: "Damage free disassembly of an EU Smart Plug"
 author: blak
 categories: [ how to, diy ]
 tags: [ ]
-image: assets/images/header_cn39.jpg
+image: assets/images/header_CN39.jpg
 toc: false
 ---
-
+ 
 How to open a CN39 type case for EU smart plugs without damaging it.
 
 This has become a commonly used case mould for EU and FR smart plugs and can be found under various brand names and model numbers. In these days of locked Tuya firmware the only option to flash them is by gaining serial access to the Wi-Fi module and to do that you need to open it. What is nice about this model is that it made out of two parts which aren't heavily glued or fused together.
