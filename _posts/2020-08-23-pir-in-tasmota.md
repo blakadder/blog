@@ -73,7 +73,6 @@ unique_id: '%deviceid%_motion'
 device:
   identifiers:
     - '%deviceid%'
-platform: mqtt
 ```
 
 ## Discovery Configuration Analysis
@@ -115,7 +114,6 @@ unique_id: '%deviceid%_motion'
 device:
   identifiers:
     - '%deviceid%'
-platform: mqtt
 ```
 These are the important discovery bits. Thanks to the new `%deviceid%` rule variable these will be populated automatically. 
 
@@ -149,8 +147,8 @@ Enable the rule with `Rule2 1`.
 Once Tasmota is restarted (`Restart 1`), the discovery configuration message will be sent.
 
 ```haskell
-20:56:32 RUL: SYSTEM#BOOT performs "publish2 homeassistant/binary_sensor/FB0DF2_motion/config {"name":"Motion Sensor","state_topic":"stat/motion_test/MOTION","payload_on":1,"availability_topic":"tele/motion_test/LWT","payload_available":"Online","payload_not_available":"Offline","device_class":"motion","force_update":true,"off_delay":30,"unique_id":"FB0DF2_motion","device":{"identifiers":["FB0DF2"]},"platform":"mqtt"}"
-20:56:32 MQT: homeassistant/binary_sensor/FB0DF2_motion/config = {"name":"Motion Sensor","state_topic":"stat/motion_test/MOTION","payload_on":1,"availability_topic":"tele/motion_test/LWT","payload_available":"Online","payload_not_available":"Offline","device_class":"motion","force_update":true,"off_delay":30,"unique_id":"FB0DF2_motion","device":{"identifiers":["FB0DF2"]},"platform":"mqtt"} (retained)
+20:56:32 RUL: SYSTEM#BOOT performs "publish2 homeassistant/binary_sensor/FB0DF2_motion/config {"name":"Motion Sensor","state_topic":"stat/motion_test/MOTION","payload_on":1,"availability_topic":"tele/motion_test/LWT","payload_available":"Online","payload_not_available":"Offline","device_class":"motion","force_update":true,"off_delay":30,"unique_id":"FB0DF2_motion","device":{"identifiers":["FB0DF2"]}}"
+20:56:32 MQT: homeassistant/binary_sensor/FB0DF2_motion/config = {"name":"Motion Sensor","state_topic":"stat/motion_test/MOTION","payload_on":1,"availability_topic":"tele/motion_test/LWT","payload_available":"Online","payload_not_available":"Offline","device_class":"motion","force_update":true,"off_delay":30,"unique_id":"FB0DF2_motion","device":{"identifiers":["FB0DF2"]}} (retained)
 ```
 
 A new entity will pop up in Home Assistant under the same device.
