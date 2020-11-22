@@ -73,8 +73,7 @@ Also with [ZHA for Home Assistant](https://www.home-assistant.io/integrations/zh
 
 ZBMINI supports on/off switching and serves as a Zigbee router. It also does all the standard Zigbee binding and groups. Looking at the available clusters it should work with Touchlink as well. 
 
-Zigbee2MQTT support is coming soon!    
-If you cannot wait [Mat from NotEnoughTech.com](https://notenoughtech.com/home-automation/sonoff-zb-mini-and-zigbee2mqtt/) has a manual solution for you. While there drop him a subscribe on his [YouTube channel](https://www.youtube.com/channel/UC7V__uBIaZotHn_smHJShGQ).
+It is fully supported in Zigbee2MQTT too!
 
 ## Conclusion
 
