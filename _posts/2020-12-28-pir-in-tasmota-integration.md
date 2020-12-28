@@ -4,7 +4,7 @@ title: "Tasmota Motion Sensor in Home Assistant Using Tasmota integration"
 author: blak
 categories: [ tasmota, home assistant, how to ]
 tags: [ ]
-image: assets/images/header_pir.jpg
+image: assets/images/header_pir_new.jpg
 toc: true
 ---
 
