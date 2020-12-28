@@ -10,6 +10,8 @@ toc: true
 
 The definitive (?) guide to setting up a PIR in Tasmota and adding it to Home Assistant using discovery. No configuration.yaml editing required!
 
+There is an [updated article](2020-12-28-pir-in-tasmota-integration) for the new Tasmota integration.
+
 ***All information applies only to Home Assistant 0.114+ and Tasmota 8.4.0.2+***
 
 You've connected a PIR sensor to your device and gone through [instructions](https://tasmota.github.io/docs/PIR-Motion-Sensors/) to set it up. Now you're left with custom topics and grappling with Home Assistant's configuration.yaml and even after all that it doesn't show up under the Device card in Home Assistant and you want the nifty Device triggers to use in automations. Let's fix all that! 
