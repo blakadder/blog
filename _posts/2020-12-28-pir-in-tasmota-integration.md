@@ -26,7 +26,7 @@ Example device is setup as follows: MQTT topic is set to `motion_test`, DeviceNa
 
 By default the PIR sensor will trigger Relay1. Yes, even though it is `Switch2` or if it were higher number. To prevent it from controlling the relay, or decouple them we will use a rule.
 
-```
+```console
 rule1 on switch2#state=1 do publish stat/%topic%/MOTION ON endon
 ```
 
@@ -35,7 +35,7 @@ This will publish a message on switch state ON (1) to the topic defined (%topic%
 By default switches send only `TOGGLE` states (2). We will change that with `SwitchMode2 14` to `ON` (1) only. The OFF message is not needed and will be handled inside Home Assistant instead.
 
 After all that you will have output like this in the console when the PIR triggers:
-```haskell
+```console
 20:37:42 RUL: SWITCH2#STATE performs "publish stat/motion_test/MOTION ON"
 20:37:42 MQT: stat/motion_test/MOTION = ON
 ```
@@ -47,7 +47,7 @@ Make sure the device is discovered in Home Assistant under Tasmota integration. 
 
 ## Backlog Shortcut
 You can do all of the above with just a single Backlog line:
-```haskell
+```console
 Backlog rule1 on switch2#state=1 do publish stat/%topic%/MOTION ON endon; rule1 1; switchmode2 14
 ```
 
@@ -125,7 +125,7 @@ Copy the json output to clipboard.
 ## Rule to Trigger Discovery
 In Tasmota we will add a new rule that will send a discovery message on Tasmota startup.
 
-```haskell
+```console
 rule2 on system#boot do publish2 homeassistant/binary_sensor/%macaddr%_motion/config <paste json output here> endon
 ```
 
@@ -140,7 +140,7 @@ Enable the rule with `Rule2 1`.
 ## Enjoy
 Once Tasmota is restarted (`Restart 1`), the discovery configuration message will be sent.
 
-```haskell
+```console
 21:34:11 RUL: SYSTEM#BOOT performs "publish2 homeassistant/binary_sensor/650124819AA2_motion/config {"name":"Kitchen Motion","state_topic":"stat/kitchen-multisensor/MOTION","availability_topic":"tele/kitchen-multisensor/LWT","payload_available":"Online","payload_not_available":"Offline","device_class":"motion","force_update":true,"off_delay":30,"unique_id":"650124819AA2_motion","device":{"connections":[["mac","650124819AA2"]]}}"
 21:34:11 MQT: homeassistant/binary_sensor/650124819AA2_motion/config = {"name":"Kitchen Motion","state_topic":"stat/kitchen-multisensor/MOTION","availability_topic":"tele/kitchen-multisensor/LWT","payload_available":"Online","payload_not_available":"Offline","device_class":"motion","force_update":true,"off_delay":30,"unique_id":"650124819AA2_motion","device":{"connections":[["mac","650124819AA2"]]}} (retained)
 
