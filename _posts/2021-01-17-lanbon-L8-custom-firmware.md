@@ -49,7 +49,7 @@ Power monitoring feature uses GPIO32 as Pulse input and GPIO36 as control GPIO.
 
 ## Serial Flashing 
  
-You need to solder wires directly to the ESP32 module for the flash to succeed. Make sure you have a USB to serial adapter than can provide sufficient power or have a strong and stable source of 3.3v instead.
+You can solder wires directly to the ESP32 module or use thinner solid core wires and insert them in the pin header (Dupont wires are too big). Make sure you have a USB to serial adapter than can provide sufficient power or have a strong and stable source of 3.3v instead.
 
 ![Pinout](/assets/images/lanbon/pinout.jpg)
 
