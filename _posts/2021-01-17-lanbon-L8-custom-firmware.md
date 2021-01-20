@@ -131,7 +131,7 @@ After some trials and tribulations with platformio compiling, pin definitions an
 
 ![hasp Demo](/assets/images/lanbon/hasp-demo.jpg)
 
-Currently Lanbon L8 is included in hasp-lvlg build environments and will be available as a release binary.
+Currently Lanbon L8 is included in hasp-lvlg build environments and will be available as a [release binary](https://github.com/fvanroie/hasp-lvgl/suites/1857872870/artifacts/36082324).
 
 To compile in PlatformIO, clone the hasp-lvgl repo, rename `platformio_override-template.ini` to `platformio_override.ini` then uncomment:
 
