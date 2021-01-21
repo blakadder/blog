@@ -123,7 +123,7 @@ Since all the power monitoring sensors are neatly autodiscovered we will create 
           {% if is_state('sensor.dryer_energy_yesterday', 'unknown') %}
             Unknown
           {% else %}
-            {{ '{:.2f}'.format(states('sensor.dryer_energy_yesterday')  | multiply(1.0475)) }}
+            {{ '{:.2f}'.format(states('sensor.dryer_energy_yesterday') | int | multiply(1.0475)) }}
           {% endif %}
         unit_of_measurement: "€"
         icon_template: mdi:cash-multiple
