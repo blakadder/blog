@@ -8,7 +8,7 @@ image: assets/images/header_l1lite.jpg
 toc: true
 ---
 
-Sonoff L1 Lite is a Wi-Fi RGB LED light kitre
+Sonoff L1 Lite is a Wi-Fi RGB LED light kit
 
 _**Full disclosure:** This is a review sample sent to me free of charge by [Sonoff](https://www.anrdoezrs.net/links/100155210/type/dlg/https://www.itead.cc/). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
