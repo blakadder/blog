@@ -62,7 +62,7 @@ Sensitivy and speed are optional and are set to 5 and 50 by default, respectivel
 
 ![Music Sync in Tasmota](/assets/images/l1lite/musicsync.jpg)
 
-One minor drawback of a hacking a separate MCU control the lights is that you cannot reconfigure the GPIO's to use a CCT LED strip or control three single channel ones. This one is meant for RGB only.
+One minor drawback of a having a separate MCU control the lights is that you cannot reconfigure the GPIO's to use a CCT LED strip or control three single channel ones. This one is meant for RGB only.
 
 ## Flashing esphome
 
