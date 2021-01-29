@@ -44,11 +44,11 @@ To install Tasmota you need to open the case and remove the PCB to get access to
 
 Most of the pins are available and easy to solder to...
 
-![PCB back](/assets/images/l1lite/pcb_front.jpg)
+![PCB back](/assets/images/l1lite/pcb_back.jpg)
 
 ... but GPIO0 can only be found on the ESP8285 chip and its hiding behind that capacitor in the front image. I've provided an image from another device with the same ESP8285 chip so its easier to show where it is exactly. You only need to connect it to GND for a few seconds during boot so just soldier on and use a male Dupont cable to keep it grounded during that short time.
 
-![GPIO0](/assets/images/l1lite/pcb_front.jpg)
+![GPIO0](/assets/images/l1lite/gpio0.jpg)
 
 Fire up your favorite flashing utility, in my house it is the one and the only [Tasmotizer!](https://github.com/tasmota/tasmotizer) and flash at least Tasmota v9.2.0.4. Why that one exactly? The microphone and music sync mode mentioned previously weren't supported in Tasmota but with some copy paste coding "skills" of mine and thorough touch up by the main man Theo it is now working in Tasmota too.
 
