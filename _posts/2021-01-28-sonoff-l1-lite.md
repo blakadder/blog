@@ -72,4 +72,4 @@ To flash this light in a mostly working condition to [esphome.io](https://epshom
 
 If you're only starting with smart home lighting and never had a smart LED strip before, get the L1 Lite! Its a great starter package for a good price with everything you need included and a bonus IR controller to quickly switch colors and modes if you don't have a voice assistant yet. 
 
-If you need a quick mood light L1 Lite might be a better choice than sourcing a controller that might or might not have an Espressif chip, sourcing the right power supply and you can always extend or upgrade the LED strip. 
+If you need a quick mood light, L1 Lite might be a better choice than sourcing a controller that might or might not have an Espressif chip, sourcing the right power supply and you can always extend or upgrade the LED strip. 
