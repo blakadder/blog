@@ -55,7 +55,9 @@ DUALR3 is partially supported in Home Assistant when using the [SonoffLAN](https
 
 ## Conclusion
 
-While the hardware is truly good and form factor is practical the factory intended firmware is lacking as usual! 
+While the hardware is truly good and form factor is practical the factory intended firmware is quite limited but it offers everything a basic user would need! 
 
 Seems its back to the good ole [Tasmota flash](https://templates.blakadder.com/sonoff_DUALR3.html) to unlock the full power this device can offer. Once you do and you get a dual relay device that is miles ahead of the competition.
+
+![ESP32](/assets/images/dualr3/esp32.jpg)
 
