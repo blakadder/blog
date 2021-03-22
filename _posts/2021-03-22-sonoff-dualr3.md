@@ -16,7 +16,7 @@ Sonoff DUALR3 is the successor of the DUAL and DUALR2 but is nothing alike its p
 
 It is available now from the [Itead store](https://www.anrdoezrs.net/links/100155213/type/dlg/https://www.itead.cc/sonoff-dualr3.html) for 13.98$ which is a great price for such a powerful package. 
 
-## The Inevitable Comparison
+## The Box
 
 The box it comes in is a lot smaller than expected. 
 
