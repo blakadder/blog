@@ -55,7 +55,7 @@ This will publish a message of `0` on a triggered alarm or `1` as default to cus
 To create a device trigger in HA using MQTT discovery use a rule to send the discovery message on system boot:
 
 ```console
-rule2 + ON system#boot DO publish2 homeassistant/device_automation/%macaddr%/gas_alarm/config {"atype":"trigger","pl":0,"stype":"Gas Alarm","type":"triggered","t":"stat/%topic%/gas_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON
+rule2 + ON system#boot DO publish2 homeassistant/device_automation/%macaddr%/gas_alarm/config {"automation_type":"trigger","payload":0,"subtype":"Gas Alarm","type":"triggered","topic":"stat/%topic%/gas_alarm","device":{"connections":[["mac","%macaddr%"]]}} ENDON ON system#boot DO publish2 homeassistant/device_automation/%macaddr%/heat_alarm/config {"automation_type":"trigger","payload":0,"subtype":"Heat Alarm","type":"triggered","topic":"stat/%topic%/heat_alarm","device":{"connections":[["mac","%macaddr%"]]}} ENDON 
 ```
 
 There is no need to change anything, this string will work on every system. After a reboot of Tasmota you can use the triggers in your automations.
@@ -155,7 +155,7 @@ device:
 Send it to topic `homeassistant/binary_sensor/%macaddr%/preheat/config` on Tasmota boot with the rule:
 
 ```json
-rule2 + ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/heat_alarm/config {"name":"Heat Alarm","stat_t":"stat/%topic%/heat_alarm","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":1,"pl_on":0,"uniq_id":"%macaddr%_heat_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON
+rule2 + ON system#boot do publish2 homeassistant/binary_sensor/%macaddr%/preheat/config {"name":"Preheat Mode","stat_t":"stat/%topic%/preheat","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":0,"pl_on":1,"uniq_id":"%macaddr%_preheat","device":{"cns":[["mac","%macaddr%"]]}} ENDON
 ```
 
 ## Binary Sensor for Lifecycle 
@@ -173,8 +173,8 @@ stat_t: stat/%topic%/lifecycle
 avty_t: tele/%topic%/LWT
 pl_avail: Online
 pl_not_avail: Offline
-pl_off: 0
-pl_on: 1
+pl_off: 1
+pl_on: 0
 dev_cla: problem
 uniq_id: '%macaddr%_lifecycle'
 device:
@@ -185,7 +185,7 @@ device:
 Send it to topic `homeassistant/binary_sensor/%macaddr%/lifecycle/config` on Tasmota boot with the rule:
 
 ```json
-rule2 + ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/lifecycle/config {"name":"Lifecycle","stat_t":"stat/%topic%/lifecycle","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":0,"pl_on":1,"dev_cla":"problem","uniq_id":"%macaddr%_lifecycle","device":{"cns":[["mac","%macaddr%"]]}} ENDON
+rule2 + ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/lifecycle/config {"name":"Lifecycle","stat_t":"stat/%topic%/lifecycle","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":1,"pl_on":0,"dev_cla":"problem","uniq_id":"%macaddr%_lifecycle","device":{"cns":[["mac","%macaddr%"]]}} ENDON
 ```
 
 ## Device Card
@@ -211,8 +211,8 @@ rule1 ON tuyareceived#dptype4id1 DO publish stat/%topic%/gas_alarm %value% ENDON
 ```
 
 ```console
-rule2 ON system#boot DO publish2 homeassistant/device_automation/%macaddr%/gas_alarm/config {"atype":"trigger","pl":0,"stype":"Gas Alarm","type":"triggered","t":"stat/%topic%/gas_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/gas_alarm/config {"name":"Gas Alarm","stat_t":"stat/%topic%/gas_alarm","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","dev_cla":"gas","pl_off":1,"pl_on":0,"uniq_id":"%macaddr%_gas_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/heat_alarm/config {"name":"Heat Alarm","stat_t":"stat/%topic%/heat_alarm","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","dev_cla":"heat","pl_off":1,"pl_on":0,"uniq_id":"%macaddr%_heat_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON 
+rule2 ON system#boot DO publish2 homeassistant/device_automation/%macaddr%/gas_alarm/config {"automation_type":"trigger","payload":0,"subtype":"Gas Alarm","type":"triggered","topic":"stat/%topic%/gas_alarm","device":{"connections":[["mac","%macaddr%"]]}} ENDON ON system#boot DO publish2 homeassistant/device_automation/%macaddr%/heat_alarm/config {"automation_type":"trigger","payload":0,"subtype":"Heat Alarm","type":"triggered","topic":"stat/%topic%/heat_alarm","device":{"connections":[["mac","%macaddr%"]]}} ENDON ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/gas_alarm/config {"name":"Gas Alarm","stat_t":"stat/%topic%/gas_alarm","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","dev_cla":"gas","pl_off":1,"pl_on":0,"uniq_id":"%macaddr%_gas_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/heat_alarm/config {"name":"Heat Alarm","stat_t":"stat/%topic%/heat_alarm","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","dev_cla":"heat","pl_off":1,"pl_on":0,"uniq_id":"%macaddr%_heat_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON 
 ```
 ```console
-rule2 + ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/heat_alarm/config {"name":"Heat Alarm","stat_t":"stat/%topic%/heat_alarm","avt_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":1,"pl_on":0,"uniq_id":"%macaddr%_heat_alarm","device":{"cns":[["mac","%macaddr%"]]}} ENDON ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/lifecycle/config {"name":"Lifecycle","stat_t":"stat/%topic%/lifecycle","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":0,"pl_on":1,"dev_cla":"problem","uniq_id":"%macaddr%_lifecycle","device":{"cns":[["mac","%macaddr%"]]}} ENDON
+rule2 + ON system#boot DO publish2 homeassistant/binary_sensor/%macaddr%/lifecycle/config {"name":"Lifecycle","stat_t":"stat/%topic%/lifecycle","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":1,"pl_on":0,"dev_cla":"problem","uniq_id":"%macaddr%_lifecycle","device":{"cns":[["mac","%macaddr%"]]}} ENDON ON system#boot do publish2 homeassistant/binary_sensor/%macaddr%/preheat/config {"name":"Preheat Mode","stat_t":"stat/%topic%/preheat","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","pl_off":0,"pl_on":1,"uniq_id":"%macaddr%_preheat","device":{"cns":[["mac","%macaddr%"]]}} ENDON
 ```
