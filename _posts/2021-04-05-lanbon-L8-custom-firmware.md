@@ -2,13 +2,13 @@
 layout: post
 title: "Custom Firmware on Lanbon L8 LCD Touch Switch"
 author: blak
-categories: [ how to, tasmota, hasp-lvgl ]
+categories: [ how to, tasmota, openHASP ]
 tags: [ ]
 image: assets/images/header_lanbon_custom.jpg
 toc: true
 ---
 
-Great hardware gets great software
+Great hardware gets great software. Now updated with solderless flashing!
 
 _**Full disclosure:** This is a review sample sent to me free of charge by [Safetycorner](https://safetycorner.de/) and [Lanbon DE](https://lanbon.de). This article is not influenced by that fact and everything stated is solely my opinion._
 
@@ -47,11 +47,23 @@ Relays are connected from the wall base through the pin header to GPIO12 (Relay1
 
 Power monitoring feature uses GPIO32 as Pulse input and GPIO36 as control GPIO.
 
-## Serial Flashing 
- 
-You can solder wires directly to the ESP32 module or use thinner solid core wires and insert them in the pin header (Dupont wires are too big). Make sure you have a USB to serial adapter than can provide sufficient power or have a strong and stable source of 3.3v instead.
+## Solderless Flashing 
+All the pins required for flashing are available on the header that connects the plate to the base. There are differences in labelling between PCB revisions, you will probably receive the 2020 revision which has IO0 correctly labelled
 
-![Pinout](/assets/images/lanbon/pinout.jpg)
+![Soldering Pinout](/assets/images/lanbon/pinout_comparison.jpg)
+
+Use thinner solid core wires (f.e. salvaged from Ethernet cables) and insert them in the pin header (Dupont or breadboard wires are too thick). 
+
+In the bottom row go IO0 (brown) and 3V3 (orange), top row are RX (blue), TX (green) and GND (brown).
+
+![Thin wires](/assets/images/lanbon/thinwires.jpg)
+
+Make sure you have a USB to serial adapter than can provide sufficient power or have a strong and stable source of 3.3v instead. If you don't have either you can use the 5v pin instead, with power supplied from a 5V phone charger. In this case do not connect power to the USB to serial adapter and have common GND between the three.
+
+![My flashing jumble of wires](/assets/images/lanbon/flashing_setup.jpg)
+
+You can always solder directly to the ESP32 module if you're inclined
+![Soldering Pinout](/assets/images/lanbon/pinout.jpg)
 
 Make sure GPIO0 is grounded during boot/power up.
 
@@ -122,18 +134,33 @@ Great! Most of the features are working fine but the UI isn't really much of an 
 
 ## HASP - Open Hardware Edition
 
-Shortly after publishing the review of Lanbon L8 I was contacted by fvanroie through Discord. He wanted me to look at his project built for LCD touch screens running on ESP8266 and ESP32: [hasp-lvgl](https://github.com/fvanroie/hasp-lvgl/). 
+Shortly after publishing the review of Lanbon L8 I was contacted by fvanroie through Discord. He wanted me to look at his project built for LCD touch screens running on ESP8266 and ESP32: [openHASP](https://github.com/haswitchplate/openHASP/). 
 
 Inspired by [HA SwitchPlate](https://github.com/aderusha/HASwitchPlate/) but ported to work on most of the freely available touch screens and based on [LVGL](https://lvgl.io/) graphics library. It uses MQTT to send or receive commands.
 
 ### Installing
-After some trials and tribulations with platformio compiling, pin definitions and screen color inversion issues, with the help from fvanroie and his quick code additions, Lanbon L8 was working with hasp-lvgl. 
+After some trials and tribulations with platformio compiling, pin definitions and screen color inversion issues, with the help from fvanroie and his quick code additions, Lanbon L8 was working with openHASP. 
 
-![hasp Demo](/assets/images/lanbon/hasp-demo.jpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rce5yp4mhXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Currently Lanbon L8 is included in hasp-lvlg build environments and will be available as a [release binary](https://github.com/fvanroie/hasp-lvgl/suites/1857872870/artifacts/36082324).
+Currently Lanbon L8 is included in openHASP build environments and will be available as a [release binary](https://github.com/HASwitchPlate/openHASP/releases).
 
-To compile in PlatformIO, clone the hasp-lvgl repo, rename `platformio_override-template.ini` to `platformio_override.ini` then uncomment:
+You can flash it with [ESP Flasher](https://github.com/Jason2866/ESP_Flasher/releases), just select the port and binary then click Flash and wait.
+
+After flashing find its IP address and configure Wi-Fi, MQTT and all GPIOs in the UI:
+
+![openHASP GPIO setup](/assets/images/lanbon/hasp-gpio-setup.jpg)
+
+
+You can use this command to configure all GPIO's at once
+```json
+config/gpio {"config":[2360346,2491680,2623009,2097420,2097678,2097947,0,0]}
+```
+
+When using MQTT send to topic `hasp/<nodename>/config/gpio`
+
+#### Compiling
+To compile in PlatformIO, clone the openHASP repo, rename `platformio_override-template.ini` to `platformio_override.ini` then uncomment:
 
 line 9
 ```ini
@@ -154,13 +181,13 @@ You can flash the device from PlatformIO or with esptool.py. If using esptool.py
 esptool.py --port <your port> --baud 921600 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x1000 bootloader_dio_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 lanbon_l8_<version>.bin
 ```
 
-After flashing, use the QR code on the screen to configure Wi-Fi settings then configure MQTT which is necessary for hasp-lvgl to operate.
+After flashing, use the QR code on the screen to configure Wi-Fi settings then configure MQTT which is necessary for openHASP to operate.
 
 ### Touch Screen
 
 New firmware starts with an empty screen. You need to draw objects in their pages, either by sending jsonl lines or uploading a jsonl file. Every step is described in [hasp documentation](https://fvanroie.github.io/hasp-docs/#pages/).
 
-hasp-lvgl is powerful and highly customisable and offers many different possibilities. Here are some rough examples of possible designs:
+openHASP is powerful and highly customisable and offers many different possibilities. Here are some rough examples of possible designs:
 
 ![Screenshot1](/assets/images/lanbon/screenshot1.jpg)&emsp; 
 ![Screenshot2](/assets/images/lanbon/screenshot2.jpg)
@@ -176,7 +203,7 @@ One caveat is that you need a home automation system that will handle all the lo
 
 ### Other Features
 
-Relays and LEDs are configured using **Configuration - GPIO Settings**. Assign each GPIO to its group. hasp-lvgl controls groups not individual GPIOs. That is by design since you can assign a screen object to a group.
+Relays and LEDs are configured using **Configuration - GPIO Settings**. Assign each GPIO to its group. openHASP controls groups not individual GPIOs. That is by design since you can assign a screen object to a group.
 
 ![GPIO Setting](/assets/images/lanbon/hasp-gpio.jpg)
 
@@ -194,6 +221,6 @@ Esphome has a driver for the ST7789V screen but the resolution is currently fixe
 
 ## Final Verdict
 
-It is good to know there are better options than what originally came with the switch. You can choose between the incredible customizability of hasp-lvgl, tight integration of Tasmota with more basic UI and I believe that esphome will catch up easily if there's interest. 
+It is good to know there are better options than what originally came with the switch. You can choose between the incredible customizability of openHASP, tight integration of Tasmota with more basic UI and I believe that esphome will catch up easily if there's interest. 
 
 All three are open source and free making the final verdict solely yours! 
