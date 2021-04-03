@@ -185,7 +185,7 @@ openHASP is powerful and highly customisable and offers many different possibili
 ![Screenshot3](/assets/images/lanbon/screenshot3.jpg)&emsp;
 ![Screenshot4](/assets/images/lanbon/screenshot4.jpg)
 
-Configuration .jsonl for some of the examples can be found in [hasp documentation](https://fvanroie.github.io/hasp-docs/#example-2/).
+Configuration .jsonl for some of the examples can be found in [hasp documentation](https://haswitchplate.github.io/openHASP-docs/#example-2/).
 
 UI is incredibly snappy, redraws very fast and ESP32 supports up to 12 screens. That's way better than the original firmware or Tasmota.
 
