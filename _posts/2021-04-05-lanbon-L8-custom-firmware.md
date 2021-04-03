@@ -214,6 +214,8 @@ Esphome has a driver for the ST7789V screen but the resolution is currently fixe
 
 ## Final Verdict
 
+You can order black or white version from [AliExpress](https://s.click.aliexpress.com/e/_A4H3cO), [Amazon.com](https://amzn.to/3wyf1Of) or [Amazon.de](https://amzn.to/31Mh9Dz)!
+
 It is good to know there are better options than what originally came with the switch. You can choose between the incredible customizability of openHASP, tight integration of Tasmota with more basic UI and I believe that esphome will catch up easily if there's interest. 
 
 All three are open source and free making the final verdict solely yours! 
