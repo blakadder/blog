@@ -149,16 +149,6 @@ You can flash it with [ESP Flasher](https://github.com/Jason2866/ESP_Flasher/rel
 
 After flashing find its IP address and configure Wi-Fi, MQTT and all GPIOs in the UI:
 
-![openHASP GPIO setup](/assets/images/lanbon/hasp-gpio-setup.jpg)
-
-
-You can use this command to configure all GPIO's at once
-```json
-config/gpio {"config":[2360346,2491680,2623009,2097420,2097678,2097947,0,0]}
-```
-
-When using MQTT send to topic `hasp/<nodename>/config/gpio`
-
 #### Compiling
 To compile in PlatformIO, clone the openHASP repo, rename `platformio_override-template.ini` to `platformio_override.ini` then uncomment:
 
@@ -209,11 +199,14 @@ Relays and LEDs are configured using **Configuration - GPIO Settings**. Assign e
 
 Each group can be controlled using command `output[x]` where `x` is the group number. To turn on relay #2 which is configured into group #2 send payload `1` to MQTT topic `hasp/lanbon/command/output2` (lanbon is the configured topic name for the device)
 
+![openHASP GPIO setup](/assets/images/lanbon/hasp-gpio-setup.jpg)
 
-Completed relays setup:    
-![GPIO Setting](/assets/images/lanbon/hasp-gpio-setup.jpg)
+You can use this command to configure all GPIO's at once
+```json
+config/gpio {"config":[2360346,2491680,2623009,2097420,2097678,2097947,0,0]}
+```
 
-Right now there is no support for PWM lights, LED's can be turned on or turned off only. 
+When using MQTT send to topic `hasp/<nodename>/config/gpio`
 
 ## esphome
 
