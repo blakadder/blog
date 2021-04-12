@@ -30,7 +30,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
-    
+  - jekyll-feed
+      
 # Archives
 jekyll-archives:
   enabled:
