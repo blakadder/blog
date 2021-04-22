@@ -120,12 +120,6 @@ Change `heater` to your chosen topic, then to `configuration.yaml`:
     payload_available: Online
     payload_not_available: Offline{% endraw %}{% endhighlight %} 
 
-
-```yaml
-    name: Heater
-```
-Self explanatory! Name of the device and entity.
-
 ### Power Modes
 While the fields are called heater mode this is used only for basic power on or power off display and control.
 
