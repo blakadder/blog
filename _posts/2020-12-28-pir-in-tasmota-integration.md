@@ -59,13 +59,13 @@ This is that message written in yaml so it is easier to view and edit. Most of t
 ```yaml
 name: Motion Sensor
 state_topic: stat/%topic%/MOTION
-availability_topic: tele/%topic%/LWT
-payload_available: Online
-payload_not_available: Offline
 device_class: motion
 force_update: true
 off_delay: 30
-unique_id: '%deviceid%_motion'
+availability_topic: tele/%topic%/LWT
+payload_available: Online
+payload_not_available: Offline
+unique_id: '%macaddr%_motion'
 device:
   connections: [[mac,'%macaddr%']]
 ```
@@ -87,23 +87,22 @@ state_topic: stat/%topic%/MOTION
 this is the same as the topic defined in the PIR decoupling rule. Change only if you've changed the rule topic.
 
 ```yaml
-payload_on: 1
-```
-Has to be identical to the payload shown in console output. Do not change unless you completely changed the rule. There is no payload off because we're using `off_delay` option.
-```yaml
 force_update: true
 ```
 When true it will retrigger the binary sensor in HA even if the state is same. Very useful for a motion sensor.
+
 ```yaml
 off_delay: 30
 ```
 **This is the magic ingredient!** Here you can define a delay period after which Home Assistant will set the motion sensor state to off. Specially useful if you're using PIR sensors that switch to off after only a few seconds. 
+
 ```yaml
 availability_topic: tele/%topic%/LWT
 payload_available: Online
 payload_not_available: Offline
 ```
 Standard sensor availability configuration. Do not change.
+
 ```yaml
 unique_id: '%macaddr%_motion'
 device:
