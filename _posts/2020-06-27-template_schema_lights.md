@@ -36,7 +36,7 @@ These are minimum required values that have to be defined for the template schem
   command_on_template: "Power 1"
   command_off_template: "Power 0"
   state_topic: "tele/light/STATE"
-  state_template: '{{ value_json.POWER | lower }}'
+  state_template: {% raw %}'{{ value_json.POWER | lower }}'{% endraw %}
 ```
 
 Platform is mqtt as usual but now we also define a new variable `schema: template` which instructs HA that we will use template schema.
@@ -157,8 +157,8 @@ In practice, when you move the brightness slider in Lovelace to 140 Tasmota will
   brightness_template: '{{ (value_json.Dimmer * 2.55) | int }}'
   red_template: '{{ value_json.Color[0:2] | int(base=16) }}'
   green_template: '{{ value_json.Color[2:4] | int(base=16) }}'
-  blue_template: '{{ value_json.Color[4:6] | int(base=16) }}'
-{% endraw %}```
+  blue_template: '{{ value_json.Color[4:6] | int(base=16) }}'{% endraw %}
+```
 
 ### command_on_template
 Another clause is added which sends [`Color2`](https://tasmota.github.io/docs/Commands/#color2) command to Tasmota if an RGB value is passed from HA. The template will convert received color values from int to hex.
@@ -204,8 +204,8 @@ Make sure all options are set correctly with `Backlog so37 128; so20 0; rgbwwtab
   blue_template: '{{ value_json.Color[4:6] | int(base=16) }}'
   white_value_template: '{{ (value_json.White * 2.55) | int }}'
   payload_available: "Online"
-  payload_not_available: "Offline"
-  {% endraw %}```
+  payload_not_available: "Offline"{% endraw %}
+```
 
 ### command_on_template
 Power on command has changed to `Power0 1`. This is because we have two separate lights with Power1 and Power2. `Power0` sends the same command to all existing Power<x> thus turning on both lights immediately.
@@ -266,8 +266,8 @@ Make sure all these options are set correctly: `Backlog so37 0; so20 0; rgbwwtab
   blue_template: '{{ value_json.Color[4:6] | int(base=16) }}'
   color_temp_template: '{{ value_json.CT }}'
   max_mireds: 500
-  min_mireds: 153
-{% endraw %}```
+  min_mireds: 153{% endraw %}
+```
 
 ### command_on_template
 Another clause is added which sends [`CT`](https://tasmota.github.io/docs/Commands/#ct) command to Tasmota if a color temperature value is passed from HA.
@@ -308,8 +308,8 @@ If you want to add the few built in Tasmota effects (and only 0 and 1 for dimmab
     Reverse Cycle 
     {% elif value_json.Scheme == 4 %}
     Random
-    {% endif %}
-{% endraw %}```
+    {% endif %}{% endraw %}
+```
 
 ## command_on_template
 This clause send `Scheme X` depending on the selected effect from the dropdown
@@ -338,8 +338,8 @@ This will mean that some transitions will be shorter than desired and all transi
       {%- if transition is defined -%}
       Delay {% if transition < 21 %}{{ transition * 11 }}{% else %}210{% endif %}; Fade 0; 
       {%- endif -%}
-  command_off_template: "{% if transition is defined %}Speed {{ transition * 2 }}; Fade 1; Power 0; Delay {% if transition < 21 %}{{ transition * 11 }}{% else %}210{% endif %}; Fade 0{%- else -%}Power 0{%- endif -%}"
-{% endraw %}```
+  command_off_template: "{% if transition is defined %}Speed {{ transition * 2 }}; Fade 1; Power 0; Delay {% if transition < 21 %}{{ transition * 11 }}{% else %}210{% endif %}; Fade 0{%- else -%}Power 0{%- endif -%}"{% endraw %}
+```
 
 ### command_on_template
 To have transitions working properly we need to add two statements in the command_on_template.
@@ -368,8 +368,8 @@ Blink or `Power 3` combined with [`BlinkTime`](https://tasmota.github.io/docs/Co
         {% if flash == "short" %}BlinkTime 5; BlinkCount 15; Power 3{% else %}BlinkTime 10; BlinkCount 15; Power 3{% endif %}; 
       {% else %}
       # ... add other clauses here
-      {%- endif -%}
-{% endraw %}```
+      {%- endif -%}{% endraw %}
+```
 
 This requires the if flash statement to be the first and then you have to nest all other if statements under else clause. That is done because if we didn't nest everything else in the blink command (Power 3) would be interrupted by `Power 1` at the end of the statement.
 
@@ -387,8 +387,8 @@ Rule1 ON Power#State DO Backlog Delay 5; Power 2 ENDON ON Rules#Timer=1 DO Backl
   command_on_template: >-
       {%- if flash is defined -%}
       Rule1 1; Ruletimer1 {% if flash == "short" %}15{% else %}30{% endif %}; 
-      {%- endif -%}
-{% endraw %}```
+      {%- endif -%}{% endraw %}
+```
 
 On flash defined it enables Rule1 and starts a timer with duration of 15s for short or 30s for long flash. During the timer duration the rule repeatedly toggles the light. Once the timer runs out the second part of the rule executes disabling the rule and turning the light off.
 
@@ -459,8 +459,8 @@ To finish this longwinded explanation here's my RGBW light using everything expl
   json_attributes_topic: "tele/light/STATE"
   json_attributes_template: '{{ value_json.Wifi | tojson }}'
   payload_available: "Online"
-  payload_not_available: "Offline"
-{% endraw %}```
+  payload_not_available: "Offline"{% endraw %}
+```
 
 ## json_attributes
 
