@@ -99,10 +99,6 @@ If you use Fahrenheit in Home Assistant set the helper like this:
 
 To bring it all together there's a Lovelace UI card utilising conditional cards because not all fryer options are available at all time.
 
-![Lovelace ](/assets/images/proscenic/lovelace0.jpg)
-![Lovelace 1](/assets/images/proscenic/lovelace1.jpg)
-![Lovelace 2](/assets/images/proscenic/lovelace2.jpg)
-
 If you followed the guide using the same names you can paste the entire configuration in the UI.
 
 ```yaml
@@ -178,3 +174,10 @@ cards:
           entity: sensor.proscenic_tuyasns_temperature
           name: Cooking Temperature
 ```
+
+### End Result
+![Lovelace ](/assets/images/proscenic/lovelace0.jpg)
+
+![Lovelace 1](/assets/images/proscenic/lovelace1.jpg)
+
+![Lovelace 2](/assets/images/proscenic/lovelace2.jpg)
