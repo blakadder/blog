@@ -4,7 +4,7 @@ title: "Proscenic T21 Air Fryer in Home Assistant Using Tasmota"
 author: blak
 categories: [ tasmota, home assistant, how to ]
 tags: [ ]
-image: assets/images/header_climate.jpg
+image: assets/images/header_proscenic.jpg
 toc: true
 ---
 
