@@ -12,7 +12,7 @@ Great hardware gets great software. Now updated with solderless flashing!
 
 _**Full disclosure:** This is a review sample sent to me free of charge by [Safetycorner](https://safetycorner.de/) and [Lanbon DE](https://lanbon.de). This article is not influenced by that fact and everything stated is solely my opinion._
 
-Following a series of disappointments with Lanbon's design and usability philosophy, as described [here](lanbon-L8), it was time for the next step. Disassemble and see if it works with some open source firmware. I even found a [GitHub repository](https://github.com/Nepenthes/LB_L8_ESP32) with code for Lanbon L8 firmware. Promising indeed...
+Following a series of disappointments with Lanbon's design and usability philosophy, as described [here](/lanbon-L8), it was time for the next step. Disassemble and see if it works with some open source firmware. I even found a [GitHub repository](https://github.com/Nepenthes/LB_L8_ESP32) with code for Lanbon L8 firmware. Promising indeed...
 
 ## Disassembly 
 
