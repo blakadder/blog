@@ -211,7 +211,7 @@ The `fan_mode_state_template` takes the JSON payload from Tasmota for `TuyaEnum1
 
 ```yaml
     fan_mode_command_topic: "cmnd/heater/TuyaEnum1"
-    fan_mode_command_template: "{{'1' if value == 'low' else '0'}}"
+    fan_mode_command_template: {% raw %}"{{'1' if value == 'low' else '0'}}"{% endraw %}
 ```
 Changing heater modes is done using `TuyaEnum1` command. The template converts HA states to proper payload for the command. 
 

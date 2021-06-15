@@ -2,7 +2,7 @@
 layout: post
 title: "Sonoff ZBMINI Review"
 author: blak
-categories: [ review ]
+categories: [ review, zigbee ]
 tags: [ ]
 image: assets/images/header_zbmini.jpg
 toc: true
