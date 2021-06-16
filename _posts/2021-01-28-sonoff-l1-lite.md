@@ -66,7 +66,7 @@ One minor drawback of a having a separate MCU control the lights is that you can
 
 ## Flashing esphome
 
-To flash this light in a mostly working condition to [esphome.io](https://epshome.io) I will refer you to this [this article](https://emorydunn.com/blog/2020/08/10/sonoff-l1-home-assistant/) by [@emorydunn](https://gist.github.com/emorydunn) and thank him for the inspiration on how to implement the music sync feature in Tasmota.
+To flash this light in a mostly working condition to [esphome.io](https://epshome.io) I will refer you to this [this article](https://emorydunn.com/blog/2020/08/10/sonoff-l1-&-home-assistant/) by [@emorydunn](https://gist.github.com/emorydunn) and thank him for the inspiration on how to implement the music sync feature in Tasmota.
 
 ## Conclusion
 
