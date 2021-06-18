@@ -15,7 +15,7 @@ You can catch me on [Twitter](//www.twitter.com/blakadder_), [Telegram](https://
 
 If you appreciate what I do and want to thank me with some cold hard cash you can:
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#343494', 'S6S650JEK');kofiwidget2.draw();</script><BR> 
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#343494', 'S6S650JEK');kofiwidget2.draw();</script> 
 
 <a href="https://paypal.me/tasmotatemplates"><img src="https://img.shields.io/static/v1?logo=paypal&label=&message=Donate via PayPal&color=slategrey"></a>
     
