@@ -13,5 +13,12 @@ Inbetween I edit the [Tasmota documentation](//tasmota.com) and maintain [Tasmot
 
 You can catch me on [Twitter](//www.twitter.com/blakadder_), [Telegram](https://t.me/blakadder) or on Discord (Blakadder#8319) hanging in [Tasmota community server](https://discord.gg/Ks2Kzd4).
 
+If you appreciate what I do and want to thank me with some cold hard cash you can:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S650JEK) 
+
+<a href="https://paypal.me/tasmotatemplates"><img src="https://img.shields.io/static/v1?logo=paypal&label=&message=Donate via PayPal&color=slategrey"></a>
+    
+
 ##### Why can't I spell my name right? 
 ##### Blackadder was taken!
