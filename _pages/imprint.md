@@ -1,3 +1,10 @@
+---
+layout: page
+title: Impressum
+permalink: /imprint
+comments: false
+---
+
 DISCLOSURES ACCORDING TO § 5 TMG:    
 Numero    
 Stjepana Radića 38a    
