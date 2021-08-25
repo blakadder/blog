@@ -21,7 +21,7 @@ Grab some adjustable pliers and wrap them with duct tape or electrical tape to a
 
 ![](/assets/images/cn39/1.jpg)
 
-Adjust them to the width of the plug, grab the top as pictured. Slowly apply pressure while trying to pull it out until it pops out of the case. 
+Adjust them to the width of the plug, grab the top as pictured. Slowly apply pressure while trying to pull it out until it pops out of the case. If it doesn't budge use a rubber mallet to lightly tap around the plug and loosen it up.
 
 ![](/assets/images/cn39/2.jpg)
 
