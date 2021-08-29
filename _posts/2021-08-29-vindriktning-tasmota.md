@@ -8,7 +8,7 @@ image: assets/images/header_vindriktning.jpg
 toc: true
 ---
 
-IKEA Vindriktning is an affordable air quality sensor with a well build enclosure and you can connect it to your smart home using Tasmota and some soldering
+IKEA Vindriktning is an affordable air quality sensor with a well designed enclosure and you can connect it to your smart home using Tasmota and some soldering.
 
 _Links in this article marked with a * are affiliate links. By purchasing through them I get a commission that helps in future projects!_
 
