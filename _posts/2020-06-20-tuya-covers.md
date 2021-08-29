@@ -100,7 +100,7 @@ Enable the rule with `Rule 1`
     position_open: 0
     position_closed: 100
     position_topic: "stat/zm25tq/POSITION"
-    value_template: '{{ value_json }}'
+    position_template: '{{ value_json }}'
     set_position_topic: "cmnd/zm25tq/TuyaSend2"
     set_position_template: '2,{{ 100 - position }}'
     availability_topic: "tele/zm25tq/LWT"
@@ -162,7 +162,7 @@ There is some weirdness with HA's current_position attribute where the state wou
     position_open: 0
     position_closed: 100
     position_topic: "tele/zm25tq/RESULT"
-    value_template: >-
+    position_template: >-
         {% if value_json['TuyaReceived']['DpType2Id3'] is undefined %}
         {{ 100 - state_attr('cover.shades','current_position') | int }}
         {% else %}  
@@ -232,7 +232,7 @@ If you have set up shades as a dimmer in Tasmota you can use this configuration.
     position_open: 0
     position_closed: 100
     position_topic: "tele/zm25tq/STATE"
-    value_template: '{{ value_json.Dimmer }}'
+    position_template: '{{ value_json.Dimmer }}'
     set_position_topic: "cmnd/zm25tq/Dimmer"
     set_position_template: '{{ 100 - position | int }}'
     availability_topic: "tele/zm25tq/LWT"
