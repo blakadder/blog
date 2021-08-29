@@ -10,7 +10,7 @@ toc: true
 
 IKEA Vindriktning is an affordable air quality sensor with a well build enclosure and you can connect it to your smart home using Tasmota and some soldering
 
-_Links in this article marked with a _*_ are affiliate links. By purchasing through them I get a commission that helps in future projects!_
+_Links in this article marked with a * are affiliate links. By purchasing through them I get a commission that helps in future projects!_
 
 Thanks to the [Hypfer/esp8266-vindriktning-particle-sensor](https://github.com/Hypfer/esp8266-vindriktning-particle-sensor) project I found out that IKEA's new Vindriktning sensor can be connected to an ESP module. Considering it costs only 10€ I decided to get one to play around with and in the meantime Tasmota added a driver for it, perfect!
 
