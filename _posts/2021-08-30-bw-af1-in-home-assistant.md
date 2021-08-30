@@ -8,11 +8,11 @@ image: assets/images/header_bw-af1.jpg
 toc: true
 ---
 
-Guide to seting up [BlitzWolf AF1](https://templates.blakadder.com/blitzwolf_Af1.html) air fryer running Tasmota in Home Assistant with only a blueprint and some rules and nifty Lovelace UI config.
+Guide to seting up [BlitzWolf AF1](https://templates.blakadder.com/blitzwolf_AF1.html) air fryer running Tasmota in Home Assistant with only a blueprint and some rules and nifty Lovelace UI config.
 
 ***All information applies only to Home Assistant 2021.8.0+ and Tasmota 9.5+***
 
-This guide assumes you've correctly set up Tasmota on the [BlitzWolf Af1](https://templates.blakadder.com/blitzwolf_Af1.html) and the Tasmota integration in Home Assistant. Make sure the template is applied with all the TuyaMCU commands.
+This guide assumes you've correctly set up Tasmota on the [BlitzWolf AF1](https://templates.blakadder.com/blitzwolf_AF1.html) and the Tasmota integration in Home Assistant. Make sure the template is applied with all the TuyaMCU commands.
 
 Tasmota was configured like this:
 
