@@ -8,7 +8,7 @@ image: assets/images/header_proscenic.jpg
 toc: true
 ---
 
-Guide to seting up [Proscenic T21](https://templates.blakadder.com/proscenic_T21.html) air fryer running Tasmota in Home Assistant with all automations and UI configuration
+Guide to seting up [Proscenic T21](https://templates.blakadder.com/proscenic_T21.html) air fryer running Tasmota in Home Assistant with all automations and UI configuration.
 
 ***All information applies only to Home Assistant 2021.5.0+ and Tasmota 9.4+***
 
@@ -95,7 +95,7 @@ If you use Fahrenheit in Home Assistant set the helper like this:
 
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/proscenic_t21_cooking_temperature.yaml" title="Import Proscenic T21 Cookbook in °F"><img loading="lazy" src="/assets/blueprint_import.svg"></a>
 
-### Lovelace Card
+## Lovelace Card
 
 To bring it all together there's a Lovelace UI card utilising conditional cards because not all fryer options are available at all time.
 
@@ -175,7 +175,7 @@ cards:
           name: Cooking Temperature
 ```
 
-### End Result
+
 ![Lovelace ](/assets/images/proscenic/lovelace0.jpg)
 
 ![Lovelace 1](/assets/images/proscenic/lovelace1.jpg)

@@ -66,7 +66,7 @@ And that's all there is to it. Use the newly added select and number entities to
 
 The timer shows time left in seconds.
 
-### Lovelace Card
+## Lovelace Card
 
 To bring it all together there's a Lovelace UI card utilising conditional cards because not all fryer options are available at all time.
 
@@ -131,5 +131,4 @@ cards:
           name: Cooking Temperature
 ```
 
-### End Result
 ![Lovelace ](/assets/images/airfryer/lovelace.jpg)
