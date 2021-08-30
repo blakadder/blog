@@ -14,7 +14,7 @@ Guide to seting up [BlitzWolf AF1](https://templates.blakadder.com/blitzwolf_AF1
 
 This guide assumes you've correctly set up Tasmota on the [BlitzWolf AF1](https://templates.blakadder.com/blitzwolf_AF1.html) and the Tasmota integration in Home Assistant. Make sure the template is applied with all the TuyaMCU commands.
 
-Tasmota was configured like this:
+Tasmota is configured like this:
 
 ```console
 Backlog DeviceName BW-AF1; FriendlyName1 Activate Fryer; FriendlyName2 Start/Pause Cooking; SetOption8 0; Rule0 1
