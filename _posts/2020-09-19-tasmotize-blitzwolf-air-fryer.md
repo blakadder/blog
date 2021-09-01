@@ -67,7 +67,7 @@ To get this...
 Backlog WebButton1 ▶; WebButton2 🔴
 ```
 
-_*Available icons and icon desing may vary depending on browser or operating system_
+_*Available icons and icon design may vary depending on browser or operating system_
 
 ## Features
 These are all available dpid's with their descriptions.
