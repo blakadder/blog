@@ -93,12 +93,12 @@ Changes temperature unit. `0` is Celsius (°C) and `1` is Fahrenheit (°F). When
 **dpid 109**      
 Selects cooking mode with `TuyaSend4 109,<value>`.
 
-- 0 is "standby" 
+- 0 is "default" 
 - 1 is "custom" 
 - 2 is "fries" 
 - 3 is "frozen fries"
 - 4 is "nuggets" 
-- 5 is "poultry" 
+- 5 is "chicken" 
 - 6 is "steak" 
 - 7 is "fish" 
 
