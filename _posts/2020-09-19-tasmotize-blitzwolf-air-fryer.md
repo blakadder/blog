@@ -48,15 +48,13 @@ Reassemble everything, stick/glue lid on top if you were like me and broke half 
 
 ## Tasmota Configuration
 
-After configuring [Wi-Fi and MQTT](https://tasmota.github.io/docs/Getting-Started/#initial-configuration) set module to "TuyaMCU (54)". You can simply use the `module 54`  command in Console. 
-
-Once it reboots set functions:
+After configuring [Wi-Fi and MQTT](https://tasmota.github.io/docs/Getting-Started/#initial-configuration) set the template to:
 
 ```console
-Backlog TuyaMCU 11,111; TuyaMCU 12,101
+{"NAME":"BW-AF1","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,111 | TuyaMCU 12,101 | TuyaMCU 71,104 | TuyaMCU 81,106 | TempRes 0"}
 ```
 
-This will map dpid 111 which is Start-Pause Cooking to the first toggle and dpid 101 for powering the fryer on or off to second toggle. You can flip them if you like with `Backlog TuyaMCU 11,101; TuyaMCU 12,111`.
+This will map dpid 111 which is Start-Pause Cooking to the first toggle and dpid 101 for powering the fryer on or off to second toggle. You can flip them if you like with `Backlog TuyaMCU 11,101; TuyaMCU 12,111`. Two sensors, one for current device temperature and one of remaining cooking time in seconds will be shown in the webUI.
 
 ### Webbutton Tricks
 Did you know you can change the toggle text with [`webbutton`](https://tasmota.github.io/docs/Commands/#webbutton) command? And did you know you can use [emojis](https://html-css-js.com/html/character-codes/) instead of regular text?
@@ -69,7 +67,7 @@ To get this...
 Backlog WebButton1 ▶; WebButton2 🔴
 ```
 
-_*Available icons and icon desing may vary depending on browser or operating system_
+_*Available icons and icon design may vary depending on browser or operating system_
 
 ## Features
 These are all available dpid's with their descriptions.
@@ -95,16 +93,16 @@ Changes temperature unit. `0` is Celsius (°C) and `1` is Fahrenheit (°F). When
 **dpid 109**      
 Selects cooking mode with `TuyaSend4 109,<value>`.
 
-- 0 is "standby" 
+- 0 is "default" 
 - 1 is "custom" 
 - 2 is "fries" 
 - 3 is "frozen fries"
 - 4 is "nuggets" 
-- 5 is "poultry" 
+- 5 is "chicken" 
 - 6 is "steak" 
 - 7 is "fish" 
 
 **dpid 111**     
 Start cooking or pause current cook cycle using first toggle or or `TuyaSend 111,<value>` (Start is `1` and pause is `0`).
 
-To control the device from Tasmota use the appropriate TuyaSend commands. To have all the features in the webUI would take a lot of advanced [scripting](https://tasmota.github.io/docs/Scripting-Language/) and, for me, it doesn't make sense to do so since I use Home Assistant as the center of my smart home. Integration into Home Assistant is split off to a second article.
+To control the device from Tasmota use the appropriate TuyaSend commands. To have all the features in the webUI would take a lot of advanced [scripting](https://tasmota.github.io/docs/Scripting-Language/) and, for me, it doesn't make sense to do so since I use Home Assistant as the center of my smart home. Integration into Home Assistant is split off to a second article [here](bw-af1-in-home-assistant).
