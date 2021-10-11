@@ -32,7 +32,7 @@ At the front you see a touch screen sporting roomy 3.5 inches albeit with quite 
 
 The buttons at the bottom are large enough but the sample I got was very mushy with not a lot of feedback and it has to be pressed exactly in the middle. I informed Sonoff of this shortcoming and they promised the final design will improve on that.
 
-The back of the unit is mounted in the wall and houses the power supply unit and two 10A relays. Despite that, NSPanel is rated only to 2A per relay or 4A combined which is a bit strange, more so because it has a thermostat feature, but more on that later...
+The back of the unit is mounted in the wall and houses the power supply unit and two 10A relays. Despite that, NSPanel is rated only to 2A per relay or 4A combined which is a bit strange, more so because it has a thermostat feature, but more on that one later... 
 
 ![Boot Image](/assets/images/nspanel/bootimg.jpg)
 
@@ -46,7 +46,7 @@ Viewing angles of the screen are quite good and it stays readable when looking a
 
 ## Software
 
-To fully utilize the NSPanel's you need to configure it in eWeLink app. Once you do it will grab your location, sync the clock to your local time zone and display the weather forecast.
+To fully utilize the NSPanel's features you need to configure it in eWeLink app. Once you do it will grab your location, sync the clock to your local time zone and display the weather forecast.
 
 At the bottom are two lines that light up when the corresponding relay is on. While the switches are right there it would be nice to be able to control the relays through the touch screen as well.
 
