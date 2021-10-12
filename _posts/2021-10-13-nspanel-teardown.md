@@ -58,7 +58,7 @@ To remove the PCB you have to disconnect the screen. Push the black bar on both 
 
 The other side of the PCB reveals another moniker for the switch: "NSPanel 86 MC Broad V1.7". I guess at least one typo is obligatory! It will be interesting to follow the iterations of the design and I wonder which version had all 3 relays and a buzzer.
 
-A peculiar detail is the unpopulated spot at the top labelled H2 at the top. I have my suspicions that it was supposed to be a humidity sensor, partly because of the `H` and partly because the firmware reports a static humidity value of 50 together with the temperature. Another case of an abandoned feature or a sign of things to come?
+A peculiar detail is the unpopulated spot at the top labelled "H2". I have my suspicions that it was supposed to be a humidity sensor, partly because of the `H` and partly because the firmware reports a static humidity value of 50 together with the temperature. Another case of an abandoned feature or a sign of things to come?
 
 ![Buttons](/assets/images/nspanel/buttons.jpg)
 
