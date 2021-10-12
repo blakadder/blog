@@ -64,7 +64,7 @@ A peculiar detail is the unpopulated spot at the top labelled "H2". I have my su
 
 That little black drop labelled `NTC` is the temperature sensor. Exactly in the middle is the reset button reachable through the pin hole in the switch housing.
 
-At the bottom are the two buttons used for switching. Now I understand why they were so bad to press with lousy feedback. The plastic buttons having only the two white rubbery pieces instead of a real spring furthermore contributes to the mushy feel and false feedback without actually actuating the buttons when pressed at the edges.
+At the bottom are the two buttons used for switching. Now I understand why they were so bad to press with lousy feedback. The plastic switches have only the two white rubbery pieces instead of a real spring which just contributes more to the mushy feel and the false feedback without actually actuating the buttons when pressed at the edges.
 
 ![Bad Switch](/assets/images/nspanel/badswitch.jpg)
 
