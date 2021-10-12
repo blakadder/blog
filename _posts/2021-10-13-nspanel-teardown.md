@@ -28,7 +28,7 @@ To get the PCB out of the housing remove the 4 screws on top and the 4 screws in
 
 ![Relay PCB](/assets/images/nspanel/relayunit.jpg)
 
-As you can see, the relays are rated for 10A so the 2A rating must be caused by the PCB design. I cannot reliably guess why exactly, it could be the mains solder traces or possible overheating concerns or who knows...
+As you can see, the relays are rated for 10A so the 2A per relay official switch rating must be caused by the PCB design. I cannot reliably guess why exactly, it could be the mains solder traces or possible overheating concerns or who knows...
 
 ![Relay](/assets/images/nspanel/relay.jpg)
 
@@ -36,7 +36,7 @@ As you can see, the relays are rated for 10A so the 2A rating must be caused by 
 ## Touch Plate
 ![Two Screws](/assets/images/nspanel/twoscrews.jpg)
 
-Touch plate has only two screws holding the plastic cover. Removing it reveals a well labeled PCB marked E32-MSW-NX and NSPanel-EU
+Touch plate has only two screws holding the plastic cover. Removing it reveals a well labeled PCB marked "E32-MSW-NX" and "NSPanel-EU".
 
 ![Touch Plate](/assets/images/nspanel/touchplate.jpg)
 
@@ -50,7 +50,7 @@ Above the headers is the cluster with the ESP32. The brain is an ESP32-D0WD-V3 c
 
 At the top, nestled under Kapton tape is the Nextion screen controller and touch MCU. Nextion screens use ARM chips as a controller and this one uses [STM32G031G8](https://www.st.com/en/microcontrollers-microprocessors/stm32g031g8.html). [CST340](http://www.hynitron.com/product_show.php?id=9&tid=1) is the touch controller for which there's very little information on the internet.
 
-What's interesting about Nextion screens is that they do not need a microcontroller to draw each pixel but instead it stores the entire GUI in its controller and uses serial communication with the ESP32 to send and receive events. For this Sonoff kindly left the TF_RX and TF_TX pads to make our lives easier, but even if they were not there there is ample access at the screen connector.
+What's interesting about Nextion screens is that they do not need a microcontroller to draw each pixel but instead it stores the entire GUI in its controller and uses serial communication with the ESP32 to send and receive events. To see what exactly is going on between the two Sonoff kindly left the `TF_RX` and `TF_TX` pads to make our lives easier, but even if they were not there there is ample access at the screen connector.
 
 To remove the PCB you have to disconnect the screen. Push the black bar on both sides until it looses its grip on the flat cable then carefully pull it out.
 
