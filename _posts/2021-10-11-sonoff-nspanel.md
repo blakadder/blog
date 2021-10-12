@@ -18,7 +18,7 @@ Sonoff contacted me in August with an intriguing offer to test a touch-screen co
 
 The NSPanel got here in a matter of days and I eagerly opened it up. Once I took it out of the box I literally yelped. They put a screen on a double switch. So simple, yet so brilliant. Retaining the classic switches greatly increases usability and are more intuitive to less technically inclined users. The touch screen is here as a bonus, to give you additional information and control over other devices.
 
-Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for 50USD as a backer discount. Expected MSRP once the campaign is finished is 75USD.
+Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for ~~50USD~~ 54$ as a backer discount. Expected MSRP once the campaign is finished is 75$.
 
 ## Hardware
 The EU version of NSPanel is sized as a standard EU switch made to fit 60mm electrical boxes. The touchscreen plate with a striking metallic grey design is detachable from the power supply and relay part.
