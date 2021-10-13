@@ -90,6 +90,7 @@ I've had some quality time with my [tiny multimeter](https://www.banggood.com/AN
 - GPIO14 - K1
 - GPIO27 - K2
 - GPIO37 - ALS
+- GPIO04 - T_RST (screen reset)
 - GPIO38 - NTC via R21
 - GPIO02 - IO2
 - GPIO21 - BZ
