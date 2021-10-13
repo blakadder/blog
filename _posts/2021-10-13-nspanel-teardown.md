@@ -102,9 +102,15 @@ I've had some quality time with my [tiny multimeter](https://www.banggood.com/AN
 - GPIO14 - K1
 - GPIO27 - K2
 - GPIO37 - ALS
+- GPIO04 - T_RST (screen reset)
 - GPIO38 - NTC via R21
 - GPIO02 - IO2
 - GPIO21 - BZ
 - GPIO22 - RY1
 - GPIO19 - RY2
 - GPIO23 - RY3
+
+UPDATE:
+Sonoff officially released the pinout on the [Kickstarter page](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) and information about the Nextion upload protocol
+
+![Official Pinout](/assets/images/nspanel/officialpinout.jpg)
