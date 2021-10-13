@@ -96,3 +96,8 @@ I've had some quality time with my [tiny multimeter](https://www.banggood.com/AN
 - GPIO22 - RY1
 - GPIO19 - RY2
 - GPIO23 - RY3
+
+UPDATE:
+Sonoff officially released the pinout on the [Kickstarter page](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) and information about the Nextion upload protocol
+
+![Official Pinout](/assets/images/nspanel/officialpinout.jpg)
