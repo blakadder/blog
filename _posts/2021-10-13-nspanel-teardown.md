@@ -74,6 +74,18 @@ I would've preferred some nice, clicky Omron microswitches and a rocker keys wit
 
 The screen is glued to the front panel heavily and encased in the metal shielding I mentioned before.
 
+EDIT: 
+
+I've managed to get the Nextion screen type after issuing the upload protocol sequence.
+
+```
+comok 2,30614-0,NX4832F035_011C,48,61744,16643401829EF850,16777216ÿÿÿ
+```
+
+This means its a Nextion Discovery 3.5" [NX4832F035](https://www.tkqlhce.com/click-100155210-13913691?url=https%3A%2F%2Fitead.cc%2Fproduct%2Fnx4832f035-nextion-3-5-discovery-series-hmi-touch-display%2F) ([Datasheet](https://nextion.tech/datasheets/nx4832f035/)). 
+
+With this discovery we confirm it is possible to upload custom GUI created in [Nextion Editor](https://nextion.tech/nextion-editor/#_section1).
+
 ## Pinout
 
 I've had some quality time with my [tiny multimeter](https://www.banggood.com/ANENG-AN113D-Intelligent-Auto-Measure-True-RMS-Digital-Multimeter-6000-Counts-Resistance-Diode-Continuity-Tester-Temperature-ACDC-Voltage-Current-Meter-Upgraded-from-AN8002-p-1568882.html?p=CM27171011078201412U&custlinkid=1674622) and noted down the pinouts.
