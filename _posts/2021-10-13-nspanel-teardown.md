@@ -26,7 +26,7 @@ You can notice that the headers are labelled BZ, RY1, RY2 and RY3. RY1 and RY2 a
 
 To get the PCB out of the housing remove the 4 screws on top and the 4 screws in the wire terminals. Now you can push it out from the back.
 
-![Relay PCB](/assets/images/nspanel/relayunit.jpg)
+![Relay PCB](/assets/images/nspanel/relaypcb.jpg)
 
 As you can see, the relays are rated for 10A so the 2A per relay official switch rating must be caused by the PCB design. I cannot reliably guess why exactly, it could be the mains solder traces or possible overheating concerns or who knows...
 
