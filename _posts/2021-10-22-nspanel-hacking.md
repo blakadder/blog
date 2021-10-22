@@ -97,7 +97,7 @@ Example message from NSPanel to Nextion looks like:
 55AA8017007B227175657279496E666F223A2276657273696F6E227D846C
 ```
 
-When converted to ascii the JSON payload is obvious
+When converted to ascii the JSON payload is obvious. Don't know what JSON is? Read ["JSON: What It Is, How It Works, & How to Use It"](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
 
 ```
 U[AA][80][17][00]{"queryInfo":"version"}[84]l
