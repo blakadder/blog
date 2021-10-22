@@ -26,7 +26,7 @@ You can notice that the headers are labelled BZ, RY1, RY2 and RY3. RY1 and RY2 a
 
 To get the PCB out of the housing remove the 4 screws on top and the 4 screws in the wire terminals. Now you can push it out from the back.
 
-![Relay PCB](/assets/images/nspanel/relayunit.jpg)
+![Relay PCB](/assets/images/nspanel/relaypcb.jpg)
 
 As you can see, the relays are rated for 10A so the 2A per relay official switch rating must be caused by the PCB design. I cannot reliably guess why exactly, it could be the mains solder traces or possible overheating concerns or who knows...
 
@@ -62,7 +62,9 @@ A peculiar detail is the unpopulated spot at the top labelled "H2". I have my su
 
 ![Buttons](/assets/images/nspanel/buttons.jpg)
 
-That little black drop labelled `NTC` is the temperature sensor. Exactly in the middle is the reset button reachable through the pin hole in the switch housing.
+That little black drop labelled `NTC` is the temperature sensor. Sonoff confirmed it is an NTC thermistor probe model MF52A R = 10K±1% B = 3950K±1%. 
+
+Exactly in the middle is the reset button reachable through the pin hole in the switch housing.
 
 At the bottom are the two buttons used for switching. Now I understand why they were so bad to press with lousy feedback. The plastic switches have only the two white rubbery pieces instead of a real spring which just contributes more to the mushy feel and the false feedback without actually actuating the buttons when pressed at the edges.
 
@@ -82,7 +84,7 @@ I've managed to get the Nextion screen type after issuing the upload protocol se
 comok 2,30614-0,NX4832F035_011C,48,61744,16643401829EF850,16777216ÿÿÿ
 ```
 
-This means its a Nextion Discovery 3.5" [NX4832F035](https://www.tkqlhce.com/click-100155210-13913691?url=https%3A%2F%2Fitead.cc%2Fproduct%2Fnx4832f035-nextion-3-5-discovery-series-hmi-touch-display%2F) ([Datasheet](https://nextion.tech/datasheets/nx4832f035/)). 
+This means its a Nextion Discovery 3.5" [NX4832F035](https://www.tkqlhce.com/click-100155210-13913691?url=https%3A%2F%2Fitead.cc%2Fproduct%2Fnx4832f035-nextion-3-5-discovery-series-hmi-touch-display%2F) ([Datasheet](https://nextion.tech/datasheets/nx4832f035/)) but with a capacitive touch panel. 
 
 ![Nextion](/assets/images/nspanel/nextion.jpg)
 
