@@ -84,7 +84,7 @@ I've managed to get the Nextion screen type after issuing the upload protocol se
 comok 2,30614-0,NX4832F035_011C,48,61744,16643401829EF850,16777216ÿÿÿ
 ```
 
-This means its a Nextion Discovery 3.5" [NX4832F035](https://www.tkqlhce.com/click-100155210-13913691?url=https%3A%2F%2Fitead.cc%2Fproduct%2Fnx4832f035-nextion-3-5-discovery-series-hmi-touch-display%2F) ([Datasheet](https://nextion.tech/datasheets/nx4832f035/)). 
+This means its a Nextion Discovery 3.5" [NX4832F035](https://www.tkqlhce.com/click-100155210-13913691?url=https%3A%2F%2Fitead.cc%2Fproduct%2Fnx4832f035-nextion-3-5-discovery-series-hmi-touch-display%2F) ([Datasheet](https://nextion.tech/datasheets/nx4832f035/)) but with a capacitive touch panel. 
 
 ![Nextion](/assets/images/nspanel/nextion.jpg)
 
