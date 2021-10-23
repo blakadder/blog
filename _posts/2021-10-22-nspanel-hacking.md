@@ -20,13 +20,13 @@ Back up the original firmware, then back it up again for good measure. The modul
 
 ### Discover how ESP32 communicates with Nextion
 
-I’m frequenting the Unofficial Nextion Discord because it's also the openHASP development hub. Since they actually have experience with Nextion screens I asked and got information on the standard protocol Nextion uses with their standalone screens and read up more on it on the [Nextion website]([https://nextion.tech/instruction-set/](https://nextion.tech/instruction-set/)).
+I’m frequenting the Unofficial Nextion Discord because it's also the openHASP development hub. Since they actually have experience with Nextion screens I asked and got information on the standard protocol Nextion uses with their standalone screens and read up more on it on the [Nextion website](https://nextion.tech/instruction-set/).
 
 Gotta do some research first to know what to look for!
 
 ### Analyze Serial Communication
 
-For this I used a cheap 24Mhz logic analyzer ([AliExpress](https://s.click.aliexpress.com/e/_Adykc9)) and [PulseView]([https://sigrok.org/wiki/PulseView](https://sigrok.org/wiki/PulseView)).
+For this I used a cheap 24Mhz logic analyzer ([AliExpress](https://s.click.aliexpress.com/e/_Adykc9)) and [PulseView](https://sigrok.org/wiki/PulseView).
 
 ![Logic Analyzer](/assets/images/nspanel/logicanalyzer.jpg)
 
