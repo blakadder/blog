@@ -205,3 +205,7 @@ First I had to disable the ESP32 by grounding GPIO0, then keep the FSP RST pin h
 Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for a backer discount. Expected MSRP once the campaign is finished is 75$.
 
 All in all, a plethora of options and possible avenues with this device. Now to code all of that into a Tasmota driver...
+
+## Running Tasmota
+
+Visit the [Tasmota configuration page](https://templates.blakadder.com/sonoff_NSPanel.html) for instructions on flashing and running Tasmota on the NSPanel
