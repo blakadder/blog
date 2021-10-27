@@ -109,8 +109,10 @@ Since It wasn’t apparent to me what the unknown bytes mean I posted a few stri
 
 I present the NSPanel protocol:
 
-```
-55 AA [type] [payload length] [00] [payload] [crc] [crc] CRC-16 (MODBUS) Big Endian
+```bash
+55 AA [type] [payload length] [00] [JSON payload] [crc] [crc] 
+
+CRC-16 (MODBUS) Big Endian
 ```
 
 ### Type
