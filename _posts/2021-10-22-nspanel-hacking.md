@@ -12,7 +12,7 @@ Chronicling the journeys of decoding the NSPanel communication protocol and esta
 
 Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for a backer discount. Expected MSRP once the campaign is finished is 75$.
 
-After finishing the [review](sonoff-nspanel) and the [hardware teardown](nspanel-teardown) I had a general idea of how the NSPanel works and it was time to flash custom firmware on it. But wait, not so fast! Since we’re dealing with a very new, still unreleased, device you need to take some steps before even thinking about custom firmware.
+After finishing the [review](/sonoff-nspanel/) and the [hardware teardown](/nspanel-teardown/) I had a general idea of how the NSPanel works and it was time to flash custom firmware on it. But wait, not so fast! Since we’re dealing with a very new, still unreleased, device you need to take some steps before even thinking about custom firmware.
 
 ## Back up the Original Firmware
 
