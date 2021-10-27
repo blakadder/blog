@@ -195,7 +195,7 @@ I tried a few Nextion commands from the Instruction Set with interesting finds.
 <figcaption class="figure-caption text-center">Wipe the background with `cls WHITE`</figcaption>
 
 ![Hidden Page](/assets/images/nspanel/hiddenpage.jpg)
-<figcaption class="figure-caption text-center">`page 5` was particularly interesting
+<figcaption class="figure-caption text-center">`page 5` flips to 4 outlets page
 </figcaption>
 
 Very powerful but while using Nextion mode, the NSPanel mode commands do not work. So its one or the other or some way to switch between the two fast. 
