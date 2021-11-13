@@ -12,7 +12,7 @@ Chronicling the journeys of decoding the NSPanel communication protocol and esta
 
 Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for a backer discount. Expected MSRP once the campaign is finished is 75$.
 
-After finishing the [review](sonoff-nspanel) and the [hardware teardown](nspanel-teardown) I had a general idea of how the NSPanel works and it was time to flash custom firmware on it. But wait, not so fast! Since we’re dealing with a very new, still unreleased, device you need to take some steps before even thinking about custom firmware.
+After finishing the [review](/sonoff-nspanel/) and the [hardware teardown](/nspanel-teardown/) I had a general idea of how the NSPanel works and it was time to flash custom firmware on it. But wait, not so fast! Since we’re dealing with a very new, still unreleased, device you need to take some steps before even thinking about custom firmware.
 
 ## Back up the Original Firmware
 
@@ -20,13 +20,13 @@ Back up the original firmware, then back it up again for good measure. The modul
 
 ### Discover how ESP32 communicates with Nextion
 
-I’m frequenting the Unofficial Nextion Discord because it's also the openHASP development hub. Since they actually have experience with Nextion screens I asked and got information on the standard protocol Nextion uses with their standalone screens and read up more on it on the [Nextion website]([https://nextion.tech/instruction-set/](https://nextion.tech/instruction-set/)).
+I’m frequenting the Unofficial Nextion Discord because it's also the openHASP development hub. Since they actually have experience with Nextion screens I asked and got information on the standard protocol Nextion uses with their standalone screens and read up more on it on the [Nextion website](https://nextion.tech/instruction-set/).
 
 Gotta do some research first to know what to look for!
 
 ### Analyze Serial Communication
 
-For this I used a cheap 24Mhz logic analyzer ([AliExpress](https://s.click.aliexpress.com/e/_Adykc9)) and [PulseView]([https://sigrok.org/wiki/PulseView](https://sigrok.org/wiki/PulseView)).
+For this I used a cheap 24Mhz logic analyzer ([AliExpress](https://s.click.aliexpress.com/e/_Adykc9)) and [PulseView](https://sigrok.org/wiki/PulseView).
 
 ![Logic Analyzer](/assets/images/nspanel/logicanalyzer.jpg)
 
@@ -109,8 +109,10 @@ Since It wasn’t apparent to me what the unknown bytes mean I posted a few stri
 
 I present the NSPanel protocol:
 
-```
-55 AA [type] [payload length] [00] [payload] [crc] [crc] CRC-16 (MODBUS) Big Endian
+```bash
+55 AA [type] [payload length] [00] [JSON payload] [crc] [crc] 
+
+CRC-16 (MODBUS) Big Endian
 ```
 
 ### Type
@@ -193,7 +195,7 @@ I tried a few Nextion commands from the Instruction Set with interesting finds.
 <figcaption class="figure-caption text-center">Wipe the background with `cls WHITE`</figcaption>
 
 ![Hidden Page](/assets/images/nspanel/hiddenpage.jpg)
-<figcaption class="figure-caption text-center">`page 5` was particularly interesting
+<figcaption class="figure-caption text-center">`page 5` flips to 4 outlets page
 </figcaption>
 
 Very powerful but while using Nextion mode, the NSPanel mode commands do not work. So its one or the other or some way to switch between the two fast. 
@@ -205,3 +207,7 @@ First I had to disable the ESP32 by grounding GPIO0, then keep the FSP RST pin h
 Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for a backer discount. Expected MSRP once the campaign is finished is 75$.
 
 All in all, a plethora of options and possible avenues with this device. Now to code all of that into a Tasmota driver...
+
+## Running Tasmota
+
+Visit the [Tasmota configuration page](https://templates.blakadder.com/sonoff_NSPanel.html) for instructions on flashing and running Tasmota on the NSPanel
