@@ -20,6 +20,10 @@ The NSPanel got here in a matter of days and I eagerly opened it up. Once I took
 
 Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for ~~50USD~~ 54$ as a backer discount. Expected MSRP once the campaign is finished is 75$.
 
+**Update:**    
+Kickstarter campaign is finished and funded.    
+Sonoff NSPanel is now available only through [Itead store](https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch/?utm_source=Youtube+Influencer&utm_medium=Sasa+Milicevic&utm_campaign=NSPanel+Review).
+
 ## Hardware
 The EU version of NSPanel is sized as a standard EU switch made to fit 60mm electrical boxes. The touchscreen plate with a striking metallic grey design is detachable from the power supply and relay part.
 
