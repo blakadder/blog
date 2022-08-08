@@ -37,8 +37,9 @@ No point in running a new device before checking out its internals. The main chi
 
 What is revealed is the Zigbee chip which is the, now standard, MG21. There's also an eMMC storage chip and an USB OTG port for some reason.
 
-
 ![OTG](/assets/images/nspanel_pro/otg.jpg)
+
+The device also has speakers, a microphone and an ambient light sensor.
 
 Time to fire this baby up!
 
@@ -118,6 +119,8 @@ For the far future, Matter support is expected in 2023 so that'll be interesting
 
 A re-review will be necessary to cover all the new upcoming features, so watch this space!
 
+I will maintain a [YouTube playlist](https://youtube.com/playlist?list=PLWw0rdtVN1J7SAYq5mLJRst8gUxyy69BO) of shorts showing NSPanel functions and features
+
 ## Remarks
 
 There's a bit of a disconnect between the eWeLink app and NSPanel Pro. For example you cannot set up the time zone or weather location in the app and neither does it automatically pick up those from the app settings.
@@ -125,6 +128,8 @@ There's a bit of a disconnect between the eWeLink app and NSPanel Pro. For examp
 Clock/timer options can only be set up on the NSPanel.
 
 You cannot yet effectively use any of the NSPanel Pro features from the eWeLink app. For example: it is not possible to set a scene in the app that will play any of the ringtones available in NSPanel.
+
+I find it weird that it is not possible to bring up a camera feed once an alarm or doorbell automation is triggered. 
 
 My sample's front panel mount is not the greatest and there's some rattling and movement when the panel is pushed. 
 
@@ -134,9 +139,13 @@ One of the bugs that plagued me in the beginning was that the NSPanel stopped sy
 
 ## Conclusion
 
-This is definitely not a new NSPanel, but a completely different device with totally different use cases. Naming this device "NSPanel Pro" set up some expectations that were not met at all. On the other hand, it does bring some new and exciting features to your smart home and promises more of them later in the year.
+This is definitely not a new NSPanel, but a completely different device with totally different use cases. Naming this device "NSPanel Pro" set up some expectations that were not met at all. On the other hand, it does bring some new and exciting features to your smart home and promises more of them later in the year. I'm looking forward to more than a few of them.
 
-For now, it isn't even that well integrated even into the eWeLink ecosystem. 
+Its use is somewhat limited but it is a good ZigBee gateway if you're just planning to enter that space. 
+
+I know a lot of people always wanted the camera feed display feature on the old NSPanel.
+
+For now, it isn't even well integrated into the eWeLink ecosystem. There's lot of room for improvement but most of the improvements will be on the software side. Hardware is capable enough for what the NSPanel Pro strives to be and that's a smart home control panel.
 
 If you're interested in the device, like being an early adopter and have faith that all the promised future features will be delivered on, you can grab one in the flash sale on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/) and get Sonoff NSPanel Pro for the flash sale price 69.99$.
 
