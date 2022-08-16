@@ -14,7 +14,7 @@ _**Full disclosure:** This is a pre production unit sent to me free of charge by
 
 Another summer, another NSPanel from Sonoff. I, once again, gladly accepted to review an early production sample of the new NSPanel, now with the added Pro moniker. 
 
-Sonoff NSPanel is available from the [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/). In the current flash sale it is only 69.99$. The final price will be 119.90$. 
+Sonoff NSPanel is available from the [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/). In the current <s>flash sale it is only 69.99$</s> early bird sale it is only 79.99$. The final price will be 119.90$. 
 
 ![Packaging](/assets/images/nspanel_pro/packaging.jpg)
 
@@ -147,7 +147,7 @@ I know a lot of people always wanted the camera feed display feature on the old 
 
 For now, it isn't even well integrated into the eWeLink ecosystem. There's lot of room for improvement but most of the improvements will be on the software side. Hardware is capable enough for what the NSPanel Pro strives to be and that's a smart home control panel.
 
-If you're interested in the device, like being an early adopter and have faith that all the promised future features will be delivered on, you can grab one in the flash sale on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/) and get Sonoff NSPanel Pro for the flash sale price 69.99$.
+If you're interested in the device, like being an early adopter and have faith that all the promised future features will be delivered on, you can grab one in the flash sale on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/) and get Sonoff NSPanel Pro for the <s>flash sale price of 69.99$</s> early bird sale price of 79.99$.
 
 If you want hackability, open APIs, good integration in various ecosystems, stay away for now. 
 
