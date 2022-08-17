@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Damage free disassembly of an EU Smart Plug"
+title: "Damage free disassembly of an BSD33 EU Smart Plug"
 author: blak
 categories: [ how to, diy ]
 tags: [ ]
@@ -8,14 +8,15 @@ image: assets/images/header_CN39.jpg
 toc: false
 ---
  
-How to open a CN39 type case for EU smart plugs without damaging it.
+How to open a CN39 type case for BSD33 EU smart plugs without damaging it.
 
-This has become a commonly used case mould for EU and FR smart plugs and can be found under various brand names and model numbers. In these days of locked Tuya firmware the only option to flash them is by gaining serial access to the Wi-Fi module and to do that you need to open it. What is nice about this model is that it made out of two parts which aren't heavily glued or fused together.
+This has become a commonly used case mould for EU and FR smart plugs and can be found under various brand names and model numbers (such as: BSD33). In these days of locked Tuya firmware the only option to flash them is by gaining serial access to the Wi-Fi module and to do that you need to open it. What is nice about this model is that it made out of two parts which aren't heavily glued or fused together.
+
+![](/assets/images/cn39/shell.png)
 
 The example was done on an [Athom plug](https://templates.blakadder.com/athom_PG01EU16A.html).
 
 ## Disassembly
-
 
 Grab some adjustable pliers and wrap them with duct tape or electrical tape to avoid damaging the plug surface. 
 
