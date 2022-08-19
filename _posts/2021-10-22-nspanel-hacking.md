@@ -10,7 +10,7 @@ toc: true
 
 Chronicling the journeys of decoding the NSPanel communication protocol and establishing control of the Nextion screen with custom firmware.
 
-Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for a backer discount. Expected MSRP once the campaign is finished is 75$.
+Sonoff NSPanel is available through [Itead store](https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch/?utm_source=Youtube+Influencer&utm_medium=Sasa+Milicevic&utm_campaign=NSPanel+Review).
 
 After finishing the [review](/sonoff-nspanel/) and the [hardware teardown](/nspanel-teardown/) I had a general idea of how the NSPanel works and it was time to flash custom firmware on it. But wait, not so fast! Since we’re dealing with a very new, still unreleased, device you need to take some steps before even thinking about custom firmware.
 
@@ -204,7 +204,8 @@ The screen supports the entire Nextion set and its possible to draw all the imag
 
 First I had to disable the ESP32 by grounding GPIO0, then keep the FSP RST pin high by connecting it to 3.3V. Connected my CH340G serial to USB adapter to TX and RX and ran the script. Entire output is available in the [GitHub](https://github.com/blakadder/nspanel).
 
-Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for a backer discount. Expected MSRP once the campaign is finished is 75$.
+Sonoff NSPanel is available through [Itead store](https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch/?utm_source=Youtube+Influencer&utm_medium=Sasa+Milicevic&utm_campaign=NSPanel+Review).
+
 
 All in all, a plethora of options and possible avenues with this device. Now to code all of that into a Tasmota driver...
 

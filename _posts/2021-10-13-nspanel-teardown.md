@@ -12,7 +12,7 @@ Sonoff NSPanel teardown and detailed overview.
 
 _**Full disclosure:** This is a pre production unit sent to me free of charge by [Sonoff](https://www.anrdoezrs.net/links/100155210/type/dlg/https://www.itead.cc/). Some aspects of it might be changed once it reaches production. Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
-Sonoff NSPanel is available through [Kickstarter](https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n) for a backer discount. Expected MSRP once the campaign is finished is 75$.
+Sonoff NSPanel is available through [Itead store](https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch/?utm_source=Youtube+Influencer&utm_medium=Sasa+Milicevic&utm_campaign=NSPanel+Review).
 
 Time to dig in deeper into the new NSPanel and see what possibilities it hides inside.
 
