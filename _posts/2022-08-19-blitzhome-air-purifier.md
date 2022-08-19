@@ -36,6 +36,8 @@ Main control panel is situated on the top with its overly glossy, very prone to 
 
 It comes with a Type F plug and is intended only for 220/240V power. After plugging it in a LED strip in the bottom lights up. It glows green when the air quality is excellent, yellow when its good and red when the PM 2.5 levels go into unhealthy ranges.
 
+![The light show](/assets/images/bh-ap1/led.jpg)
+
 The purifier knows the air quality with the built in PM 2.5 sensor, located in the back, behind the vent left of the product label.
 
 ![PM 2.5 sensor location](/assets/images/bh-ap1/sensor.jpg)
