@@ -56,7 +56,7 @@ Filter life is displayed in percentages and is calculated from the estimated 200
 
 Since the description says it supports Tuya and Smart Life, I paired it to those apps as well. This time, during the pairing process both of the apps gave a friendly, visual reminder on how fast the WiFi icon needs to blink. I still had to manually search of the device in the list to add it, scanning for it yielded nothing.
 
-The UI and options in Tuya and Smart Life are almost identical to BlitzHome. The only minor difference was that the Smart Life app didn't display outside PM readings. 
+The UI and options in Tuya and Smart Life are identical to BlitzHome.
 
 There is another, potentially important, issue with the PM sensor: it doesn't work when the Air Purifier is turned off which is a shame because it's an important feature to automatically turn on when the air becomes too polluted.
 
