@@ -138,7 +138,7 @@ name: "BlitzHome Air Purifier"
 icon: "hass:air-purifier"
 state_topic: "bh-ap1/powerstate"   
 state_value_template: "{{ value | int }}"     
-command_topic: "cmnd/bh-ap1/tuyasend1"  # since there's no POWER toggle we use TuyaSend1 directly to control the power state
+command_topic: "cmnd/bh-ap1/tuyasend1"
 command_template: "1,{{ value }}"
 payload_on: 1
 payload_off: 0
@@ -165,7 +165,7 @@ device:
 Let's touch on some choices made here:
 
 ```yaml{% raw %}
-command_topic: "cmnd/bh-ap1/tuyasend1"  # 
+command_topic: "cmnd/bh-ap1/tuyasend1"
 command_template: "1,{{ value }}"
 payload_on: 1
 payload_off: 0{% endraw %}
@@ -182,6 +182,18 @@ percentage_command_template: "{% if value == 0 %}tuyasend 1,0{% else %}tuyasend4
 The speed command topic is [`Backlog0`](https://tasmota.gihub.io/docs/Commands#backlog0) because we need to use different `TuyaSend` commands depending on the situation.
 
 When speed is set to 0 in HA purifier needs to be turned of using the same command as explained above. When speed is set to 1 or 2 in HA we use `TuyaSend4` to dpId 4, but, since the values in Tasmota are 0 and 1, we subtract 1 from the HA value, therefore setting speed to 1 in HA will send `cmnd/bh-ap1/backlog0 TuyaSend4 4,0` to Tasmota.
+
+```
+preset_modes:
+  - "Sleep"
+  - "Auto"
+  - "Manual"
+preset_mode_command_topic: "cmnd/bh-ap1/event"
+```
+
+Remember those rules involving events? This is why they exist. Because of those rules when you change mode in Home Assistant, the mode text is sent as an `Event` commands to Tasmota triggering one of the three rules and changing to the selected mode.
+
+If we didn't create the rules we'd have to make a preset mode command template like `preset_mode_value_template:`.
 
 ### Button Entity
 
