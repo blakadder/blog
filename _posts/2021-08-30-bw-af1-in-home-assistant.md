@@ -22,13 +22,6 @@ Backlog DeviceName BW-AF1; FriendlyName1 Activate Fryer; FriendlyName2 Start/Pau
 
 The temperature is set to display in °C on the air fryer.
 
-## Add Device to Home Assistant
-Make sure the Tasmota device is discovered in Home Assistant under Tasmota integration. If everything is configured correctly, Home Assistant's **Configuration - Devices** list should have a device "BW-AF1" and will show the following entities.
-
-![Device Card](/assets/images/airfryer/device_card_before.jpg)
-
-If you want to customize any of the entities click their name!
-
 ## Tasmota Rule
 Create a rule set that will dispatch received data from the Tuya MCU to separate topics. Some rules use variables or events to receive data from Home Assistant entities and forward them to the Tuya MCU.
 
@@ -50,11 +43,18 @@ on event#fish do tuyasend4 109,7 endon
 on power2#state do tuyasend0 endon
 ```
 
-## Autodiscover Entities Rule
+## Add Device to Home Assistant
+Make sure the Tasmota device is discovered in Home Assistant under Tasmota integration. If everything is configured correctly, Home Assistant's **Configuration - Devices** list should have a device "BW-AF1" and will show the following entities.
+
+[![Device Card](/assets/images/airfryer/device_card_before.jpg)](/assets/images/airfryer/device_card_before.jpg)
+
+If you want to customize any of the entities click their name!
+
+## Autodiscover Entities Blueprint
 
 Next, import a blueprint for an automation that will generate and publish all necessary MQTT discovery messages so all the sensors will be in the device card for the air fryer.
 
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-blitzwolf-af1.yaml" title="Import BlitzWolf AF1 Discovery "><img loading="lazy" src="/assets/blueprint_import.svg"></a>
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-blitzwolf-af1.yaml" title="Import BlitzWolf AF1 Discovery Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a>
 
 Automation will run on every Home Assistant restart or when BlitzWolf AF1 reports to the MQTT broker it's online.
 
