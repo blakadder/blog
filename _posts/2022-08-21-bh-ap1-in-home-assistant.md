@@ -181,7 +181,7 @@ percentage_command_template: "{% if value == 0 %}tuyasend 1,0{% else %}tuyasend4
 
 The speed command topic is [`Backlog0`](https://tasmota.gihub.io/docs/Commands#backlog0) because we need to use different `TuyaSend` commands depending on the situation.
 
-When speed is set to 0 in HA purifier needs to be turned of using the same command as explained above. When speed is set to 1 or 2 in HA we use `TuyaSend4` to dpId 4, but, since the values in Tasmota are 0 and 1, we subtract 1 from the HA value, therefore setting speed to 1 in HA will send `cmnd/bh-ap1/backlog0 TuyaSend4 4,0` to Tasmota.
+When speed is set to 0 in Home Assistant purifier needs to be turned off using the same command as explained above. When speed is set to 1 or 2 in HA we use `TuyaSend4` to dpId 4, but, since the values in Tasmota are 0 and 1, we subtract 1 from the HA value, therefore setting speed to 1 in HA will send `cmnd/bh-ap1/backlog0 TuyaSend4 4,0` to Tasmota.
 
 ```
 preset_modes:
@@ -211,7 +211,7 @@ device:
   cns: [[mac,'4C0AA6B42506']]{% endraw %}
 ```
 
-Configuration for an MQTT button entity is extremely simple. On a PRESS action in HA, a `TuyaSend1 11,1` command is send to Tasmota. Since this button be used rarely, `entity_category: config` is used so the entity doesn't mix with the control entities that will be used more often.
+Configuration for an MQTT button entity is extremely simple. On a PRESS action in Home Assistant, a `TuyaSend1 11,1` command is send to Tasmota. Since this button be used rarely, `entity_category: config` is used so the entity doesn't mix with the control entities that will be used more often.
 
 ### Air Quality Text Sensor Entity
 
