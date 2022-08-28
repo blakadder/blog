@@ -18,10 +18,12 @@ This guide assumes you've installed Tasmota on the [BlitzHome AP1](https://templ
 Apply this template:
 
 ```json
-{"NAME":"BH-AP1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,0 | TuyaMCU 99,1 | Rule0 1 | Module 0"}
+{"NAME":"BH-AP1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,0 | TuyaMCU 99,1 | Module 0"}
 ```
 
-Make sure this template is applied on a fresh Tasmota install. After a restart the webUI should not be showing any sensors or toggles.
+This will set the fnId's and enable all rules.
+
+Make sure this template is applied on a fresh Tasmota install. After a restart the webUI should not be showing any sensors or toggles. 
 
 Set the device name and topic to whatever you prefer, in my case I used:
 
@@ -33,7 +35,7 @@ Topic bh-ap1
 Create a rule set that will forward received data from the Tuya MCU to their respective topics. Why those rules are used is explained at the end of the article.
 
 ```console
-rule3 
+backlog rule3 
 on tuyareceived#dptype1id1 do publish2 %topic%/powerstate %value% endon
 on tuyareceived#dptype4id3 do publish %topic%/mode %value% endon
 on tuyareceived#dptype2id2 do publish %topic%/pm25 %value% endon
@@ -46,9 +48,10 @@ on event#manual do tuyasend4 3,2 endon
 on tuyareceived#dptype4id4 do backlog var1 %value%; add1 1; event sendfanspeed endon
 on tuyareceived#dptype1id1=0 do publish %topic%/fanspeed 0 endon
 on event#sendfanspeed do publish %topic%/fanspeed %var1% endon
+; rule3 1
 ```
 
-If you change the topic structure in the rules, the blueprint won't work correctly.
+If you change the topic structure in the rules, the blueprint won't work correctly without adjusting the topic structure in blueprint's yaml.
 
 ## Add Device to Home Assistant
 
@@ -88,7 +91,7 @@ I'll use this space to explain a few things done in this project if you want to 
 
 ### Rules
 
-These rules just grab TuyaMCU values and send them to the topics to be used by Home Assistant.
+These rules just grab TuyaMCU values and send them to the topics used by Home Assistant.
 
 ```console
   on tuyareceived#dptype1id1 do publish2 %topic%/powerstate %value% endon
@@ -183,7 +186,7 @@ The speed command topic is [`Backlog0`](https://tasmota.gihub.io/docs/Commands#b
 
 When speed is set to 0 in Home Assistant purifier needs to be turned off using the same command as explained above. When speed is set to 1 or 2 in HA we use `TuyaSend4` to dpId 4, but, since the values in Tasmota are 0 and 1, we subtract 1 from the HA value, therefore setting speed to 1 in HA will send `cmnd/bh-ap1/backlog0 TuyaSend4 4,0` to Tasmota.
 
-```
+```yaml
 preset_modes:
   - "Sleep"
   - "Auto"
