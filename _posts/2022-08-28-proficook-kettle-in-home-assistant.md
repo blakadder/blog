@@ -177,7 +177,7 @@ Command topic here is `Backlog0` because we might need to send more than one Tuy
 
 Using the same principle as above but in reverse you map the text values to numeric values this time. Those values are used to build a payload `{% raw %}101,{{ val[value] }}{% endraw %}` which is then sent to Tasmota using `TuyaSend4` command.
 
-So what's with all the other exotic things in here? Well, when the kettle is running in on of the modes, to switch another working mode you first need to go to "Standby" and this solves that.
+So what's with all the other exotic things in here? Well, when the kettle is running in a mode, to switch to another working mode, you need to go to "Standby" first and this fixes it.
 
 ```python
 states(expand(device_entities(device_id)) | selectattr('entity_id', 'search', '_kettlestatus') | map(attribute='entity_id') | list | join( ',' ))
