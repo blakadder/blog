@@ -43,6 +43,8 @@ It also shows durations of presence and absence "creatively" named "Existence ti
 
 Thankfully there's also an option to disable the LED because it's really eerie to have a red LED watching you like HAL-9000 while you're sitting in the living room.
 
+[![HAL 9000](/assets/images/tuya_presence/hal9000.jpg)](/assets/images/tuya_presence/hal9000.jpg)
+
 ## How it works?
 
 This presence sensor uses a 24Ghz millimeter wave radar or mmWave. Unlike traditional PIR motion sensors, it is supposed to detect presence even if there is not a lot of movement meaning it should work while you're sitting or even lying down.
