@@ -73,7 +73,7 @@ No issues with Google or Alexa, they both discovered a new motion sensor from Sm
 
 [![Empty case](/assets/images/tuya_presence/empty_case.jpg)](/assets/images/tuya_presence/empty_case.jpg)
 
-That's a lot of empty real estate, both in the case and on the PCB. There are no model marking on the PCB either except the V1.0.1 marking.
+That's a lot of empty real estate, both in the case and on the PCB. There is no model marking on the PCB either except the V1.0.1 marking.
 
 [![PCB](/assets/images/tuya_presence/pcb.jpg)](/assets/images/tuya_presence/pcb.jpg)
 
