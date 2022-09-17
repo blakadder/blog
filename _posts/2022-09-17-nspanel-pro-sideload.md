@@ -4,7 +4,7 @@ title: "Home Assistant Dashboard on Sonoff NSPanel Pro"
 author: blak
 categories: [ how-to, home assistant ]
 tags: [ ]
-image: assets/images/header_nspanel_pro.jpg
+image: assets/images/header_nspanelpro-sideload.jpg
 toc: true
 ---
 
