@@ -148,6 +148,6 @@ Tapping the Assistant icon brings up a full screen view of the dashboard.
 
 This solution isn't perfect but its what I've managed for now. The best option would be to contact Itead en masse and demand support for HA Companion app and Fully Kiosk Browser out of the box. They get more sales, we get more options, its a win-win scenario and now we know it is possible. At the very least, demand an updated WebView to a compatible version. Tweet them at https://twitter.com/ITeadstudio, write them at support@itead.cc or through their [contact form](https://itead.cc/contact/) and tell them Blakadder sent you!
 
-Digging into the adb shell revealed some interesting things like mosquitto, a bash script to interface with the Zigbee module, traces of RS485, Relay 1 and Relay 2 and probably more. I hope more Android savvy developers will hop on the train and really unlock the device.
+Digging into the adb shell revealed some interesting things like mosquitto, a bash script to interface with the Zigbee module, traces of RS485, Relay 1 and Relay 2 and probably more. I hope more Android savvy developers will hop on the train and really unlock the device. I do have a sneaking suspicion Android is based on [this](https://wiki.t-firefly.com/en/Core-PX30-JD4/Android_development.html).
 
 You can still grab an NSPanel Pro for a presale discount on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/).
