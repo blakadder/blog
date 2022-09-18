@@ -16,7 +16,7 @@ All the listed modules have a similar footprint and same pinout for pins labelle
 
 For this you will need the following:
 
-* soldering heat gun aka rework station - I use the JCD from [AliExpress*](https://s.click.aliexpress.com/e/_DneMSyr) 
+* soldering heat gun aka rework station - I use the JCD from [AliExpress*](https://s.click.aliexpress.com/e/_DneMSyr). You can try [without one](https://youtu.be/CVsmwFAkf7I?t=254) but it's harder than it looks in the video.
 * a soldering iron - a basic one is sufficient for small projects like this, you can get a combo with the heat gun or a simple one such as Mustool MT883 from [Banggood](https://www.banggood.com/custlink/Dv3YBFghm0)*
 * good solder and flux - don't get the super cheap stuff and definitely don't use unleaded solder. I typically get Mechanic brand from [AliExpress](https://s.click.aliexpress.com/e/_DDoZ8Ej)* and also their [RMA223 flux](https://s.click.aliexpress.com/e/_DFchJSr)*.
 * desoldering braid - not a must have but helps in cleaning up old solder. Mechanic brand from [AliExpress](https://s.click.aliexpress.com/e/_DEdSR9d)* of course.
