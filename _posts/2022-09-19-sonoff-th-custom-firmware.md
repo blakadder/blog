@@ -16,7 +16,7 @@ I've reviewed Sonoff's sensor in [Battle of the Zigbees](https://blakadder.com/b
 
 This firmware supercharges the mediocre SNZB-02 wit new features. First and best improvement is a customisable report interval. You get thresholds for too high or too low temperature and humidity alerts and offsets to calibrate the readings.
 
-[smartboxchannel project GitHub](https://github.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor) has instructions for flashing using a TI CCDebugger ([Amazon](https://amzn.to/3Set85g)* or [AliExpress](https://s.click.aliexpress.com/e/_Dd2xMmx)) but there's a cheaper solution with a NodeMCU or D1 mini and a little program called CCLoader.
+[smartboxchannel project GitHub](https://github.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor) has instructions for flashing using a TI CCDebugger ([Amazon](https://amzn.to/3Set85g)* or [AliExpress](https://s.click.aliexpress.com/e/_Dd2xMmx)*) but there's a cheaper solution with a NodeMCU or D1 mini and a little program called CCLoader.
 
 ## What You'll Need
 
