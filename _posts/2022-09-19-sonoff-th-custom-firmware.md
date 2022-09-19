@@ -30,9 +30,8 @@ This firmware supercharges the mediocre SNZB-02 wit new features. First and best
 
 Lift the back plate, remove the battery then pull out the plastic battery holder to extract the PCB.
 
-These are the pins you need to flash the firmware.
-
 [![Pinout](/assets/images/sonoff-th-custom-firmware/pinout.jpg)](/assets/images/sonoff-th-custom-firmware/pinout.jpg)
+<figcaption class="figure-caption text-center">These are the pins you need to flash the firmware.</figcaption>
 
 Put some solder on those pins and solder in the wires. When soldering take extra precaution to avoid solder bridging and shorts between wires. It doesn't have to be pretty, you'll remove the wires after it's all done.
 
@@ -62,7 +61,7 @@ Using the pinout image connect the ESP8266 pins to Sonoff sensor pins according 
 
 ## Prepare Custom Firmware
 
-Download custom EFEKTA firmware from [GitHub](https://raw.githubusercontent.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor/main/PROJECT%20SOURCE/TH_SONOFF/firmwares/SONOFF.hex). If the file opens as text, right click, "Save as..." and save as sonoff.hex or right click on the [GitHub](https://raw.githubusercontent.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor/main/PROJECT%20SOURCE/TH_SONOFF/firmwares/SONOFF.hex) and "Save as...".
+Download custom EFEKTA firmware from [GitHub](https://raw.githubusercontent.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor/main/PROJECT%20SOURCE/TH_SONOFF/firmwares/SONOFF.hex). If the file opens as text, right click, _Save as..._ and save as `sonoff.hex`.
 
 ### Windows
 
@@ -77,6 +76,7 @@ objcopy.exe --gap-fill 0xFF --pad-to 0x040000 -I ihex sonoff.hex -O binary sonof
 Move the converted .bin to your CCLoader folder.
 
 ### Linux
+
 Install the `binutils` package using your package manager (Debian based: `sudo apt install binutils`)
 
 Copy the firmware .hex file to the same folder and convert it to .bin with:
@@ -98,7 +98,9 @@ Command to start the flashing process. Change COM# to the COM port number only t
 ```shell
 CCLoader_x86_64.exe [COM#] sonoff.bin 0
 ```
-_Example:_ sonoff.bin with NodeMCU on COM6
+
+_Example:_ with NodeMCU on COM6
+
 ```
 CCLoader_x86_64.exe 6 sonoff.bin 0
 ```
@@ -117,10 +119,13 @@ First you have to compile `CCLoader`:
 Place the prepared .bin in the same folder as the compiled CCLoader executable.
 
 Command to start the flashing process
+
 ```
 ./CCLoader [port path] sonoff.bin 0
 ```
-_Example:_ sonoff.bin with NodeMCU on `/dev/ttyACM0`
+
+_Example:_ with NodeMCU on `/dev/ttyACM0`
+
 ```
 ./CCLoader /dev/ttyACM0 sonoff.bin 0
 ```
@@ -140,8 +145,8 @@ If flashing fails or gets stuck at `Request sent already! Waiting for respond...
 * replug NodeMCU and try again
 * double check your wiring
 
-Complete successful flash on Windows:
-[![Successful flash](/assets/images/sonoff-th-custom-firmware/success.jpg)](/assets/images/sonoff-th-custom-firmware/success.jpg)
+[![Successful flash](/assets/images/sonoff-th-custom-firmware/ccloader.jpg)](/assets/images/sonoff-th-custom-firmware/ccloader.jpg)
+<figcaption class="figure-caption text-center">Successful flash on Windows</figcaption>
 
 ## Pairing
 
@@ -171,6 +176,6 @@ More settings can be found in Zigbee2MQTT frontend where you can set offsets for
 
 ### ZHA
 
-The Opening entity is out of place and it definitely needs a quirk to add all the new features.
+The "Opening" entity is out of place and it definitely needs a quirk to add all the new features.
 
 [![Lots of new features](/assets/images/sonoff-th-custom-firmware/ha_zha.jpg)](/assets/images/sonoff-th-custom-firmware/ha_zha.jpg)
