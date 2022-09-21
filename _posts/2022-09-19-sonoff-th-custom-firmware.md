@@ -22,7 +22,7 @@ This firmware supercharges the mediocre SNZB-02 wit new features. First and best
 
 * [Sonoff temperature and humidity sensor SNZB-02](https://zigbee.blakadder.com/Sonoff_SNZB-02.html) - can't do much without one 
 * an ESP8266 development board - a NodeMCU is best ([Amazon](https://amzn.to/3BsJVur)*, [AliExpress](https://s.click.aliexpress.com/e/_DeWyIib)) but a D1 mini or any other board with a USB port will do the job
-* a soldering iron - a basic one is sufficient for small projects like this such as Mustool MT883 from [Banggood](https://www.banggood.com/custlink/Dv3YBFghm0)* or a more portable Sequre SQ-D60 on [AliExpress](https://s.click.aliexpress.com/e/_DEmCofH)
+* a soldering iron - a basic one is sufficient for small projects like this such as Mustool MT883 ([Banggood](https://www.banggood.com/custlink/Dv3YBFghm0)*, [AliExpress](https://s.click.aliexpress.com/e/_DkSK3ar)*) or a more portable Sequre SQ-D60 on [AliExpress](https://s.click.aliexpress.com/e/_DEmCofH)
 * Dupont or jumper wires - to connect the sensor with the ESP8266 board ([AliExpress](https://s.click.aliexpress.com/e/_DEYGCZD)* or [Amazon](https://amzn.to/3RYkI1Y)*)
 * good solder and flux - don't get the super cheap stuff and definitely don't use unleaded solder. I typically get Mechanic brand from [AliExpress](https://s.click.aliexpress.com/e/_DDoZ8Ej)* and also their [RMA223 flux](https://s.click.aliexpress.com/e/_DFchJSr)*.
 
