@@ -14,7 +14,9 @@ _Links in this article marked with a * are affiliate links. By purchasing throug
 
 I've reviewed Sonoff's sensor in [Battle of the Zigbees](https://blakadder.com/battle-of-the-zigbees/#round-1-temperature-and-humidity) and I wasn't impressed despite the low price. Neither was [smartboxchannel of EfektaLab](https://github.com/smartboxchannel), a developer of DIY Zigbee devices, who made custom firmware for it. 
 
-This firmware supercharges the mediocre SNZB-02 wit new features. First and best improvement is a customisable report interval. You <s>get thresholds for too high or too low temperature and humidity alerts</s> can make your [own thermostat](#features) by binding to another Zigbee device. Finally you can set offsets to calibrate the readings.
+This firmware supercharges the mediocre SNZB-02 wit new features. First and best improvement is a customisable report interval, default being 5 minutes and available range  from 1 minute to 1 hour. 
+
+You <s>get thresholds for too high or too low temperature and humidity alerts</s> can make your [own thermostat](#features) by binding to another Zigbee device. Finally you can set offsets to calibrate the readings.
 
 [smartboxchannel project GitHub](https://github.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor) has instructions for flashing using a TI CCDebugger ([Amazon](https://amzn.to/3Set85g)* or [AliExpress](https://s.click.aliexpress.com/e/_Dd2xMmx)*) but there's a cheaper solution with a NodeMCU or D1 mini and a little program called CCLoader.
 
@@ -145,7 +147,7 @@ If flashing fails or gets stuck at `Request sent already! Waiting for respond...
 * replug NodeMCU and try again
 * double check your wiring
 
-[![Successful flash](/assets/images/sonoff-th-custom-firmware/ccloader.jpg)](/assets/images/sonoff-th-custom-firmware/ccloader.jpg)
+[![Successful flash](/assets/images/sonoff-th-custom-firmware/ccloader.png)](/assets/images/sonoff-th-custom-firmware/ccloader.png)
 <figcaption class="figure-caption text-center">Successful flash on Windows</figcaption>
 
 ## Pairing
@@ -169,7 +171,6 @@ And since everything is now working on the correct clusters, now this sensor can
 [![Bind to relay](/assets/images/sonoff-th-custom-firmware/link2.jpg)](/assets/images/sonoff-th-custom-firmware/link2.jpg)
 <figcaption class="figure-caption text-center">Bind to relay</figcaption>
 [![Original firmware](/assets/images/sonoff-th-custom-firmware/link3.jpg)](/assets/images/sonoff-th-custom-firmware/link3.jpg)
-<figcaption class="figure-caption text-center">Bind to relay</figcaption>
 
 [![Display temperature on another sensor](/assets/images/sonoff-th-custom-firmware/link4.jpg)](/assets/images/sonoff-th-custom-firmware/link4.jpg)
 <figcaption class="figure-caption text-center">For example, I link such a sensor to my CO2 sensor with an IPS screen and display the data that the sensor sends to the screen.
