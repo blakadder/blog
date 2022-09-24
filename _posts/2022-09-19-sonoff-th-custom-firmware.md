@@ -166,16 +166,6 @@ In my firmware, the sensor, in fact, turns into a thermostat and a hydrostat. I 
 
 And since everything is now working on the correct clusters, now this sensor can be tied to other devices using temperature and humidity clusters.
 
-[![Configure high and low thresholds](/assets/images/sonoff-th-custom-firmware/link1.jpg)](/assets/images/sonoff-th-custom-firmware/link1.jpg)
-<figcaption class="figure-caption text-center">Configure high and low thresholds</figcaption>
-[![Bind to relay](/assets/images/sonoff-th-custom-firmware/link2.jpg)](/assets/images/sonoff-th-custom-firmware/link2.jpg)
-<figcaption class="figure-caption text-center">Bind to relay</figcaption>
-[![Original firmware](/assets/images/sonoff-th-custom-firmware/link3.jpg)](/assets/images/sonoff-th-custom-firmware/link3.jpg)
-
-[![Display temperature on another sensor](/assets/images/sonoff-th-custom-firmware/link4.jpg)](/assets/images/sonoff-th-custom-firmware/link4.jpg)
-<figcaption class="figure-caption text-center">For example, I link such a sensor to my CO2 sensor with an IPS screen and display the data that the sensor sends to the screen.
-</figcaption>
-
 Link to [author's guide](https://hackaday.io/project/187193-sonoff-snzb-02-diy/details).
 
 That is very impressive!
