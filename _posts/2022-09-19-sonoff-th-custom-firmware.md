@@ -14,7 +14,9 @@ _Links in this article marked with a * are affiliate links. By purchasing throug
 
 I've reviewed Sonoff's sensor in [Battle of the Zigbees](https://blakadder.com/battle-of-the-zigbees/#round-1-temperature-and-humidity) and I wasn't impressed despite the low price. Neither was [smartboxchannel of EfektaLab](https://github.com/smartboxchannel), a developer of DIY Zigbee devices, who made custom firmware for it. 
 
-This firmware supercharges the mediocre SNZB-02 wit new features. First and best improvement is a customisable report interval. You get thresholds for too high or too low temperature and humidity alerts and offsets to calibrate the readings.
+This firmware supercharges the mediocre SNZB-02 wit new features. First and best improvement is a customisable report interval, default being 5 minutes and available range  from 1 minute to 1 hour. 
+
+You <s>get thresholds for too high or too low temperature and humidity alerts</s> can make your [own thermostat](#features) by binding to another Zigbee device. Finally you can set offsets to calibrate the readings.
 
 [smartboxchannel project GitHub](https://github.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor) has instructions for flashing using a TI CCDebugger ([Amazon](https://amzn.to/3Set85g)* or [AliExpress](https://s.click.aliexpress.com/e/_Dd2xMmx)*) but there's a cheaper solution with a NodeMCU or D1 mini and a little program called CCLoader.
 
@@ -145,7 +147,7 @@ If flashing fails or gets stuck at `Request sent already! Waiting for respond...
 * replug NodeMCU and try again
 * double check your wiring
 
-[![Successful flash](/assets/images/sonoff-th-custom-firmware/ccloader.jpg)](/assets/images/sonoff-th-custom-firmware/ccloader.jpg)
+[![Successful flash](/assets/images/sonoff-th-custom-firmware/ccloader.png)](/assets/images/sonoff-th-custom-firmware/ccloader.png)
 <figcaption class="figure-caption text-center">Successful flash on Windows</figcaption>
 
 ## Pairing
@@ -157,6 +159,16 @@ Holding the reset button for 10 seconds will reset device to custom firmware def
 ## Features
 
 It successfully paired with Zigbee2MQTT and ZHA but ZHA didn't have all the features available in the device card.
+
+*2022-09-23 addendum by the firmware author*
+
+In my firmware, the sensor, in fact, turns into a thermostat and a hydrostat. I will describe how it works. After adding the sensor to the Zigbee network, it can be linked, for example, to a relay. After connecting to the relay on the settings page, you need to set the temperature and / or humidity thresholds and activate the control. The sensor will then send on and off commands directly to the appropriate relay. Since almost all relays are routers, in fact, this tandem can work even if the network is lost, even if you turn off the network coordinator or your HA goes down.
+
+And since everything is now working on the correct clusters, now this sensor can be tied to other devices using temperature and humidity clusters.
+
+Link to [author's guide](https://hackaday.io/project/187193-sonoff-snzb-02-diy/details).
+
+That is very impressive!
 
 ### Original Firmware
 
