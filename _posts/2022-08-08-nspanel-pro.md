@@ -120,6 +120,8 @@ For the far future, Matter support is expected in 2023 so that'll be interesting
 
 A re-review will be necessary to cover all the new upcoming features, so watch this space!
 
+Edit 2022-09-26: Keep an eye on Sonoff's list of [NSPanel Pro supported products](https://sonoff.tech/product-review/nspanel-supported-devices-list/)
+
 I will maintain a [YouTube playlist](https://youtube.com/playlist?list=PLWw0rdtVN1J7SAYq5mLJRst8gUxyy69BO) of shorts showing NSPanel functions and features
 
 ## Remarks
