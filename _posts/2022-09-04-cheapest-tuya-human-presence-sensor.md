@@ -95,7 +95,7 @@ Left side holds the power supply and the [STC8G1K17 MCU](http://www.stcmicro.com
 
 ## Is it worth it?
 
-First of all, it's too damn big for no reason. The mmWave radar used has sensitivity options than Tuya doesn't give access to.
+First of all, it's too damn big for no reason. The mmWave radar used has sensitivity options than Tuya doesn't give access to. Check out the video from [Andreas Spiess](https://youtu.be/dAzHXpP3FcI) to see all the possibilities.
 
 The polling delay of 3 seconds between events is the final nail in the coffin.
 
