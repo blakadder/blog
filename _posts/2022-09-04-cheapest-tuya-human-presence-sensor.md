@@ -11,7 +11,7 @@ You get what you pay for but sometimes not even that.
 
 _Links in this article marked with a * are affiliate links. By purchasing through them I get a small commission that funds future projects!_
 
-Since the release of Aqara FP1 and its immediate shortage online various mmWave human presence sensors have started appearing in [AliExpress](https://best.aliexpress.com/?lan=en&aff_fcid=9872e151f8664fad9910fe05d1ed73e4-1662142118003-01336-_DC4TnYr&tt=CPS_NORMAL&aff_fsk=_DC4TnYr&aff_platform=portals-tool&sk=_DC4TnYr&aff_trace_key=9872e151f8664fad9910fe05d1ed73e4-1662142118003-01336-_DC4TnYr&terminal_id=3f8c776975fd455ba956809c02d71a91)* listings, mostly of them working with Tuya Smart. I've decided to buy the cheapest one...
+Since the release of Aqara FP1 and its immediate shortage online various mmWave human presence sensors have started appearing in [AliExpress](https://best.aliexpress.com/?lan=en&aff_fcid=9872e151f8664fad9910fe05d1ed73e4-1662142118003-01336-_DC4TnYr&tt=CPS_NORMAL&aff_fsk=_DC4TnYr&aff_platform=portals-tool&sk=_DC4TnYr&aff_trace_key=9872e151f8664fad9910fe05d1ed73e4-1662142118003-01336-_DC4TnYr&terminal_id=3f8c776975fd455ba956809c02d71a91)* listings, most of them working with Tuya Smart. I've decided to buy the cheapest one...
 
 It arrived well packed in a larger box than I expected. The device is officially named (read: auto translated from Chinese) as "Intelligent Human Presence Sensor" and that's about it. No model number, no manufacturer, no discerning markings whatsoever.
 
