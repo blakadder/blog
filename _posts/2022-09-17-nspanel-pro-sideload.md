@@ -16,6 +16,8 @@ You can still grab an NSPanel Pro for a presale discount on [Itead store](https:
 
 After the initial shock and disappointment with the release firmware and a smaller scale repeat of that with the September upgrade I decided to go deeper. The simplest way to do that is with [Android Debug Bridge](https://developer.android.com/studio/command-line/adb).
 
+***Edit 2022-09-26*** Upon further inspection it seems ADB over TCP is enabled by default so you can skip the disassembly and USB cable and connect immediately with `adb connect [ip_address]` and skip to [Using ADB](#using-adb)
+
 ## Disassembly
 
 Remove the panel from the base. Unscrew the two screws on the back then carefully pry away the back plate starting at this point.
