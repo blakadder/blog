@@ -4,7 +4,7 @@ title: "Update WebView on Android Smart Home Panels"
 author: blak
 categories: [ how-to, android, touch panel ]
 tags: [ ]
-image: assets/images/header_nspanelpro-sideload.jpg
+image: assets/images/header_android-panel-webview.jpg
 toc: true
 ---
 
