@@ -4,7 +4,7 @@ title: "Hacking the Sonoff NSPanel"
 author: blak
 categories: [ how-to, tasmota, touch panel ]
 tags: [ ]
-image: assets/images/header_nspanelhacking.jpg
+image: assets/images/header_android-panel-webview.jpg
 toc: true
 ---
 
