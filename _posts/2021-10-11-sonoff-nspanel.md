@@ -2,7 +2,7 @@
 layout: post
 title: "Sonoff NSPanel Smart Scene Wall Switch Review"
 author: blak
-categories: [ review ]
+categories: [ review, touch panel ]
 tags: [ ]
 image: assets/images/header_nspanel.jpg
 toc: true

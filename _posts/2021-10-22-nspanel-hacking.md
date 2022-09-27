@@ -2,7 +2,7 @@
 layout: post
 title: "Hacking the Sonoff NSPanel"
 author: blak
-categories: [ how-to, tasmota ]
+categories: [ how-to, tasmota, touch panel ]
 tags: [ ]
 image: assets/images/header_nspanelhacking.jpg
 toc: true

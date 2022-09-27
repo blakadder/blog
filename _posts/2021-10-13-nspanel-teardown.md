@@ -2,7 +2,7 @@
 layout: post
 title: "Sonoff NSPanel EU Switch in Detail"
 author: blak
-categories: [ review ]
+categories: [ review, touch panel ]
 tags: [ ]
 image: assets/images/header_nspanelteardown.jpg
 toc: true

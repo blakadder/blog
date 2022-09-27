@@ -2,7 +2,7 @@
 layout: post
 title: "Home Assistant Dashboard on Sonoff NSPanel Pro"
 author: blak
-categories: [ how-to, home assistant ]
+categories: [ how-to, home assistant, android, touch panel ]
 tags: [ ]
 image: assets/images/header_nspanelpro-sideload.jpg
 toc: true
@@ -64,8 +64,7 @@ Now you can connect to the NSPanel Pro wirelessly. If you don't know the IP addr
 Try it out while still wired to make sure everything is working.
 
 ```dos
-D:\adb>
-adb connect 10.1.1.144
+D:\adb>adb connect 10.1.1.144
 connected to 10.1.1.144:5555
 ```
 
