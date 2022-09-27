@@ -120,7 +120,7 @@ tar -xvf xposed-v90-sdk27-arm64-beta3.tar
 
 Change into the new directory
 ```sh
-cd /sdcard/Download/xposed-v90-sdk27-arm64-beta3/META-INF/com/google/android
+cd /sdcard/Download/xposed-v90-sdk27-arm64-beta3/
 ```
 
 Make the installer script executable
