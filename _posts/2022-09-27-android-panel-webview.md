@@ -14,7 +14,7 @@ _Shopping links in this article are affiliate links and I earn a small commissio
 
 This guide is tested on touch control panels such as:
 - Sonoff NSPanel Pro ([ITEAD Store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/)*)
-- Moes T6E ([Moes.com](https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek)/*, [AliExpress](https://s.click.aliexpress.com/e/_Dee5hOB)/*)
+- Moes T6E ([Moes.com](https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek)\*, [AliExpress](https://s.click.aliexpress.com/e/_Dee5hOB)\*)
 - Aubess Ethernet Smart Control Panel ([AliExpress](https://s.click.aliexpress.com/e/_DltEVer)*)
 
 
@@ -171,7 +171,7 @@ adb install "Android System WebView_v105.0.5195.136_apkpure.com.apk"
 
 Wait a while because it's a large install.
 
-Go to  **Settings -> System -> About Phone -> Build Number** and tap the "Build Number" option 7 times to enable developer options.
+Go to  **Settings -> System -> About tablet -> Build Number** and tap the "Build Number" option 7 times to enable developer options.
 
 In **Developer options**, navigate to _WebView Implementation_ and choose your WebView instead of the outdated "Android System WebView 61.x"
 
