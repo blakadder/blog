@@ -166,7 +166,7 @@ Download an arm64 version in .apk form **NOT** Bundle or .xapk.
 Install WebView
 
 ```sh
-adb install Android System WebView_v105.0.5195.136_apkpure.com.apk
+adb install "Android System WebView_v105.0.5195.136_apkpure.com.apk"
 ```
 
 Wait a while because it's a large install.
