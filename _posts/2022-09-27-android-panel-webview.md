@@ -98,7 +98,7 @@ Switch to root
 
 ```sh
 su
-``
+```
 
 Make filesystem writeable
 
