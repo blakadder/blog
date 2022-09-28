@@ -14,7 +14,7 @@ _Shopping links in this article are affiliate links and I earn a small commissio
 
 This guide is tested on touch control panels such as:
 - Sonoff NSPanel Pro ([ITEAD Store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/)*)
-- Moes T6E ([Moes.com](https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek)/*, [AliExpress](https://www.aliexpress.com/item/1005003799973429.html?aff_fcid=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&tt=CPS_NORMAL&aff_fsk=_Dee5hOB&aff_platform=shareComponent-detail&sk=_Dee5hOB&aff_trace_key=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)/*)
+- Moes T6E ([Moes.com](https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek)\*, [AliExpress](https://www.aliexpress.com/item/1005003799973429.html?aff_fcid=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&tt=CPS_NORMAL&aff_fsk=_Dee5hOB&aff_platform=shareComponent-detail&sk=_Dee5hOB&aff_trace_key=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)\*)
 - Aubess Ethernet Smart Control Panel ([AliExpress](https://www.aliexpress.com/item/1005004639636958.html?aff_fcid=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&tt=CPS_NORMAL&aff_fsk=_DltEVer&aff_platform=shareComponent-detail&sk=_DltEVer&aff_trace_key=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*)
 
 
@@ -120,7 +120,7 @@ tar -xvf xposed-v90-sdk27-arm64-beta3.tar
 
 Change into the new directory
 ```sh
-cd /sdcard/Download/xposed-v90-sdk27-arm64-beta3/META-INF/com/google/android
+cd /sdcard/Download/xposed-v90-sdk27-arm64-beta3/
 ```
 
 Make the installer script executable
@@ -166,12 +166,12 @@ Download an arm64 version in .apk form **NOT** Bundle or .xapk.
 Install WebView
 
 ```sh
-adb install Android System WebView_v105.0.5195.136_apkpure.com.apk
+adb install "Android System WebView_v105.0.5195.136_apkpure.com.apk"
 ```
 
 Wait a while because it's a large install.
 
-Go to  **Settings -> System -> About Phone -> Build Number** and tap the "Build Number" option 7 times to enable developer options.
+Go to  **Settings -> System -> About tablet -> Build Number** and tap the "Build Number" option 7 times to enable developer options.
 
 In **Developer options**, navigate to _WebView Implementation_ and choose your WebView instead of the outdated "Android System WebView 61.x"
 
