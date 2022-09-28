@@ -18,12 +18,12 @@ This firmware supercharges the mediocre SNZB-02 wit new features. First and best
 
 You <s>get thresholds for too high or too low temperature and humidity alerts</s> can make your [own thermostat](#features) by binding to another Zigbee device. Finally you can set offsets to calibrate the readings.
 
-[smartboxchannel project GitHub](https://github.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor) has instructions for flashing using a TI CCDebugger ([Amazon](https://amzn.to/3Set85g)* or [AliExpress](https://s.click.aliexpress.com/e/_Dd2xMmx)*) but there's a cheaper solution with a NodeMCU or D1 mini and a little program called CCLoader.
+[smartboxchannel project GitHub](https://github.com/smartboxchannel/SONOFF-SNZB-02-Temperature-and-humidity-sensor) has instructions for flashing using a TI CCDebugger ([Amazon](https://amzn.to/3Set85g)* or [AliExpress](https://www.aliexpress.com/item/1005003288971655.html?aff_fcid=d8d6dae1187c42d19a2efcc23e1c4df8-1664369397879-06214-_Dd2xMmx&tt=CPS_NORMAL&aff_fsk=_Dd2xMmx&aff_platform=shareComponent-detail&sk=_Dd2xMmx&aff_trace_key=d8d6dae1187c42d19a2efcc23e1c4df8-1664369397879-06214-_Dd2xMmx&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*) but there's a cheaper solution with a NodeMCU or D1 mini and a little program called CCLoader.
 
 ## What You'll Need
 
 * [Sonoff temperature and humidity sensor SNZB-02](https://zigbee.blakadder.com/Sonoff_SNZB-02.html) - can't do much without one 
-* an ESP8266 development board - a NodeMCU is best ([Amazon](https://amzn.to/3BsJVur)*, [AliExpress](https://s.click.aliexpress.com/e/_DeWyIib)) but a D1 mini or any other board with a USB port will do the job
+* an ESP8266 development board - a NodeMCU is best ([Amazon](https://amzn.to/3BsJVur)*, [AliExpress](https://www.aliexpress.com/item/32790209784.html?aff_fcid=7f499d3920a54e49ac76cb6017385b5c-1664369421741-00771-_DeWyIib&tt=CPS_NORMAL&aff_fsk=_DeWyIib&aff_platform=shareComponent-detail&sk=_DeWyIib&aff_trace_key=7f499d3920a54e49ac76cb6017385b5c-1664369421741-00771-_DeWyIib&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)) but a D1 mini or any other board with a USB port will do the job
 * a soldering iron - a basic one is sufficient for small projects like this such as Mustool MT883 ([Banggood](https://www.banggood.com/custlink/Dv3YBFghm0)*, [AliExpress](https://s.click.aliexpress.com/e/_DkSK3ar)*) or a more portable Sequre SQ-D60 on [AliExpress](https://s.click.aliexpress.com/e/_DEmCofH)
 * Dupont or jumper wires - to connect the sensor with the ESP8266 board ([AliExpress](https://s.click.aliexpress.com/e/_DEYGCZD)* or [Amazon](https://amzn.to/3RYkI1Y)*)
 * good solder and flux - don't get the super cheap stuff and definitely don't use unleaded solder. I typically get Mechanic brand from [AliExpress](https://s.click.aliexpress.com/e/_DDoZ8Ej)* and also their [RMA223 flux](https://s.click.aliexpress.com/e/_DFchJSr)*.
