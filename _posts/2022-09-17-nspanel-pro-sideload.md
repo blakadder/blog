@@ -12,7 +12,7 @@ How to sideload apps to NSPanel Pro and use Home Assistant dashboard on its scre
 
 _**Full disclosure:** This is a pre production unit sent to me free of charge by [Sonoff](https://itead.cc/ref/34/). Some aspects of it might be changed in official release. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
-You can still grab an NSPanel Pro for a presale discount on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/).
+You can still grab an NSPanel Pro for a presale discount on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro).
 
 After the initial shock and disappointment with the release firmware and a smaller scale repeat of that with the September upgrade I decided to go deeper. The simplest way to do that is with [Android Debug Bridge](https://developer.android.com/studio/command-line/adb).
 
@@ -151,4 +151,4 @@ This solution isn't perfect but its what I've managed for now. The best option w
 
 Digging into the adb shell revealed some interesting things like mosquitto, a bash script to interface with the Zigbee module, traces of RS485, Relay 1 and Relay 2 and probably more. I hope more Android savvy developers will hop on the train and really unlock the device. I do have a sneaking suspicion Android is based on [this](https://wiki.t-firefly.com/en/Core-PX30-JD4/Android_development.html).
 
-You can still grab an NSPanel Pro for a presale discount on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/).
+You can still grab an NSPanel Pro for a presale discount on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro).

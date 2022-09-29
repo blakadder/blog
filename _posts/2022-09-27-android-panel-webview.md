@@ -13,7 +13,7 @@ Update WebView on T6E based multi-functional control panels running on Android 8
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
 This guide is tested on touch control panels such as:
-- Sonoff NSPanel Pro ([ITEAD Store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/)*)
+- Sonoff NSPanel Pro ([ITEAD Store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro)*)
 - Moes T6E ([Moes.com](https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek)\*, [AliExpress](https://www.aliexpress.com/item/1005003799973429.html?aff_fcid=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&tt=CPS_NORMAL&aff_fsk=_Dee5hOB&aff_platform=shareComponent-detail&sk=_Dee5hOB&aff_trace_key=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)\*)
 - Aubess Ethernet Smart Control Panel ([AliExpress](https://www.aliexpress.com/item/1005004639636958.html?aff_fcid=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&tt=CPS_NORMAL&aff_fsk=_DltEVer&aff_platform=shareComponent-detail&sk=_DltEVer&aff_trace_key=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*)
 
