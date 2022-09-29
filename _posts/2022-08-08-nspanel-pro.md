@@ -14,7 +14,7 @@ _**Full disclosure:** This is a pre production unit sent to me free of charge by
 
 Another summer, another NSPanel from Sonoff. I, once again, gladly accepted to review an early production sample of the new NSPanel, now with the added Pro moniker. 
 
-Sonoff NSPanel is available from the [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro). In the current <s>flash sale it is only 69.99$</s> early bird sale it is only 79.99$. The final price will be 119.90$.
+Sonoff NSPanel is available from the [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro). In the current <s>flash sale it is only 69.99$</s> <s>early bird sale it is only 79.99$</s> preorder phase the price is only 89.90$. The final price is expected to be 119.90$.
 
 [![Packaging](/assets/images/nspanel_pro/packaging.jpg)](/assets/images/nspanel_pro/packaging.jpg)
 
