@@ -152,6 +152,4 @@ For now, it isn't even well integrated into the eWeLink ecosystem. There's lot o
 
 If you're interested in the device, like being an early adopter and have faith that all the promised future features will be delivered on, you can grab one in the flash sale on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/) and get Sonoff NSPanel Pro for the <s>flash sale price of 69.99$</s> early bird sale price of 79.99$.
 
-If you want hackability, open APIs, good integration in various ecosystems, stay away for now.
-
-As already mentioned, a re-review will be made once the new features are added.
+But, if you're willing to follow some guide you can [open up the](android-panel-webview) NSPanel Pro and you use the way you want.
