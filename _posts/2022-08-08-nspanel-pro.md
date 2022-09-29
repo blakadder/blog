@@ -150,6 +150,6 @@ I know a lot of people always wanted the camera feed display feature on the old 
 
 For now, it isn't even well integrated into the eWeLink ecosystem. There's lot of room for improvement but most of the improvements will be on the software side. Hardware is capable enough for what the NSPanel Pro strives to be and that's a smart home control panel.
 
-If you're interested in the device, like being an early adopter and have faith that all the promised future features will be delivered on, you can grab one in the flash sale on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro) and get Sonoff NSPanel Pro for the <s>flash sale price of 69.99$</s> early bird sale price of 79.99$.
+If you're interested in the device, like being an early adopter and have faith that all the promised future features will be delivered on, you can grab one in the preorder sale on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro).
 
-But, if you're willing to follow some guide you can [open up the](android-panel-webview) NSPanel Pro and you use the way you want.
+But, if you're willing to follow some guides you can [open up the](android-panel-webview) NSPanel Pro and you use the way you want. 
