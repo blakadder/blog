@@ -53,7 +53,7 @@ Connect the data USB cable from your computer to the OTG port. If your device is
 
 To make working with your panel easier you need to install a standard launcher. I've found the smallest launcher possible (only 7kb), which doesn't take up a lot of precious device memory.
 
-Download the [Ultra Small Launcher](/assets/ultra-small-launcher.apk) to the ADB folder and install it with:
+Download the [Ultra Small Launcher](/assets/files/ultra-small-launcher.apk) to the ADB folder and install it with:
 
 ```sh
 adb install ultra-small-launcher.apk
@@ -76,11 +76,7 @@ Download [Xposed Installer](https://www.apkmirror.com/apk/rovo89/xposed-installe
 adb install de.robv.android.xposed.installer_3.1.5-43_minAPI15(nodpi)_apkmirror.com.apk
 ```
 
-Download [Xposed Framework](https://androidfilehost.com/?fid=673956719939830416).
-
-Unzip xposed-v90-sdk27-arm64-beta3.zip to a folder then archive the extracted files into a .tar file with f.e. [7-Zip](https://www.7-zip.org/download.html). 
-
-[![Make a .tar archive with 7-Zip](/assets/images/android-panel-webview/7ziptar.jpg)](/assets/images/android-panel-webview/7ziptar.jpg)
+Download [Xposed Framework](/assets/files/xposed-v90-sdk27-arm64-beta3.tar).
 
 Copy .tar file to ADB folder then upload it to the panel filesystem:
 
