@@ -23,6 +23,7 @@ They're based on the same T6E PCB and firmware from Smatek. That firmware is bas
 With gracious help from [tilaksidduram](https://twitter.com/tilaksidduram) I've compiled information on how to update WebView to newest version and run any app.
 
 ## Install ADB
+
 Download the [Android platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) and unzip the contents to a folder. Open a Command Prompt and navigate to that folder. In my case it is located at `D:\adb`
 
 Open a command prompt and navigate to the folder.
@@ -31,7 +32,7 @@ Open a command prompt and navigate to the folder.
 
 ### Wireless
 
-Some panels might have ADB over TCP set up already (like NSPanel Pro) which saves you from disassembling it. 
+Some panels might have ADB over TCP set up already (like NSPanel Pro) which saves you from disassembling it.
 
 Find out the IP address of your panel and try connecting to it with this command
 
@@ -48,6 +49,40 @@ Remove the panel from the base. Unscrew the two screws on the back then carefull
 Now unscrew the tiny screws holding the PCB to the screen. Disconnect the touch panel connector to lift up the PCB enough to plug in a data USB cable.
 
 Connect the data USB cable from your computer to the OTG port. If your device isn't recognised as adb, download [ADB drivers](https://developer.android.com/studio/run/win-usb) and install them.
+
+### Get ADB Access
+
+Run command `adb devices -l`. It will list all the connected devices with extra information.
+
+```dos
+D:\adb>adb devices -l
+List of devices attached
+F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb transport_id:3
+```
+
+Run command `adb tcpip 5555` to set the panel to listen for a TCP/IP connection on port 5555
+
+```dos
+D:\adb>adb tcpip 5555
+restarting in TCP mode port: 5555
+```
+
+Now you can connect to the panel wirelessly. If you don't know the IP address run `adb shell ip -o a` to find out.
+
+Try it out while still wired to make sure everything is working.
+
+```dos
+D:\adb>adb connect 10.1.1.144
+connected to 10.1.1.144:5555
+```
+
+#### T6E Specific
+
+On T6E ADB over TCP does not persist after a reboot. To make it permanent run:
+
+```dos
+adb shell setprop persist.adb.tcp.port 5555
+```
 
 ## Install a Launcher
 
