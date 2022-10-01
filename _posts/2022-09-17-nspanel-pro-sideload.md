@@ -8,7 +8,7 @@ image: assets/images/header_nspanelpro-sideload.jpg
 toc: true
 ---
 
-How to sideload apps to NSPanel Pro and use Home Assistant dashboard on its screen. There's now [a better way](android-panel-webview)!
+How to sideload apps to NSPanel Pro and use Home Assistant dashboard on its screen. There's now [a better way](/android-panel-webview)!
 
 _**Full disclosure:** This is a pre production unit sent to me free of charge by [Sonoff](https://itead.cc/ref/34/). Some aspects of it might be changed in official release. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
