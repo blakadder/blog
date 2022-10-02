@@ -2,7 +2,7 @@
 layout: post
 title: "Sonoff NSPanel Pro Smart Home Control Panel Review"
 author: blak
-categories: [ review, touch panel ]
+categories: [ review, android, T6E ]
 tags: [ ]
 image: assets/images/header_nspanel_pro.jpg
 toc: true
