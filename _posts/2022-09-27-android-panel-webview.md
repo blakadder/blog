@@ -2,7 +2,7 @@
 layout: post
 title: "Update WebView on Android Smart Home Panels"
 author: blak
-categories: [ how-to, android, touch panel ]
+categories: [ how-to, android, T6E ]
 tags: [ ]
 image: assets/images/header_android-panel-webview.jpg
 toc: true
