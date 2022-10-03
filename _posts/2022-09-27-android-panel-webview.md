@@ -2,7 +2,7 @@
 layout: post
 title: "Update WebView on Android Smart Home Panels"
 author: blak
-categories: [ how-to, android, touch panel ]
+categories: [ how-to, android, T6E ]
 tags: [ ]
 image: assets/images/header_android-panel-webview.jpg
 toc: true
@@ -23,6 +23,7 @@ They're based on the same T6E PCB and firmware from Smatek. That firmware is bas
 With gracious help from [tilaksidduram](https://twitter.com/tilaksidduram) I've compiled information on how to update WebView to newest version and run any app.
 
 ## Install ADB
+
 Download the [Android platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) and unzip the contents to a folder. Open a Command Prompt and navigate to that folder. In my case it is located at `D:\adb`
 
 Open a command prompt and navigate to the folder.
@@ -31,7 +32,7 @@ Open a command prompt and navigate to the folder.
 
 ### Wireless
 
-Some panels might have ADB over TCP set up already (like NSPanel Pro) which saves you from disassembling it. 
+Some panels might have ADB over TCP set up already (like NSPanel Pro) which saves you from disassembling it.
 
 Find out the IP address of your panel and try connecting to it with this command
 
@@ -49,11 +50,45 @@ Now unscrew the tiny screws holding the PCB to the screen. Disconnect the touch 
 
 Connect the data USB cable from your computer to the OTG port. If your device isn't recognised as adb, download [ADB drivers](https://developer.android.com/studio/run/win-usb) and install them.
 
+### Get ADB Access
+
+Run command `adb devices -l`. It will list all the connected devices with extra information.
+
+```dos
+D:\adb>adb devices -l
+List of devices attached
+F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb transport_id:3
+```
+
+Run command `adb tcpip 5555` to set the panel to listen for a TCP/IP connection on port 5555
+
+```dos
+D:\adb>adb tcpip 5555
+restarting in TCP mode port: 5555
+```
+
+Now you can connect to the panel wirelessly. If you don't know the IP address run `adb shell ip -o a` to find out.
+
+Try it out while still wired to make sure everything is working.
+
+```dos
+D:\adb>adb connect 10.1.1.144
+connected to 10.1.1.144:5555
+```
+
+#### T6E Specific
+
+On T6E ADB over TCP does not persist after a reboot. To make it permanent run:
+
+```dos
+adb shell setprop persist.adb.tcp.port 5555
+```
+
 ## Install a Launcher
 
 To make working with your panel easier you need to install a standard launcher. I've found the smallest launcher possible (only 7kb), which doesn't take up a lot of precious device memory.
 
-Download the [Ultra Small Launcher](/assets/ultra-small-launcher.apk) to the ADB folder and install it with:
+Download the [Ultra Small Launcher](/assets/files/ultra-small-launcher.apk) to the ADB folder and install it with:
 
 ```sh
 adb install ultra-small-launcher.apk
@@ -75,11 +110,7 @@ Download [Xposed Installer](https://www.apkmirror.com/apk/rovo89/xposed-installe
 adb install de.robv.android.xposed.installer_3.1.5-43_minAPI15(nodpi)_apkmirror.com.apk
 ```
 
-Download [Xposed Framework](https://androidfilehost.com/?fid=673956719939830416).
-
-Unzip xposed-v90-sdk27-arm64-beta3.zip to a folder then archive the extracted files into a .tar file with f.e. [7-Zip](https://www.7-zip.org/download.html). 
-
-[![Make a .tar archive with 7-Zip](/assets/images/android-panel-webview/7ziptar.jpg)](/assets/images/android-panel-webview/7ziptar.jpg)
+Download [Xposed Framework](/assets/files/xposed-v90-sdk27-arm64-beta3.tar).
 
 Copy .tar file to ADB folder then upload it to the panel filesystem:
 
