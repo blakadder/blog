@@ -45,10 +45,10 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-highlighter: rouge
+highlighter: prism
 markdown: kramdown
 kramdown:
-  syntax_highlighter: rouge
+  syntax_highlighter: prism
 #    syntax_highlighter_opts:
 #       disable : true
 
