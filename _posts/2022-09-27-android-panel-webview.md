@@ -16,7 +16,7 @@ This guide is tested on touch control panels such as:
 - Sonoff NSPanel Pro ([ITEAD Store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro)*)
 - Moes T6E Smart Multi-functional Control Panel ([Moes store](https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek)\*, [AliExpress](https://www.aliexpress.com/item/1005003799973429.html?aff_fcid=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&tt=CPS_NORMAL&aff_fsk=_Dee5hOB&aff_platform=shareComponent-detail&sk=_Dee5hOB&aff_trace_key=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)\*)
 - Aubess Ethernet Smart Control Panel ([AliExpress](https://www.aliexpress.com/item/1005004639636958.html?aff_fcid=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&tt=CPS_NORMAL&aff_fsk=_DltEVer&aff_platform=shareComponent-detail&sk=_DltEVer&aff_trace_key=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*)
-
+- Corui Tuya Multi-functional Touch Screen with Alexa ([AliExpress](https://www.aliexpress.com/item/1005004771330533.html?aff_fcid=3cca54898e7a48eca8e175afa87f980d-1664791198884-07428-_DlNe5lz&tt=CPS_NORMAL&aff_fsk=_DlNe5lz&aff_platform=shareComponent-detail&sk=_DlNe5lz&aff_trace_key=3cca54898e7a48eca8e175afa87f980d-1664791198884-07428-_DlNe5lz&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*)
 
 They're based on the same T6E PCB and firmware from Smatek. That firmware is based on Android 8.1 with an ancient version of WebView which prevents most of smart home dashboard applications from working (f.e. Fully Kiosk Browser, Wallpanel).
 
@@ -78,7 +78,7 @@ connected to 10.1.1.144:5555
 
 #### T6E Specific
 
-On T6E ADB over TCP does not persist after a reboot. To make it permanent run:
+On Tuya versions of the panel ADB over TCP does not persist after a reboot. To make it permanent run:
 
 ```dos
 adb shell setprop persist.adb.tcp.port 5555
@@ -94,7 +94,7 @@ Download the [Ultra Small Launcher](/assets/files/ultra-small-launcher.apk) to t
 adb install ultra-small-launcher.apk
 ```
 
-Simulate a Home key press. 
+Simulate a Home key press.
 
 ```sh
 adb shell input keyevent 3
