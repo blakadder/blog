@@ -67,7 +67,6 @@ adb shell input keyevent 3
 
 You will be offered a selection of launchers, set Launcher as default.
 
-
 ## Install Xposed
 
 Download [Xposed Installer](https://www.apkmirror.com/apk/rovo89/xposed-installer/xposed-installer-3-1-5-release/xposed-installer-3-1-5-android-apk-download/) and install it:
