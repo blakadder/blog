@@ -152,4 +152,7 @@ For now, it isn't even well integrated into the eWeLink ecosystem. There's lot o
 
 If you're interested in the device, like being an early adopter and have faith that all the promised future features will be delivered on, you can grab one in the preorder sale on [Itead store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro).
 
-But, if you're willing to follow some guides you can [open up the](android-panel-webview) NSPanel Pro and you use the way you want. 
+But you can open up the NSPanel Pro and use it the way you want if you're willing to follow some guides:
+
+- [Sideload apps](/nspanel-pro-sideload)
+- [Update WebView component](/android-panel-webview)
