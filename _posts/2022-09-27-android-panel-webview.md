@@ -12,11 +12,12 @@ Update WebView on T6E based multi-functional control panels running on Android 8
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
-This guide is tested on touch control panels such as:
+This guide applies to touch control panels such as:
 - Sonoff NSPanel Pro ([ITEAD Store](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34/?campaign=nspanelpro)*)
 - Moes T6E Smart Multi-functional Control Panel ([Moes store](https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek)\*, [AliExpress](https://www.aliexpress.com/item/1005003799973429.html?aff_fcid=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&tt=CPS_NORMAL&aff_fsk=_Dee5hOB&aff_platform=shareComponent-detail&sk=_Dee5hOB&aff_trace_key=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)\*)
 - Aubess Ethernet Smart Control Panel ([AliExpress](https://www.aliexpress.com/item/1005004639636958.html?aff_fcid=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&tt=CPS_NORMAL&aff_fsk=_DltEVer&aff_platform=shareComponent-detail&sk=_DltEVer&aff_trace_key=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*)
 - Corui Tuya Multi-functional Touch Screen with Alexa ([AliExpress](https://www.aliexpress.com/item/1005004771330533.html?aff_fcid=3cca54898e7a48eca8e175afa87f980d-1664791198884-07428-_DlNe5lz&tt=CPS_NORMAL&aff_fsk=_DlNe5lz&aff_platform=shareComponent-detail&sk=_DlNe5lz&aff_trace_key=3cca54898e7a48eca8e175afa87f980d-1664791198884-07428-_DlNe5lz&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*)
+- Zemismart T6E ([Zemismart store](https://www.zemismart.com/products/t6e?DIST=QEVHGw%3D%3D)*, [AliExpress](https://www.aliexpress.com/item/1005004295932676.html?aff_fcid=fe04b4ef296b4831976c1806acc2035e-1664869926171-01577-_DnDbrb1&tt=CPS_NORMAL&aff_fsk=_DnDbrb1&aff_platform=shareComponent-detail&sk=_DnDbrb1&aff_trace_key=fe04b4ef296b4831976c1806acc2035e-1664869926171-01577-_DnDbrb1&terminal_id=5328bb0326ad4ecea39a5766fa327b23&afSmartRedirect=y)*)
 
 They're based on the same T6E PCB and firmware from Smatek. That firmware is based on Android 8.1 with an ancient version of WebView which prevents most of smart home dashboard applications from working (f.e. Fully Kiosk Browser, Wallpanel).
 
@@ -54,7 +55,7 @@ Connect the data USB cable from your computer to the OTG port. If your device is
 
 Run command `adb devices -l`. It will list all the connected devices with extra information.
 
-```dos
+```bash
 D:\adb>adb devices -l
 List of devices attached
 F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb transport_id:3
@@ -62,7 +63,7 @@ F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb tr
 
 Run command `adb tcpip 5555` to set the panel to listen for a TCP/IP connection on port 5555
 
-```dos
+```bash
 D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
@@ -71,7 +72,7 @@ Now you can connect to the panel wirelessly. If you don't know the IP address ru
 
 Try it out while still wired to make sure everything is working.
 
-```dos
+```bash
 D:\adb>adb connect 10.1.1.144
 connected to 10.1.1.144:5555
 ```
@@ -80,7 +81,7 @@ connected to 10.1.1.144:5555
 
 On Tuya versions of the panel ADB over TCP does not persist after a reboot. To make it permanent run:
 
-```dos
+```bash
 adb shell setprop persist.adb.tcp.port 5555
 ```
 

@@ -47,7 +47,7 @@ and navigate to that folder. In my case it is located at `D:\adb`
 
 Run command `adb devices -l`. It will list all the connected devices with extra information.
 
-```dos
+```bash
 D:\adb>adb devices -l
 List of devices attached
 F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb transport_id:3
@@ -55,7 +55,7 @@ F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb tr
 
 Run command `adb tcpip 5555` to set the NSPanel Pro to listen for a TCP/IP connection on port 5555
 
-```dos
+```bash
 D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
@@ -64,7 +64,7 @@ Now you can connect to the NSPanel Pro wirelessly. If you don't know the IP addr
 
 Try it out while still wired to make sure everything is working.
 
-```dos
+```bash
 D:\adb>adb connect 10.1.1.144
 connected to 10.1.1.144:5555
 ```
