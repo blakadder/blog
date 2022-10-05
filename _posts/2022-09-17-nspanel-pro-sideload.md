@@ -101,7 +101,7 @@ Useful ADB commands:
 
 To make working with your panel easier you need to install a standard launcher. I've found the smallest launcher possible (only 7kb), which doesn't take up a lot of precious device memory.
 
-Download the [Ultra Small Launcher](/assets/ultra-small-launcher.apk) to the ADB folder and install it with:
+Download the [Ultra Small Launcher](/assets/files/ultra-small-launcher.apk) to the ADB folder and install it with:
 
 ```sh
 adb install ultra-small-launcher.apk
