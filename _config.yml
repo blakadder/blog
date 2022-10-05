@@ -61,7 +61,7 @@ adsense: "disabled"
 lazyimages: "enabled"
 
 # Post Author Box ("enabled" or "disabled")
-authorbox: "disabled"
+authorbox: "enabled"
 
 # Sass
 sass:
