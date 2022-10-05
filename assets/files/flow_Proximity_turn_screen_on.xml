@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<data version="1.38.0">
+  <trigger type="proximity_sensor">
+    <useDefaultName>true</useDefaultName>
+    <name>Proximity Sensor: Distance &gt; 300.0cm</name>
+    <enabled>true</enabled>
+    <less>false</less>
+    <distance>300.0</distance>
+    <keepDeviceAwake>false</keepDeviceAwake>
+  </trigger>
+  <action type="turn_screen_on">
+    <useDefaultName>true</useDefaultName>
+    <name>Turn Screen On: Bright for 15s</name>
+    <bright>true</bright>
+    <duration>15s</duration>
+    <resetUserActivityTimer>true</resetUserActivityTimer>
+  </action>
+  <flow type="flow">
+    <name>Proximity turn screen ON</name>
+    <enabled>true</enabled>
+    <executionPolicy>STOP</executionPolicy>
+    <emergencyStopCount>100</emergencyStopCount>
+    <triggercontainer id="t1" x="70.0" y="52.5">
+      <trigger>Proximity Sensor: Distance &gt; 300.0cm</trigger>
+    </triggercontainer>
+    <actioncontainer id="t2" x="70.0" y="262.5">Turn Screen On: Bright for 15s</actioncontainer>
+    <connection from="t1" to="t2" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+  </flow>
+</data>
