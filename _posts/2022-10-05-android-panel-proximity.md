@@ -44,7 +44,7 @@ You can delete all the included flows and start fresh.
 
 ## Proximity Flow
 
-Download the [flow for proximity sensor](/files/flow_Proximity_turn_screen_on.xml) file to your panel
+Download the [flow for proximity sensor](/assets/files/flow_Proximity_turn_screen_on.xml) file to your panel
 
 ```sh
 adb push flow_Proximity_turn_screen_on.xml /sdcard/Download/flow_Proximity_turn_screen_on.xml
