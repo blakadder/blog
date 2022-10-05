@@ -16,7 +16,7 @@ _Shopping links in this article are affiliate links and I earn a small commissio
 
 These panels have a light and proximity sensor in top bezel of the display panel but the proximity sensor is misconfigured and cannot not wake the device from sleep when the default panel app is not active.
 
-Considering it works as expected using the default panel app I determined to discover a solution. After trying standard wave to wake apps and combing through the driver files I learned that the proximity sensor max range is lower than the display shown when its mounted in the case. After I took the proximity sensor out it worked as it should. The simplest solution was drill a hole in the front. Simplest in this case is not the best solution. I put out a call on twitter for some help from any Android developer but that didn't go far either.
+Considering it works as expected using the default panel app I determined to discover a solution. After trying standard wave to wake apps and combing through the driver files I learned that the proximity sensor max range is lower than the distance measured when its mounted in the case. After I took the proximity sensor out it worked as it should. The simplest solution was drill a hole in the front. Simplest in this case is not the best solution. I put out a call on twitter for some help from any Android developer but that didn't go far either.
 
 Determined to find the solution I set on the hunt for that one perfect app. The journey was arduous and fraught with failure but in the end my google fu dug up the perfect solution:
 
