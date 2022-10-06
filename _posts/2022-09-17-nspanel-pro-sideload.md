@@ -101,7 +101,7 @@ Useful ADB commands:
 
 To make working with your panel easier you need to install a standard launcher. I've found the smallest launcher possible (only 7kb), which doesn't take up a lot of precious device memory.
 
-Download the [Ultra Small Launcher](/assets/ultra-small-launcher.apk) to the ADB folder and install it with:
+Download the [Ultra Small Launcher](/assets/files/ultra-small-launcher.apk) to the ADB folder and install it with:
 
 ```sh
 adb install ultra-small-launcher.apk
@@ -140,8 +140,8 @@ So far it can do the following:
 - run Alexa with voice recognition
 - run Tuya Smart Life app (albeit the performance is not great)
 - serve as MQTT broker
-- ZHA coordinator over TCP
-- run Zigbee2MQTT with frontend
+- ZHA or Zigbee2MQTT coordinator over TCP
+- run Zigbee2MQTT with frontend on the panel
 - wake screen on proximity
 - a music/video player
 - iBeacon to MQTT tracker

@@ -156,3 +156,4 @@ But you can open up the NSPanel Pro and use it the way you want if you're willin
 
 - [Sideload apps](/nspanel-pro-sideload)
 - [Update WebView component](/android-panel-webview)
+- [Use proximity sensor for events](/android-panel-proximity)
