@@ -45,17 +45,20 @@ and navigate to that folder. In my case it is located at `D:\adb`
 
 ## Get ADB Access
 
-Run command `adb devices -l`. It will list all the connected devices with extra information.
+This command will list all the connected devices with extra information.
 
-```bash
-D:\adb>adb devices -l
+```sh
+adb devices -l
+```
+
+```shellsession
 List of devices attached
 F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb transport_id:3
 ```
 
 Run command `adb tcpip 5555` to set the NSPanel Pro to listen for a TCP/IP connection on port 5555
 
-```bash
+```shellsession
 D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
@@ -64,12 +67,16 @@ Now you can connect to the NSPanel Pro wirelessly. If you don't know the IP addr
 
 Try it out while still wired to make sure everything is working.
 
-```bash
+```shellsession
 D:\adb>adb connect 10.1.1.144
 connected to 10.1.1.144:5555
 ```
 
-Reassemble the panel and plug it into the base again. Once it boots up, run `adb connect [ip_address]`.
+Reassemble the panel and plug it into the base again. Once it boots up, run 
+
+```sh
+adb connect [ip_address]
+```
 
 ## Using ADB
 
@@ -87,14 +94,14 @@ You can get root access with `adb root` or with `su` while in ADB shell.
 
 Push a file to NSPanel Pro, f.e. a new wallpaper:
 
-```shell
+```shellsession
 D:\adb>adb push wallpaper.jpg /sdcard/Download/wallpaper.jpg
 wallpaper.jpg: 1 file pushed, 0 skipped. 18.5 MB/s (52101 bytes in 0.003s)
 ```
 
 Useful ADB commands:
 
-- `adb input keyevent 26` - simulate power button press, used to turn screen on or off
+- `adb input keyevent 26` - simulate power button press, used to wake device or put it to sleep
 - `adb input keyevent 4` - simulate back key press
 - `adb input keyevent 3` - simulate home key press
 - `adb input keyboard text "your_text"` - send text as if typing on screen keyboard, useful for long passwords

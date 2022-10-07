@@ -46,15 +46,15 @@ and navigate to that folder. In my case it is located at `D:\adb`
 
 ## Get ADB Access
 
-This command will list all the connected devices with extra information. 
+This command will list all the connected devices with extra information.
 
 ```sh
 adb devices -l
 ```
 
-_Example_
+_Output:_
 
-```text
+```shellsession
 D:\adb>adb devices -l
 List of devices attached
 F070712302013500125    device product:px30_evb model:px30_evb device:px30_evb transport_id:8
@@ -72,9 +72,9 @@ To set the T6E panel to listen for a TCP/IP connection on port 5555 run:
 adb tcpip 5555
 ```
 
-_Example_
+_Output:_
 
-```text
+```shellsession
 D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
@@ -83,7 +83,7 @@ Now you can connect to the T6E panel wirelessly. If you don't know the IP addres
 
 Try it out while still wired to make sure everything is working.
 
-```text
+```shellsession
 D:\adb>adb connect 10.1.1.105
 connected to 10.1.1.105:5555
 ```
@@ -110,14 +110,14 @@ You can get root access with `su` while in ADB shell.
 
 Push a file to T6E panel, f.e. a new wallpaper:
 
-```
+```shellsession
 D:\adb>adb push wallpaper.jpg /sdcard/Download/wallpaper.jpg
 wallpaper.jpg: 1 file pushed, 0 skipped. 18.5 MB/s (52101 bytes in 0.003s)
 ```
 
 Useful ADB commands:
 
-- `adb input keyevent 26` - simulate power button press, used to turn screen on or off
+- `adb input keyevent 26` - simulate power button press, used to wake device or put it to sleep
 - `adb input keyevent 4` - simulate back key press
 - `adb input keyevent 3` - simulate home key press
 - `adb input keyboard text "your_text"` - send text as if typing on screen keyboard, useful for long passwords
@@ -153,7 +153,9 @@ pm disable com.tuya.iotgateway.launcher
 pm disable com.smartpad.fourinchneeu.smart
 ```
 
-```
+_Output:_
+
+```shellsession
 px30_evb:/ $ su
 px30_evb:/ # pm disable com.tuya.iotgateway.launcher
 Package com.tuya.iotgateway.launcher new state: disabled
@@ -176,3 +178,5 @@ Open J Touch on the panel, grant the necessary permissions and configure gesture
 ## Update WebView
 
 To run more modern apps based on WebView like Home Assistant Companion, Fully Kiosk Browser or Wallpanel you need to [update WebView component](/android-panel-webview).
+
+Share with me what you've managed to do with it on [Twitter](https://twitter.com/blakadder_) or in comments!

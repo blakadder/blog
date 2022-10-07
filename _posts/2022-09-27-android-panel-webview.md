@@ -48,9 +48,13 @@ Connect the data USB cable from your computer to the OTG port. If your device is
 
 ### Get ADB Access
 
-Run command `adb devices -l`. It will list all the connected devices with extra information.
+This command will list all the connected devices with extra information.
 
-```bash
+```sh
+adb devices -l
+```
+
+```shellsession
 D:\adb>adb devices -l
 List of devices attached
 F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb transport_id:3
@@ -58,7 +62,7 @@ F061512302021100016    device product:px30_evb model:px30_evb device:px30_evb tr
 
 Run command `adb tcpip 5555` to set the panel to listen for a TCP/IP connection on port 5555
 
-```bash
+```shellsession
 D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
@@ -67,7 +71,7 @@ Now you can connect to the panel wirelessly. If you don't know the IP address ru
 
 Try it out while still wired to make sure everything is working.
 
-```bash
+```shellsession
 D:\adb>adb connect 10.1.1.144
 connected to 10.1.1.144:5555
 ```
@@ -108,7 +112,7 @@ adb install de.robv.android.xposed.installer_3.1.5-43_minAPI15(nodpi)_apkmirror.
 
 Download [Xposed Framework](/assets/files/xposed-v90-sdk27-arm64-beta3.tar).
 
-Copy .tar file to ADB folder then upload it to the panel filesystem:
+Copy .tar file to ADB folder then upload it to the panel filesystem
 
 ```sh
 adb push xposed-v90-sdk27-arm64-beta3.tar /sdcard/Download/
@@ -120,7 +124,7 @@ Open shell in ADB
 adb shell
 ```
 
-Switch to root 
+Switch to root
 
 ```sh
 su
@@ -145,6 +149,7 @@ tar -xvf xposed-v90-sdk27-arm64-beta3.tar
 ```
 
 Change into the new directory
+
 ```sh
 cd /sdcard/Download/xposed-v90-sdk27-arm64-beta3/
 ```
@@ -161,17 +166,17 @@ Run Xposed framework installer script
 sh /sdcard/Download/xposed-v90-sdk27-arm64-beta3/META-INF/com/google/android/flash-script.sh
 ```
 
-Xposed Framework is now installed, but not activated. Reboot your device. It will take longer to boot than usual on the first boot.
+Xposed Framework is now installed, but not activated. Reboot your device. It will take longer than usual to boot this time.
 
-Once the panel has rebooted use `adb shell input keyevent 3` to open the launcher again then open the Xposed app, gloss over the warning and make sure it is activated.
+Once the panel has rebooted use `adb shell input keyevent 3` to open the launcher again, then open the Xposed app, gloss over the warning and make sure it is activated.
 
 ![Make sure Xposed is activated](/assets/images/android-panel-webview/xposedinstalled.png)
 
-If it's orange and says it’s not activated, another reboot might solve it
+If it's orange and says it’s not activated, another reboot might solve it.
 
 ## Install AnyWebView
 
-Download [AnyWebView](https://github.com/neoblackxt/AnyWebView/releases/) and install it. 
+Download [AnyWebView](https://github.com/neoblackxt/AnyWebView/releases/) and install with
 
 ```sh
 adb install AnyWebView.apk
@@ -185,11 +190,11 @@ Reboot your device.
 
 ## Update WebView
 
-Now you need to install an updated WebView component. You can install [Android System WebView](https://apkpure.com/android-system-webview/com.google.android.webview/versions), [Bromite WebView](https://www.bromite.org/system_web_view) or any compatible webview.
+Now you need to install an updated WebView component. You can install [Android System WebView](https://apkpure.com/android-system-webview/com.google.android.webview/versions), [Bromite WebView](https://www.bromite.org/system_web_view) or other compatible webview.
 
 Download an arm64 version in .apk form **NOT** Bundle or .xapk.
 
-Install WebView
+Install WebView (change filename with your .apk)
 
 ```sh
 adb install "Android System WebView_v105.0.5195.136_apkpure.com.apk"
@@ -205,4 +210,4 @@ In **Developer options**, navigate to _WebView Implementation_ and choose your W
 
 ## Finished
 
-Now you can use Fully Kiosk, Home Assistant Companion or any other app that depends on a newer version of WebView.
+Now you can use Fully Kiosk, Home Assistant Companion, Wallpanel and other apps that depend on a newer version of WebView.
