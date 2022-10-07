@@ -54,7 +54,7 @@ adb devices -l
 
 _Example_
 
-```
+```text
 D:\adb>adb devices -l
 List of devices attached
 F070712302013500125    device product:px30_evb model:px30_evb device:px30_evb transport_id:8
@@ -74,7 +74,7 @@ adb tcpip 5555
 
 _Example_
 
-```
+```text
 D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
@@ -83,7 +83,7 @@ Now you can connect to the T6E panel wirelessly. If you don't know the IP addres
 
 Try it out while still wired to make sure everything is working.
 
-```
+```text
 D:\adb>adb connect 10.1.1.105
 connected to 10.1.1.105:5555
 ```
@@ -100,9 +100,11 @@ With ADB access you have a powerful tool at your disposal to take control of the
 
 Here's a list of [ADB commands](https://technastic.com/adb-commands-list-adb-cheat-sheet/) you can use on your T6E panel.
 
-A useful one is a simulated press of the Home button with `adb shell input keyevent 3`.
+A useful one is a simulated press of the Home button with
 
-You can also easily gain root access with `adb root`.
+```shell
+adb shell input keyevent 3
+```
 
 Push a file to T6E panel, f.e. a new wallpaper:
 
