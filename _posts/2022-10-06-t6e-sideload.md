@@ -106,6 +106,8 @@ A useful one is a simulated press of the Home button with
 adb shell input keyevent 3
 ```
 
+You can get root access with `su` while in ADB shell.
+
 Push a file to T6E panel, f.e. a new wallpaper:
 
 ```

@@ -77,9 +77,13 @@ With ADB access you have a powerful tool at your disposal to take control of the
 
 Here's a list of [ADB commands](https://technastic.com/adb-commands-list-adb-cheat-sheet/) you can use on your NSPanel Pro.
 
-A useful one is a simulated press of the Home button with `adb shell input keyevent 3`.
+A useful one is a simulated press of the Home button with 
 
-You can also easily gain root access with `adb root`.
+```shell
+adb shell input keyevent 3
+```
+
+You can get root access with `adb root` or with `su` while in ADB shell.
 
 Push a file to NSPanel Pro, f.e. a new wallpaper:
 
