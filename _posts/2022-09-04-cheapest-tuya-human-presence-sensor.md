@@ -99,6 +99,6 @@ First of all, it's too damn big for no reason. The mmWave radar used has sensiti
 
 The polling delay of 3 seconds between events is the final nail in the coffin.
 
-You're better off paying more for a mmWave radar in a smaller case like [this one](https://s.click.aliexpress.com/e/_DDtdmKR)* with better range and detection radius that also has extra sensitivity settings and gives you an illumination sensor on top of all that.
+You're better off paying more for a mmWave radar in a smaller case like [this one](https://www.aliexpress.com/item/1005004705672138.html?aff_fcid=2fa397feed0a40a4ba73d8a7b1f474d8-1665611850545-02123-_Dkbiey7&tt=CPS_NORMAL&aff_fsk=_Dkbiey7&aff_platform=shareComponent-detail&sk=_Dkbiey7&aff_trace_key=2fa397feed0a40a4ba73d8a7b1f474d8-1665611850545-02123-_Dkbiey7&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y)* with fast response, better range and detection radius that also has extra sensitivity settings and gives you an illumination sensor on top of all that.
 
 If you want to go cheapest possible route build your own with an ESP [development board](https://templates.blakadder.com/diy#development_board) and the [HLK-LD2410](https://s.click.aliexpress.com/e/_DB0VZ7V)*. ESPHome supports it with [code from crlogic](https://community.home-assistant.io/t/mmwave-wars-one-sensor-module-to-rule-them-all/453260/2).
