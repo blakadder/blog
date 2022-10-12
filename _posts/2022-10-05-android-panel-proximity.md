@@ -12,6 +12,8 @@ Use proximity sensor for actions (f.e. screen wake up) on T6E based multi-functi
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
+{% include T6E.html %}
+
 These panels have a light and proximity sensor in top bezel of the display panel but the proximity sensor is misconfigured and cannot not wake the device from sleep when the default panel app is not active.
 
 Considering it works as expected using the default panel app I determined to discover a solution. After trying standard wave to wake apps and combing through the driver files I learned that the proximity sensor max range is lower than the distance measured when its mounted in the case. After I took the proximity sensor out it worked as it should. The simplest solution was drill a hole in the front. Simplest in this case is not the best solution. I put out a call on twitter for some help from any Android developer but that didn't go far either.
@@ -74,7 +76,7 @@ If everything is set up correctly the flow with turn red when you trigger the pr
 
 ![Flow working](/assets/images/android-panel-proximity/flowworking.png)
 
-Go to ***Settings -> Display -> Advanced -> Sleep*** and set the timeout to turn the screen off.
+Go to ***Settings -> Display -> Advanced -> Sleep*** and set the timeout to turn the screen off. On some panels screen never turns of when it's set to 15s so use a higher value.
 
 And now you can simply walk up to the panel or do the Jedi wave for the screen to turn on
 
