@@ -10,11 +10,13 @@ toc: true
 
 The complex world of integrating Tasmota lights into Home Assistant using template schema.
 
+**This guide is outdated and a lot of the functions are deprecated. It's still a good tool for learnining templating and using MQTT commands in Tasmota**
+
 Before proceeding, you should familiarize yourself with how lights are configured and work in Tasmota by reading at least the first part of the [Tasmota Lights article](http://tasmota.github.io/docs/Lights).
 
 There are three possible ways on integrating [MQTT lights](https://www.home-assistant.io/integrations/light.mqtt) in Home Assistant which are called "schema" in their terminology. The common way is the **"default"** schema which is used in [HA autodiscovery](https://tasmota.github.io/docs/Home-Assistant/#automatic-discovery) and documented for [manual configuration](https://tasmota.github.io/docs/Home-Assistant/#lights), next is "json" schema which we'll skip since it doesn't work with Tasmota and there's **"template"** schema which is the main topic.
 
-While defult schema is sufficient for average use, thus being the default choice, it has limitations.
+While default schema is sufficient for average use, thus being the default choice, it has limitations.
 
 Home Assistant has a `transition` attribute used when turning lights on or off which can define number of seconds the light should take to change states. Default MQTT Light does not have support for that.
 
@@ -25,6 +27,7 @@ The way Tasmota is designed the use of [`White`](https://tasmota.github.io/docs/
 Main advantage of "template schema" is that you can take any input from defined MQTT topics and reformat it using HA's [templating engine](https://www.home-assistant.io/docs/configuration/templating/) to appropriate values. That gives you a ton of flexibility in configurating your lights. Template schema supports all light features available in HA even transition and flash.
 
 ## Basic Configuration
+
 These are minimum required values that have to be defined for the template schema light to work light. 
 
 > Change "light" to your device topic
