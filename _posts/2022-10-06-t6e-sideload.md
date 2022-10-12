@@ -8,7 +8,7 @@ image: assets/images/header_t6e-sideload.jpg
 toc: true
 ---
 
-How to sideload apps to T6E based Android smart home touch panels. 
+How to sideload apps to Tuya T6E Android smart home touch panels. 
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
