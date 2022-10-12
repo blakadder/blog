@@ -72,7 +72,7 @@ D:\adb>adb connect 10.1.1.144
 connected to 10.1.1.144:5555
 ```
 
-Reassemble the panel and plug it into the base again. Once it boots up, run 
+Reassemble the panel and plug it into the base again. Make sure you've mounted the light and proximity sensor labelled "ALS" correctly. Once it boots up, run 
 
 ```sh
 adb connect [ip_address]
