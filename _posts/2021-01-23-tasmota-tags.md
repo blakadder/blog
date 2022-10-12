@@ -8,9 +8,9 @@ image: assets/images/header_tags.jpg
 toc: true
 ---
 
-Set up Home Assistant tags using Tasmota RFID/NFC reader and custom discovery messages. No configuration.yaml editing required! 
+Set up Home Assistant tags using Tasmota RFID/NFC reader and custom discovery messages. No configuration.yaml editing required!
 
-***All information applies only to Home Assistant 2020.12.0+ and Tasmota 9.2+***
+***All information applies to Home Assistant 2020.12.0+ and Tasmota 9.2+***
 
 This guide assumes you've correctly set up an RFID/NFC reader in Tasmota and your tags are scanned and identified in the web UI and/or console.
 
@@ -21,12 +21,14 @@ Backlog DeviceName RFID Reader; Topic rfid
 ```
 
 ## Add Device to Home Assistant
-Make sure the device is discovered in Home Assistant under Tasmota integration. If everything is configured correctly, Home Assistant's **Configuration - Devices** list should have a device "RFID Reader" and will show only the default hidden entities.
+
+Make sure the device is discovered in Home Assistant under Tasmota integration. If everything is configured correctly, Home Assistant's **Configuration - Devices** list should have a device "RFID Reader".
 
 ![Device Card](/assets/images/tags/device_card_tags.jpg)
 
 ## Setup Tags Discovery
-To add the scanned tags to Home Assistant tags we have to create a discovery configuration message. 
+
+To add the scanned tags to Home Assistant tags we have to create a discovery configuration message.
 
 This is that message written in yaml so it is easier to view and edit. Most of the configuration does not need to be changed and will be automatically populated when sent from a rule in Tasmota.
 
@@ -88,6 +90,7 @@ This is currently not required for tags but it doesn't hurt to leave it in.
 You can change unique_id but there's no reason to do so unless you have multiple motion sensors on the same device.
 
 ## YAML to JSON
+
 Take the yaml block and convert it to JSON. I recommend using [onlineyamltools](https://onlineyamltools.com/convert-yaml-to-json). Make sure to set _Output indent size_ to **0**.
 
 ![YAML to JSON](/assets/images/tags/yaml_to_json_tags.jpg)
@@ -95,6 +98,7 @@ Take the yaml block and convert it to JSON. I recommend using [onlineyamltools](
 Copy the json output to clipboard.
 
 ## Rule to Trigger Discovery
+
 In Tasmota we will add a new rule that will send a discovery message on Tasmota startup.
 
 ```console
@@ -115,16 +119,15 @@ Once Tasmota is restarted (`Restart 1`), the discovery configuration message wil
 ```json
 RUL: SYSTEM#BOOT performs "publish2 homeassistant/tag/D198079204F3_tag/config {"topic":"tele/rfid/SENSOR","value_template":...
 ```
-There will be no new entities showing in the device card for the "RFID Reader" but a new line with **MQTT INFO** will appear. 
-
-![Device Card with Tags](/assets/images/tags/device_card_tags_discovered.jpg)
+There will be no new entities showing in the device card for the "RFID Reader". 
 
 To show the newly discovered tags navigate to **Configuration - Tags** and any newly scanned tag will appear there.
 
 ![Tag Scanned](/assets/images/tags/tag_scanned.jpg)
 
 ## Remove Tag Discovery
-Simply send an empty retained MQTT message to the configuration topic shown in **MQTT INFO**.
+
+Simply send an empty retained MQTT message to the configuration topic used.
 
 Easiest way is from Tasmota using `publish2` command. For this example it would be `publish2 homeassistant/tag/D198079204F3_tag/config`.
 
