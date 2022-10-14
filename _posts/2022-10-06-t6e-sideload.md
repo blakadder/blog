@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sideload Apps to T6E Android Smart Home Panels"
+title: "Sideload Apps to Tuya T6E Android Smart Home Panels"
 author: blak
 categories: [ how-to, android, T6E ]
 tags: [ ]
