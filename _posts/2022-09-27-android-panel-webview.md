@@ -2,17 +2,22 @@
 layout: post
 title: "Update WebView on Android Smart Home Panels"
 author: blak
-categories: [ how-to, android, T6E ]
+categories: [ how-to, android, T6E, S6E, S8E  ]
 tags: [ ]
 image: assets/images/header_android-panel-webview.jpg
 toc: true
 ---
 
-Update WebView on T6E based multi-functional control panels running on Android 8.1 (NSPanel Pro and Tuya)
+Update WebView on T6E based multi-functional control panels running on Android 8.1 (NSPanel Pro and Tuya T6E, S6E and S8E)
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
+This guide applies to touch control panels such as:
+
+{% include nspanelpro.html %}
 {% include T6E.html %}
+{% include S6E.html %}
+{% include S8E.html %}
 
 They're based on the same T6E PCB and firmware from Smatek. That firmware is based on Android 8.1 with an ancient version of WebView which prevents most of smart home dashboard applications from working (f.e. Fully Kiosk Browser, Wallpanel).
 

@@ -1,25 +1,22 @@
 ---
 layout: post
-title: "Sideload Apps to Tuya T6E Android Smart Home Panels"
+title: "Sideload Apps on Tuya Smart Home Panels with Android"
 author: blak
-categories: [ how-to, android, T6E ]
+categories: [ how-to, android, T6E, S6E, S8E ]
 tags: [ ]
 image: assets/images/header_t6e-sideload.jpg
 toc: true
 ---
 
-How to sideload apps to Tuya T6E Android smart home touch panels. 
+How to sideload apps to Tuya T6E, S6E and S8E Android smart home touch panels.
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
-<p>This guide applies to touch control panels such as:</p>
-<ul>
-  <li>Moes T6E Smart Multi-functional Control Panel (<a href="https://www.moeshouse.com/products/tuya-smart-home-multi-functional-touch-screen-control-panel-4-inch-in-wall?ref=v4thya2eufek">Moes store</a>*, <a href="https://www.aliexpress.com/item/1005003799973429.html?aff_fcid=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&amp;tt=CPS_NORMAL&amp;aff_fsk=_Dee5hOB&amp;aff_platform=shareComponent-detail&amp;sk=_Dee5hOB&amp;aff_trace_key=a6ecab89ce6641d88b11cf84aaf81932-1664369338596-08437-_Dee5hOB&amp;terminal_id=5328bb0326ad4ecea39a5766fa327b23&amp;afSmartRedirect=y">AliExpress</a>*)</li>
-  <li>Aubess Ethernet Smart Control Panel (<a href="https://www.aliexpress.com/item/1005004639636958.html?aff_fcid=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&amp;tt=CPS_NORMAL&amp;aff_fsk=_DltEVer&amp;aff_platform=shareComponent-detail&amp;sk=_DltEVer&amp;aff_trace_key=33974372f9ca4396a4ebc4d388677d06-1664369339410-05923-_DltEVer&amp;terminal_id=5328bb0326ad4ecea39a5766fa327b23&amp;afSmartRedirect=y">AliExpress</a>*)</li>
-  <li>Corui Tuya Multi-functional Touch Screen with Alexa (<a href="https://www.aliexpress.com/item/1005004771330533.html?aff_fcid=3cca54898e7a48eca8e175afa87f980d-1664791198884-07428-_DlNe5lz&amp;tt=CPS_NORMAL&amp;aff_fsk=_DlNe5lz&amp;aff_platform=shareComponent-detail&amp;sk=_DlNe5lz&amp;aff_trace_key=3cca54898e7a48eca8e175afa87f980d-1664791198884-07428-_DlNe5lz&amp;terminal_id=5328bb0326ad4ecea39a5766fa327b23&amp;afSmartRedirect=y">AliExpress</a>*)</li>
-  <li>Zemismart T6E (<a href="https://www.zemismart.com/products/t6e?DIST=QEVHGw%3D%3D">Zemismart store</a>*, <a href="https://www.aliexpress.com/item/1005004295932676.html?aff_fcid=fe04b4ef296b4831976c1806acc2035e-1664869926171-01577-_DnDbrb1&amp;tt=CPS_NORMAL&amp;aff_fsk=_DnDbrb1&amp;aff_platform=shareComponent-detail&amp;sk=_DnDbrb1&amp;aff_trace_key=fe04b4ef296b4831976c1806acc2035e-1664869926171-01577-_DnDbrb1&amp;terminal_id=5328bb0326ad4ecea39a5766fa327b23&amp;afSmartRedirect=y">AliExpress</a>*)</li>
-  <li>Tuya T6E Multi-functional Smart Switch Control Panel (<a href="https://amzn.to/3TlBg4j">Amazon</a>*, <a href="https://amzn.to/3rTJZiw">Amazon</a>*)</li>
-</ul>
+This guide applies to touch control panels such as:
+
+{% include T6E.html %}
+{% include S8E.html %}
+{% include S6E.html %}
 
 ## Disassembly
 

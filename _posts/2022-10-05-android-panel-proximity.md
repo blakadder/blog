@@ -1,17 +1,20 @@
 ---
 layout: post
-title: "Use Proximity Sensor to Wake Screen on Android Smart Home Panels"
+title: "Use Proximity Sensor to Wake Screen on Tuya Smart Home Control Panels with Android"
 author: blak
-categories: [ how-to, android, T6E ]
+categories: [ how-to, android, T6E, S6E, S8E ]
 tags: [ ]
 image: assets/images/header_android-panel-proximity.jpg
 toc: true
 ---
 
-Use proximity sensor for actions (f.e. screen wake up) on T6E based multi-functional control panels running on Android (NSPanel Pro and Tuya)
+Use proximity sensor for actions (f.e. screen wake up) on T6E based multi-functional control panels running on Android (NSPanel Pro, Tuya T6E and S6E)
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
+This guide applies to touch control panels such as:
+
+{% include nspanelpro.html %}
 {% include T6E.html %}
 
 These panels have a light and proximity sensor in top bezel of the display panel but the proximity sensor is misconfigured and cannot not wake the device from sleep when the default panel app is not active.
