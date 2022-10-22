@@ -16,7 +16,7 @@ This guide applies to:
 
 {% include nspanelpro.html %}
 
-I assume you already have [adb shell access](nspanel-pro-sideload) to the panel.
+I assume you already have [adb shell access](/nspanel-pro-sideload) to the panel.
 
 ## Emergency Recovery
 
