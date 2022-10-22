@@ -2,7 +2,7 @@
 layout: post
 title: "Sideload Apps to Sonoff NSPanel Pro"
 author: blak
-categories: [ how-to, home assistant, android, touch panel ]
+categories: [ how-to, home assistant, android, touch panel, nspanel pro ]
 tags: [ ]
 image: assets/images/header_nspanelpro-sideload.jpg
 toc: true
@@ -147,15 +147,15 @@ Digging into the adb shell revealed some interesting things like [mosquitto brok
 So far it can do the following:
 
 - sideload apps
-- Home Assistant dashboard via HA Companion, Fully Kiosk, Wallpanel or web browser
+- [Home Assistant dashboard via HA Companion, Fully Kiosk, Wallpanel or web browser](android-panel-webview)
 - run Alexa with voice recognition
 - run Tuya Smart Life app (albeit the performance is not great)
-- serve as MQTT broker
+- [serve as MQTT broker](nspanel-pro-secrets)
 - ZHA or Zigbee2MQTT coordinator over TCP
 - run Zigbee2MQTT with frontend on the panel
-- wake screen on proximity
+- [wake screen on proximity](android-panel-proximity)
 - a music/video player
-- iBeacon to MQTT tracker
+- [iBeacon to MQTT tracker](https://turbo-lab.github.io/android-beacon-mqtt/)
 
 Share with me what you've managed to do with it on [Twitter](https://twitter.com/blakadder_) or in comments!
 

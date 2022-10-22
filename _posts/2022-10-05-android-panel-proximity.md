@@ -2,7 +2,7 @@
 layout: post
 title: "Use Proximity Sensor to Wake Screen on Tuya Smart Home Control Panels with Android"
 author: blak
-categories: [ how-to, android, T6E, S6E, S8E ]
+categories: [ how-to, android, T6E, S6E, S8E, nspanel pro, touch panel ]
 tags: [ ]
 image: assets/images/header_android-panel-proximity.jpg
 toc: true
