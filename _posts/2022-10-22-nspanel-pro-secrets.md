@@ -8,7 +8,7 @@ image: assets/images/header_nspanel-pro-secrets.jpg
 toc: true
 ---
 
-A collection of secrets, tips and trick for making your NSPanel Pro even better.
+A collection of secrets, tips and tricks to making your NSPanel Pro even better.
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
