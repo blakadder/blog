@@ -6,7 +6,7 @@
     <enabled>true</enabled>
     <less>false</less>
     <distance>300.0</distance>
-    <keepDeviceAwake>false</keepDeviceAwake>
+    <keepDeviceAwake>true</keepDeviceAwake>
   </trigger>
   <action type="turn_screen_on">
     <useDefaultName>true</useDefaultName>
