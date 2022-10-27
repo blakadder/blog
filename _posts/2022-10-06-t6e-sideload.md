@@ -18,6 +18,10 @@ This guide applies to touch control panels such as:
 {% include S8E.html %}
 {% include S6E.html %}
 
+![Your panel should look like this](/assets/images/moes-t6e/t6e.webp)
+
+<figcaption class="figure-caption text-center">Your panel should look like this</figcaption>
+
 ## Disassembly
 
 Remove the panel from the base. Unscrew the two screws on the back then carefully pry away the back plate starting at this point.
