@@ -73,7 +73,7 @@ Run the following command to make ADB over TCP permanent:
 adb shell setprop persist.adb.tcp.port 5555
 ```
 
-To set the T6E panel to listen for a TCP/IP connection on port 5555 run:
+To set the panel to listen for a TCP/IP connection on port 5555 run:
 
 ```sh
 adb tcpip 5555
@@ -86,7 +86,7 @@ D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
 
-Now you can connect to the T6E panel wirelessly. If you don't know the IP address run `adb shell ip -o a` to find out.
+Now you can connect to the panel wirelessly. If you don't know the IP address run `adb shell ip -o a` to find out.
 
 Try it out while still wired to make sure everything is working.
 
@@ -105,7 +105,7 @@ adb connect [ip_address]
 
 With ADB access you have a powerful tool at your disposal to take control of the panel. You can use to install and uninstall apps, list running processes, free memory and even gain root access.
 
-Here's a list of [ADB commands](https://technastic.com/adb-commands-list-adb-cheat-sheet/) you can use on your T6E panel.
+Here's a list of [ADB commands](https://technastic.com/adb-commands-list-adb-cheat-sheet/) you can use on your panel.
 
 A useful one is a simulated press of the Home button with
 
