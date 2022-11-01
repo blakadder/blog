@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update WebView on Android Smart Home Panels"
+title: "Update WebView on NSPanel Pro and Tuya Smart Home Panels"
 author: blak
 categories: [ how-to, android, T6E, S6E, S8E, nspanel pro, touch panel ]
 tags: [ ]
@@ -8,7 +8,7 @@ image: assets/images/header_android-panel-webview.jpg
 toc: true
 ---
 
-Update WebView on T6E based multi-functional control panels running on Android 8.1 (NSPanel Pro and Tuya T6E, S6E and S8E)
+Update WebView on NSPanel Pro, T6E, S6E and S8E based multi-functional control panels running on Android 8.1 to enable running newest apps such as Fully Kiosk Browser, Wallpanel, Home Assistant Companion and more
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
@@ -19,9 +19,9 @@ This guide applies to touch control panels such as:
 {% include S6E.html %}
 {% include S8E.html %}
 
-They're based on the same T6E PCB and firmware from Smatek. That firmware is based on Android 8.1 with an ancient version of WebView which prevents most of smart home dashboard applications from working (f.e. Fully Kiosk Browser, Wallpanel).
+They're based on the same PCB hardware and firmware from Smatek. That firmware is based on Android 8.1 with an ancient version of WebView which prevents most of smart home dashboard applications from working such as Fully Kiosk Browser.
 
-With gracious help from [tilaksidduram](https://twitter.com/tilaksidduram) I've compiled information on how to update WebView to newest version and run any app.
+With gracious help from [tilaksidduram](https://twitter.com/tilaksidduram) I've compiled information on how to update WebView to the newest version and run any app.
 
 ## Install ADB
 
@@ -50,6 +50,10 @@ Remove the panel from the base. Unscrew the two screws on the back then carefull
 Now unscrew the tiny screws holding the PCB to the screen. Disconnect the touch panel connector to lift up the PCB enough to plug in a data USB cable.
 
 Connect the data USB cable from your computer to the OTG port. If your device isn't recognised as adb, download [ADB drivers](https://developer.android.com/studio/run/win-usb) and install them.
+
+#### S8E
+
+S8E panel has access to the USB port at the bottom and doesn't require disassembly.
 
 ### Get ADB Access
 
@@ -81,9 +85,9 @@ D:\adb>adb connect 10.1.1.144
 connected to 10.1.1.144:5555
 ```
 
-#### T6E Specific
+#### Tuya Specific
 
-On Tuya versions of the panel ADB over TCP does not persist after a reboot. To make it permanent run:
+On Tuya versions of the panel (T6E, S6E and S8E) ADB over TCP does not persist after a reboot. To make it permanent run:
 
 ```bash
 adb shell setprop persist.adb.tcp.port 5555

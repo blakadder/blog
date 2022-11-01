@@ -160,3 +160,5 @@ echo [your_pubkey] > /data/ssh/authorized_keys
 ```
 
 The shell is started with the script in `/system/bin/start-ssh`.
+
+Share with me what you've managed to do with it on [Twitter](https://twitter.com/blakadder_) or in comments!

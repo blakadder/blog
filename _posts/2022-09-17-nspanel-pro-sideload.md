@@ -78,6 +78,18 @@ Reassemble the panel and plug it into the base again. Make sure you've mounted t
 adb connect [ip_address]
 ```
 
+### NSPanel Pro V1.3.2 Changes
+
+In this version Sonoff locked down SSH and ADB access. To regain ADB access quickly tap the **Device ID** 8 times to enable developer mode in eWeLink app Device Settings. That means you need to pair the NSPanel Pro with an eWeLink account to be able to do this.
+
+[![Procedure to gain ADB access in v1.3.2+](/assets/images/nspanelpro-sideload/nspanel-1.3.2.jpg)](/assets/images/nspanelpro-sideload/nspanel-1.3.2.jpg)
+
+Statement from Itead:
+
+> We need to remind you that once you turn on the ADB function, it means that we cannot guarantee that any operations you perform on the device are safe, reliable, and legal. Sonoff and any other related partners will not assume any legal responsibility for the consequences.
+>
+> After the ADB function is turned on, we can no longer guarantee the reliable operation of NSPanel Pro, so we will not admit any legal responsibility for the device in the future, and users who turn on this function are deemed to have waived the warranty service. Therefore, before enabling the developer mode and ADB functions, please evaluate and be aware of all possible risks.
+
 ## Using ADB
 
 With ADB access you have a powerful tool at your disposal to take control of the NSPanel Pro. You can use to install and uninstall apps, list running processes, free memory and even gain root access.

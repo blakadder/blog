@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sideload Apps on Tuya Smart Home Panels with Android"
+title: "Sideload Apps on Tuya T6E, S6E and S8E Android Smart Home Panels"
 author: blak
 categories: [ how-to, android, T6E, S6E, S8E, touch panel ]
 tags: [ ]
@@ -8,15 +8,17 @@ image: assets/images/header_t6e-sideload.jpg
 toc: true
 ---
 
-How to sideload apps to Tuya T6E, S6E and S8E Android smart home touch panels.
+Guide on how to sideload apps to Tuya based T6E, S6E and S8E Android 8.1 smart home touch panels or CCS panels.
 
 _Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
 This guide applies to touch control panels such as:
 
 {% include T6E.html %}
-{% include S8E.html %}
 {% include S6E.html %}
+{% include S8E.html %}
+
+[![Panels look like this](/assets/images/t6e-sideload/panels.jpg)](/assets/images/t6e-sideload/panels.jpg)
 
 ## Disassembly
 
@@ -32,11 +34,17 @@ Connect the data USB cable from your computer to the OTG port.
 
 [![Connect the USB cable](/assets/images/t6e-sideload/open5.jpg)](/assets/images/t6e-sideload/open5.jpg)
 
+### S8E
+
+S8E panel has access to the USB port at the bottom and doesn't require disassembly for this.
+
+[![S8E exposes the USB port](/assets/images/t6e-sideload/s8e.jpg)](/assets/images/t6e-sideload/s8e.jpg)
+
 ## Install ADB and Drivers
 
 Download [ADB drivers](https://developer.android.com/studio/run/win-usb) and install.
 
-When the T6E panel is connected to your computer via USB you should have a new device in Device Manager.
+When the panel is connected to your computer via USB you should have a new device in Device Manager.
 
 [![Front](/assets/images/t6e-sideload/device_manager.jpg)](/assets/images/t6e-sideload/device_manager.jpg)
 
@@ -65,7 +73,7 @@ Run the following command to make ADB over TCP permanent:
 adb shell setprop persist.adb.tcp.port 5555
 ```
 
-To set the T6E panel to listen for a TCP/IP connection on port 5555 run:
+To set the panel to listen for a TCP/IP connection on port 5555 run:
 
 ```sh
 adb tcpip 5555
@@ -78,7 +86,7 @@ D:\adb>adb tcpip 5555
 restarting in TCP mode port: 5555
 ```
 
-Now you can connect to the T6E panel wirelessly. If you don't know the IP address run `adb shell ip -o a` to find out.
+Now you can connect to the panel wirelessly. If you don't know the IP address run `adb shell ip -o a` to find out.
 
 Try it out while still wired to make sure everything is working.
 
@@ -95,9 +103,9 @@ adb connect [ip_address]
 
 ## Using ADB
 
-With ADB access you have a powerful tool at your disposal to take control of the T6E panel. You can use to install and uninstall apps, list running processes, free memory and even gain root access.
+With ADB access you have a powerful tool at your disposal to take control of the panel. You can use to install and uninstall apps, list running processes, free memory and even gain root access.
 
-Here's a list of [ADB commands](https://technastic.com/adb-commands-list-adb-cheat-sheet/) you can use on your T6E panel.
+Here's a list of [ADB commands](https://technastic.com/adb-commands-list-adb-cheat-sheet/) you can use on your panel.
 
 A useful one is a simulated press of the Home button with
 
@@ -107,7 +115,7 @@ adb shell input keyevent 3
 
 You can get root access with `su` while in ADB shell.
 
-Push a file to T6E panel, f.e. a new wallpaper:
+Push a file to the panel:
 
 ```shellsession
 D:\adb>adb push wallpaper.jpg /sdcard/Download/wallpaper.jpg
@@ -143,7 +151,7 @@ You will be offered a selection of launchers, set "Launcher" as default.
 
 ## Disable Tuya Panel App
 
-The Tuya panel app is very pervasive. A swipe from the top will pull down the settings menu from the Tuya app and then you're stuck in it again unless you use `adb shell input keyevent 3`. It will also load over any default launcher you set after a reboot. Best way to handle that is to disable them.
+The Tuya panel app is very pervasive. A swipe from the top will pull down the settings menu from the Tuya app and then you're stuck in it again unless you use `adb shell input keyevent 3`. It will also load over any default launcher you set after a reboot. Best way to handle that is to disable the app completely.
 
 Gain shell access with `adb shell` then switch to root with `su`. Disable with these two commands:
 
@@ -164,7 +172,7 @@ Package com.smartpad.fourinchneeu.smart new state: disabled
 
 ## Screen Navigation
 
-T6E panels have removed the navigation bar from the system and I couldn't figure out a way to restore it. As a replacement I found the J Touch app to assist with navigation.
+Tuya panels have removed the navigation bar from the system and I couldn't figure out a way to restore it. As a replacement I found the J Touch app to assist with navigation.
 
 Download [J Touch](https://apkpure.com/j-touch/com.bs.smarttouch.gp/download) and install with ADB:
 
