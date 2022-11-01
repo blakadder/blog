@@ -26,7 +26,7 @@ Gotta do some research first to know what to look for!
 
 ### Analyze Serial Communication
 
-For this I used a cheap 24Mhz logic analyzer ([AliExpress](https://s.click.aliexpress.com/e/_Adykc9)) and [PulseView](https://sigrok.org/wiki/PulseView).
+For this I used a cheap 24Mhz logic analyzer ([AliExpress](https://s.click.aliexpress.com/e/_De5LaEB)) and [PulseView](https://sigrok.org/wiki/PulseView).
 
 ![Logic Analyzer](/assets/images/nspanel/logicanalyzer.jpg)
 
