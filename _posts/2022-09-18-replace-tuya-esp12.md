@@ -17,10 +17,10 @@ All the listed modules have a similar footprint and same pinout for pins labelle
 For this you will need the following:
 
 * soldering heat gun aka rework station - I use the JCD from [AliExpress*](https://s.click.aliexpress.com/e/_DneMSyr). You can try [without one](https://youtu.be/CVsmwFAkf7I?t=254) but it's harder than it looks in the video.
-* a soldering iron - a basic one is sufficient for small projects like this such as Mustool MT883 ([Banggood](https://www.banggood.com/custlink/Dv3YBFghm0)*, [AliExpress](https://s.click.aliexpress.com/e/_DkSK3ar)*) or a more portable Sequre SQ-D60 on [AliExpress](https://s.click.aliexpress.com/e/_DEmCofH)
+* a soldering iron - a basic one is sufficient for small projects like this such as Mustool MT883 ([Banggood](https://www.banggood.com/custlink/Dv3YBFghm0)*, [AliExpress](https://s.click.aliexpress.com/e/_DkSK3ar)\*) or a more portable Sequre SQ-D60 on [AliExpress](https://s.click.aliexpress.com/e/_DEmCofH)
 * good solder and flux - don't get the super cheap stuff and definitely don't use unleaded solder. I typically get Mechanic brand from [AliExpress](https://s.click.aliexpress.com/e/_DDoZ8Ej)* and also their [RMA223 flux](https://s.click.aliexpress.com/e/_DFchJSr)*.
 * desoldering braid - not a must have but helps in cleaning up old solder. Mechanic brand from [AliExpress](https://s.click.aliexpress.com/e/_DEdSR9d)* of course.
-* serial to USB flasher - to flash the new ESP-12 module with firmware. I recommend using the ESP8266 test board ([AliExpress](https://s.click.aliexpress.com/e/_DBh3nPp)*, [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)* or [Amazon](https://amzn.to/3xVvrm7)*).
+* serial to USB flasher - to flash the new ESP-12 module with firmware. I recommend using the ESP8266 test board ([AliExpress](https://s.click.aliexpress.com/e/_DBh3nPp)\*, [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)\* or [Amazon](https://amzn.to/3xVvrm7)*).
 * IPA for cleaning
 * an ESP-12 type module - pick between [ESP8266](https://templates.blakadder.com/ESP-12), [ESP32-C3](https://templates.blakadder.com/ESP-C3-12F.html) or [ESP32-S2](https://templates.blakadder.com/ESP-12H.html) versions
 
