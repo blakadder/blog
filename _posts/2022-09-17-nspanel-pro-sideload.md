@@ -159,13 +159,13 @@ Digging into the adb shell revealed some interesting things like [mosquitto brok
 So far it can do the following:
 
 - sideload apps
-- [Home Assistant dashboard via HA Companion, Fully Kiosk, Wallpanel or web browser](android-panel-webview)
+- [Home Assistant dashboard via HA Companion, Fully Kiosk, Wallpanel or web browser](/android-panel-webview)
 - run Alexa with voice recognition
 - run Tuya Smart Life app (albeit the performance is not great)
-- [serve as MQTT broker](nspanel-pro-secrets)
+- [serve as MQTT broker](/nspanel-pro-secrets)
 - ZHA or Zigbee2MQTT coordinator over TCP
 - run Zigbee2MQTT with frontend on the panel
-- [wake screen on proximity](android-panel-proximity)
+- [wake screen on proximity](/android-panel-proximity)
 - a music/video player
 - [iBeacon to MQTT tracker](https://turbo-lab.github.io/android-beacon-mqtt/)
 
