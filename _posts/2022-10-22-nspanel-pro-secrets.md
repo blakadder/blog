@@ -161,4 +161,25 @@ echo [your_pubkey] > /data/ssh/authorized_keys
 
 The shell is started with the script in `/system/bin/start-ssh`.
 
+## Install microG Services
+
+This tip is from Mephis007 in comments:
+
+You can also install microG services to use Google Play services functions for installed applications. I've done it successfully and can now enjoy push notifications on my favourite smarthome app, Jeedom Connect.
+
+
+To do so you must :
+- Install & activate [FakeGApps Xposed module](https://f-droid.org/en/packages/com.thermatk.android.xf.fakegapps/)
+- Install [F-Droid](https://f-droid.org/en/) and add microG repo: https://microg.org/download.html
+- Install Gmscore and GsfProxy from F-Droid
+- Install UnifiedNlp backend of your choice from F-Droid (I chose the Mozilla one)
+- Install FakeStore app from F-Droid
+- Open microG parameters and ensure log in and cloud messaging are enabled
+- Grant every permission to microG (the usual Android way)
+- Reboot the NSPanel Pro
+- Deactivate battery optimisation for microG
+- Ensure everything is setup correctly with "self check" function in microG parameters.
+
+Enjoy!
+
 Share with me what you've managed to do with it on [Twitter](https://twitter.com/blakadder_) or in comments!
