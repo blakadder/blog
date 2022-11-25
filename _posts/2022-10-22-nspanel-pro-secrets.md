@@ -163,7 +163,7 @@ The shell is started with the script in `/system/bin/start-ssh`.
 
 ## Install microG Services
 
-This tip is from Mephis007 in comments:
+This tip is from Mephis007 in comments, published here with edits:
 
 You can also install [microG](https://microg.org/) services to use apps that require Google Play services functions. I've done it successfully and can now enjoy push notifications on my favourite smarthome app, Jeedom Connect.
 
@@ -181,5 +181,39 @@ To do so you must :
 - Ensure everything is setup correctly with "self check" function in microG parameters.
 
 Enjoy!
+
+## Install HikVision App
+
+Submitted by Vlad Kivika in comments, published here with edits: 
+
+I have installed, <b>Hikvision</b> app for DVR/NVR. Works good but needs some easy tricks to run properly.
+
+First of all, Hik-Connect is not working on NSPanel. Last version couldn't work on rooted devices, but earlier versions couldn't login to the account, because they are too old.
+
+I've tried some additional apps from <b>Hikvision</b> and stopped on <b>iVMS4500</b>, which worked good enough to check surroundings.
+First of all, you need to download from [APKMirror](https://www.apkmirror.com/apk/hikvision-hq/ivms-4500/) or [Apkpure](https://m.apkpure.com/ivms-4500-hd/com.mcu.iVMSHD) and sideload the app. It will take some time.
+
+when installation is complete, you will see the icon in the launcher. Open the app and:
+1. Select your Region
+2. We go to the main screen, looks like demo
+3. On the top right screen, push icon, which looks like 2 cameras
+![](https://uploads.disquscdn.com/images/eb016a850fcdcf8223e12d122f005d3df7d25c3edebd316492362e34f69694b9.jpg)
+4. + New Device
+![](https://uploads.disquscdn.com/images/a1c733e1df761142852a2aeac694a1a75f3c412d75746821dc4cd40372bd455a.jpg) 
+5. Adding mode, choose IP/Domain or most relevant for you, input necessary data and save
+![](https://uploads.disquscdn.com/images/9b61c28b104d5268d333725daf6e0e5cbe0464731ed20977a58fa4a7a2451229.jpg) 
+6. Choose your NVR / DVR and choose Live View
+
+There you can manage your cameras, and default views.
+
+But the problem is that the screen of our NSPanel Pro is damn small. To bring all this to more or less compatible view, you need to go to **Settings --> Display --> Advanced --> Display Size** and move the toggle to **Small**. Don't hurry to run away from the **Display** Settings. You need to go up to **Screen Rotation** and set value to **90**. If you have your panel already fixed, you will need to disassemble it from the mount place and physicaly turn it by 90 degrees. I will explain why it's necessary just right now (but may be some one will found better solution for this).
+
+When all above were managed, you will need to come back to <b>iVMS4500</b> app, push the 3 lines icon on the left top corner, then go to Configuration and turn on **Tablet Mode**.
+
+![](https://uploads.disquscdn.com/images/ff85a6f88eeae65696da4ea9b808321d9ac9794bbd041a18ded2fd3ce663e8ec.jpg) 
+
+You will be dropped from the application, but when you come back, it will work. When you turn on Tablet Mode, application will turn your screen bz 90 degrees, that's why we already rotated the screen in **Display Settings**.
+
+## Share What You've Done
 
 Share with me what you've managed to do with it on [Twitter](https://twitter.com/blakadder_) or in comments!
