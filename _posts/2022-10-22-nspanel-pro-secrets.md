@@ -165,7 +165,7 @@ The shell is started with the script in `/system/bin/start-ssh`.
 
 This tip is from Mephis007 in comments:
 
-You can also install microG services to use Google Play services functions for installed applications. I've done it successfully and can now enjoy push notifications on my favourite smarthome app, Jeedom Connect.
+You can also install [microG](https://microg.org/) services to use apps that require Google Play services functions. I've done it successfully and can now enjoy push notifications on my favourite smarthome app, Jeedom Connect.
 
 
 To do so you must :
