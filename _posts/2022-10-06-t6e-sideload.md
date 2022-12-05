@@ -177,7 +177,7 @@ Tuya panels have removed the navigation bar from the system and I couldn't figur
 Download [J Touch](https://apkpure.com/j-touch/com.bs.smarttouch.gp/download) and install with ADB:
 
 ```sh
-adb shell install "J Touch_v1.7.0-GP_apkpure.com.apk"
+adb install "J Touch_1.7.0-GP_Apkpure.apk"
 ```
 
 Open J Touch on the panel, grant the necessary permissions and configure gestures for navigation per your preference. I set single tap for back and swipe up for home screen.
