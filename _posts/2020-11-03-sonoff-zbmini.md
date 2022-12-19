@@ -10,11 +10,11 @@ toc: true
 
 The [Sonoff Mini](https://templates.blakadder.com/sonoff_mini.html) is the most popular device Sonoff offered. Making a Zigbee version was a no brainer. And they did!
 
-_**Full disclosure:** This is a review sample sent to me free of charge by [Sonoff](https://www.anrdoezrs.net/links/100155210/type/dlg/https://www.itead.cc/). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
+_**Full disclosure:** This is a review sample sent to me free of charge by [Sonoff](https://www.itead.cc/ref/34/). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
 Sonoff ZBMINI is a ZigBee 3.0 two-way smart in-wall relay switch that is compatible with different hubs, including SONOFF ZBBridge, Amazon Hub, Samsung SmartThings Hub and Philips Hue Hub. But we don't care about those. It has a CE and FCC certification and should work on any electrical grid with no issues.
 
-It is available now from the [Itead store](https://www.anrdoezrs.net/links/100155213/type/dlg/https://www.itead.cc/sonoff-zbmini-zigbee-smart-switch.html) for 9.90$ which is quite a bargain for a small Zigbee 3.0 relay module.
+It is available now from the [Itead store](https://itead.cc/product/sonoff-zbmini-zigbee-smart-switch/ref/34/) for 9.90$ which is quite a bargain for a small Zigbee 3.0 relay module.
 
 ## The Inevitable Comparison
 

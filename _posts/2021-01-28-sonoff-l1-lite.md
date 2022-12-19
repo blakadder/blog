@@ -10,13 +10,13 @@ toc: true
 
 Sonoff L1 Lite is a Wi-Fi RGB LED light kit
 
-_**Full disclosure:** This is a review sample sent to me free of charge by [Sonoff](https://www.anrdoezrs.net/links/100155210/type/dlg/https://www.itead.cc/). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
+_**Full disclosure:** This is a review sample sent to me free of charge by [Sonoff](https://www.itead.cc/ref/34/). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
 ![Packaging](/assets/images/l1lite/packaging.jpg)
 
 It consists of an RGB LED controller, a power supply, a LED strip and a 24 button IR remote to control it. The strip is a 5 meter long with 30 5050 RGB LED per meter. Its a standard cuttable LED strip type which is easy to shorten by cutting on the copper RGB12V tabs or expand it by using another strip of the same type. Power supply has a decent, but not great, 150cm long cable and provides 2A of 12V electricity.
 
-This is a cheaper and leaner package than the [Sonoff L1](hhttps://www.anrdoezrs.net/links/100155210/type/dlg/ttps://www.itead.cc/sonoff-l1-smart-led-light-strip.html) which downgrades the LED strip to a non-waterproof one, removes the universal power supply and the power injector. You didn't really need all these for a simple ambient light or a TV backlight anyway so the benefit of the price cut is worth it.
+This is a cheaper and leaner package than the [Sonoff L1](https://itead.cc/product/sonoff-l1-lite-smart-led-light-strip/ref/34/) which downgrades the LED strip to a non-waterproof one, removes the universal power supply and the power injector. You didn't really need all these for a simple ambient light or a TV backlight anyway so the benefit of the price cut is worth it.
 
 The LED controller, model Spider Z, is the same as on the Sonoff L1 controller. It's based on an ESP8285 chipset which communicates with the Nuvoton MCU that is in charge of controlling the lights. The separate controller is, in my opinion, actually a plus because it assures smooth transitions and effects while the PWM based lights suffer from stuttering due to the software control from the ESP8266.
 

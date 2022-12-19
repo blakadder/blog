@@ -10,9 +10,9 @@ toc: true
 
 Sonoff NSPanel teardown and detailed overview.
 
-_**Full disclosure:** This is a pre production unit sent to me free of charge by [Sonoff](https://www.anrdoezrs.net/links/100155210/type/dlg/https://www.itead.cc/). Some aspects of it might be changed once it reaches production. Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
+_**Full disclosure:** This is a pre production unit sent to me free of charge by [Sonoff](https://www.itead.cc/ref/34/). Some aspects of it might be changed once it reaches production. Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
-Sonoff NSPanel is available through [Itead store](https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch/?utm_source=Youtube+Influencer&utm_medium=Sasa+Milicevic&utm_campaign=NSPanel+Review).
+Sonoff NSPanel is available through [Itead store](https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch/ref/34/).
 
 Time to dig in deeper into the new NSPanel and see what possibilities it hides inside.
 
@@ -84,7 +84,7 @@ I've managed to get the Nextion screen type after issuing the upload protocol se
 comok 2,30614-0,NX4832F035_011C,48,61744,16643401829EF850,16777216ÿÿÿ
 ```
 
-This means its a Nextion Discovery 3.5" [NX4832F035](https://www.tkqlhce.com/click-100155210-13913691?url=https%3A%2F%2Fitead.cc%2Fproduct%2Fnx4832f035-nextion-3-5-discovery-series-hmi-touch-display%2F) ([Datasheet](https://nextion.tech/datasheets/nx4832f035/)) but with a capacitive touch panel. 
+This means its a Nextion Discovery 3.5" [NX4832F035](https://itead.cc/product/nx4832f035-nextion-3-5-discovery-series-hmi-touch-display/ref/34/) ([Datasheet](https://nextion.tech/datasheets/nx4832f035/)) but with a capacitive touch panel. 
 
 ![Nextion](/assets/images/nspanel/nextion.jpg)
 

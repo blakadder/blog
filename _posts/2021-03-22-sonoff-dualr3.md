@@ -10,11 +10,11 @@ toc: true
 
 Sonoff's dual relay Wi-Fi smart switch with power metering and bluetooth (kind of)
 
-_**Full disclosure:** This is a review sample sent to me free of charge by [Sonoff](https://www.anrdoezrs.net/links/100155210/type/dlg/https://www.itead.cc/). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
+_**Full disclosure:** This is a review sample sent to me free of charge by [Sonoff](https://www.itead.cc/ref/34/). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
 Sonoff DUALR3 is the successor of the DUAL and DUALR2 but is nothing alike its predecessors apart from having dual relays. Compared to them its way, way smaller and comes with power monitoring, two mains switch inputs and uses the ESP32 as its brains. It can be a dual switch relay, a motor controller or a dedicated power monitoring device with the relays permanently disabled. All that is crammed into a tiny 54x49x24mm case that fits in all electrical boxes worldwide or mounts on standard DIN rail with the accompanying clip-on mounting base.
 
-It is available now from the [Itead store](https://www.anrdoezrs.net/links/100155213/type/dlg/https://www.itead.cc/sonoff-dualr3.html) for 13.98$ which is a great price for such a powerful package. 
+It is available now from the [Itead store](https://itead.cc/product/sonoff-dualr3/ref/34/) for 13.98$ which is a great price for such a powerful package. 
 
 ## The Box
 

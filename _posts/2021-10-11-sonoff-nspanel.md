@@ -10,7 +10,7 @@ toc: true
 
 Next level in your smart home
 
-_**Full disclosure:** This is a pre production unit sent to me free of charge by [Sonoff](https://www.anrdoezrs.net/links/100155210/type/dlg/https://www.itead.cc/). Some aspects of it might be changed once it reaches production. Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
+_**Full disclosure:** This is a pre production unit sent to me free of charge by [Sonoff](https://www.itead.cc/ref/34/). Some aspects of it might be changed once it reaches production. Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
 Sonoff contacted me in August with an intriguing offer to test a touch-screen control switch. I was not about to decline that although my expectations were not that high, to be honest.
 
