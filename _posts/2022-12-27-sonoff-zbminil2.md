@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sonoff ZBMINIL2 Extreme No Neutral Smart Switch Review"
+title: "Sonoff ZBMINIL2 Extreme No Neutral Zigbee Smart Switch Review"
 author: blak
 categories: [ review, zigbee ]
 tags: [ ]
