@@ -89,7 +89,7 @@ The waterfall attachment takes up a lot of space and combined with the splash sh
 
 The RFID tags are quite big for smaller cats and they rattle when worn on the supplied collar. Not a great combo for active cats. I don't find them worth the hassle just so I can know if my pet visited the fountain because it cannot guarantee water has been drunk.
 
-## Verdict
+## Final Verdict
 
 In it's essence it a well designed device build with quality and wellbeing of your pet in mind. I like the ideas Catlink had for the fountain but, they missed the mark with baffling omission of, at least in my eyes, expected feature of simply turning the fountain off.
 
