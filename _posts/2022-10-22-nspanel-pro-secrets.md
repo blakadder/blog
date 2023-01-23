@@ -18,6 +18,18 @@ This guide applies to:
 
 I assume you already have [adb shell access](/nspanel-pro-sideload) to the panel.
 
+## NSPanel Pro Tools
+
+In January 2023 began development of NSPanel Pro Tool, an app directed to making the NSPanel Pro easier to use and aims to replace the Automagic [solution](android-panel-proximity). 
+
+Features in v1.0:
+
+- support wakeup on proximity sensor trigger
+- support wakeup on touch
+- support auto launch application
+
+[Download it from GitHub](https://github.com/seaky/nspanel_pro_tools_apk) and sideload to NSPanel Pro.
+
 ## Emergency Recovery
 
 Sonoff NSPanel Pro has a protection mechanism that will boot the firmware from a recovery partition in case of a firmware update failure. If you messed up something big time you can trigger this emergency recovery and factory reset everything with the following procedure:

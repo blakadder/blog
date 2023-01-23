@@ -92,3 +92,15 @@ And now you can simply walk up to the panel or do the Jedi wave for the screen t
 You can make this basic flow more complex with various conditions to turn it on dimmer during the night and so on.
 
 Also make sure to explore other automation possibilities of this very capable app, such as the sound level trigger!
+
+## 2023 Update New App
+
+In January 2023 began development of NSPanel Pro Tool, an app directed to making the NSPanel Pro easier to use and aims to replace the Automagic [solution](android-panel-proximity). 
+
+Features in v1.0:
+
+- support wakeup on proximity sensor trigger
+- support wakeup on touch
+- support auto launch application
+
+[Download it from GitHub](https://github.com/seaky/nspanel_pro_tools_apk) and sideload to NSPanel Pro.
