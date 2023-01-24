@@ -97,4 +97,4 @@ The biggest minus is lack of any kind of integration. The app has an OK UI, it w
 
 There is one thing that still makes it an interesting buy. It uses an ESP-12 module with an ESP8266 chip which makes it possible to flash custom firmware, but that's something for another day.
 
-If you can live with the negatives or want to hack it you can buy it from [Geekbuying](https://www.geekbuying.com/go/7FfyE9eI). Make sure to check their site for discount coupons. Right now it's on flash sale for $84.99.
+If you can live with the negatives or want to hack it you can buy it from [Geekbuying](https://www.geekbuying.com/go/7FfyE9eI). Make sure to check their site for [discount coupons](https://www.geekbuying.com/go/7KFvjQNK). Right now it's on flash sale for $84.99.
