@@ -78,7 +78,7 @@ Reassemble the panel and plug it into the base again. Make sure you've mounted t
 adb connect [ip_address]
 ```
 
-### NSPanel Pro V1.3.2 Changes
+### V1.3.2 Changes
 
 In this version Sonoff locked down SSH and ADB access. To regain ADB access quickly tap the **Device ID** 8 times to enable developer mode in eWeLink app Device Settings. That means you need to pair the NSPanel Pro with an eWeLink account to be able to do this.
 
@@ -89,6 +89,38 @@ Statement from Itead:
 > We need to remind you that once you turn on the ADB function, it means that we cannot guarantee that any operations you perform on the device are safe, reliable, and legal. Sonoff and any other related partners will not assume any legal responsibility for the consequences.
 >
 > After the ADB function is turned on, we can no longer guarantee the reliable operation of NSPanel Pro, so we will not admit any legal responsibility for the device in the future, and users who turn on this function are deemed to have waived the warranty service. Therefore, before enabling the developer mode and ADB functions, please evaluate and be aware of all possible risks.
+
+### V1.4 Changes
+
+Seems Itead is intent on locking things down and has disabled the developer mode in versions 1.4 and up but there's a way, courtesy of [Filya75 on Home Assistant forum](https://community.home-assistant.io/t/nspanel-pro-custom-android-apps-working/459563/52?u=blakadder)
+
+> I ran into this too, however I found a solution:
+> 
+> 1.I connected the panel via USB
+> 2.Started panel recovery by turning off the power 5 times when the animated logo appears.
+> 3.After restoring the panel, I continuously gave the adb devices -l command in the command line, and as soon as the panel appeared in the list, I immediately launched the launcher installation. adb install ultra-small-launcher.apk
+> 4.After the reboot, I selected the launcher as the default application and through Go to Settings → System → About tablet → Build Number and tap the “Build Number” option 7 times to enable developer options enabled USB debugging
+
+and experience from [ian.tait](https://community.home-assistant.io/t/nspanel-pro-custom-android-apps-working/459563/58?u=blakadder)
+
+> I got the exact same thing to start with.
+> Keep pushing the installation after the recovery process has completed.
+> 
+> That first reboot after the recovery is when to push the launcher.
+> I found mine took after the spinning Sonoff graphic and just as CAST comes up on the screen and it was too late once the eWelink log comes up.
+> I hope this narrows the timing for you.
+> Once pushed I completed the eWelink setup with the QR code and went to About and selected Reboot.
+> On the next load it gave me the option to choose launcher. I selected Always.
+> 
+> Once loaded in, I went to About and activated Dev mode (blah blah, you get this bit).
+> In the Dev Mode menu, I enabled USB debugging.
+> 
+> I then turned it off and put it all back together.
+> Now it is back together, I can continue with the great doc from blakadder using the connect command.
+> This allows you to continue the setup over the air and has no need for USB cables.
+> 
+> In summary, spam it, it will take I promise as it worked for me last night.
+> Spent hours on making this work, and thanks to Filya75, I had this nailed in an hour.
 
 ## Using ADB
 
