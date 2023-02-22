@@ -6,8 +6,8 @@ comments: false
 ---
 
 DISCLOSURES ACCORDING TO § 5 TMG:    
-Numero    
-Stjepana Radića 38a    
+Smart Home News d.o.o.    
+Alojzija Stepinca 138    
 32100 Vinkovci    
 Croatia    
 
@@ -17,7 +17,7 @@ Represented by: Saša Miličević
 
 ## Liability for contents:
 
-The contents of our pages have been created with the greatest care. However, we cannot assume any liability for the accuracy, completeness and up-to-dateness of the contents. As a service provider, we are responsible for our own content on these pages in accordance with § 7 Abs. 1 TMG (German Telemedia Act) in accordance with the general laws. According to §§ 8 to 10 TMG we are not obligated as a service provider to monitor transmitted or stored external information or to investigate circumstances that indicate illegal activity.     Obligations to remove or block the use of information in accordance with general laws remain unaffected by this. However, liability in this regard is only possible from the time of knowledge of a concrete infringement. If we become aware of any such violations of the law, we will remove these contents immediately.
+The contents of our pages have been created with the greatest care. However, we cannot assume any liability for the accuracy, completeness and up-to-dateness of the contents. As a service provider, we are responsible for our own content on these pages in accordance with § 7 Abs. 1 TMG (German Telemedia Act) in accordance with the general laws. According to §§ 8 to 10 TMG we are not obligated as a service provider to monitor transmitted or stored external information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information in accordance with general laws remain unaffected by this. However, liability in this regard is only possible from the time of knowledge of a concrete infringement. If we become aware of any such violations of the law, we will remove these contents immediately.
 
 ## Liability for links:
 
