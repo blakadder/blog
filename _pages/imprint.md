@@ -13,6 +13,8 @@ Croatia
 
 Represented by: Saša Miličević
 
+email: smarthomenews.press@gmail.com
+
 <a href="{{ site.baseurl }}/contact">Contact form</a>
 
 ## Liability for contents:
