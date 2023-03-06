@@ -90,7 +90,9 @@ This makes the possibilities endless and I believe there will be a lot of develo
 
 Before playing with mine I backed up the original firmware **twice** with esptool.py. Better safe than sorry.
 
-'esptool -p COM9 -b 921600 read_flash 0x0 0x400000 ulanzi_tc001_factory.bin'
+```
+esptool -p COM9 -b 921600 read_flash 0x0 0x400000 ulanzi_tc001_factory.bin
+```
 
 Make sure to use a good USB-C data cable, the one supplied with the TC001 was a bit flaky while backing up so I used a shorter one from my phone.
 
