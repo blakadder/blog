@@ -90,9 +90,7 @@ This makes the possibilities endless and I believe there will be a lot of develo
 
 Before playing with mine I backed up the original firmware **twice** with esptool.py. Better safe than sorry.
 
-```
-esptool -p COM9 -b 921600 read_flash 0x0 0x400000 ulanzi_tc001_factory.bin
-```
+'esptool -p COM9 -b 921600 read_flash 0x0 0x400000 ulanzi_tc001_factory.bin'
 
 Make sure to use a good USB-C data cable, the one supplied with the TC001 was a bit flaky while backing up so I used a shorter one from my phone.
 
@@ -105,8 +103,6 @@ With Tasmota it was easier to track battery usage with the ADC sensor and I publ
 An ESP32 powered addressable LED pixel matrix in a nicely designed and well made enclosure that’s easily flashable like a development board. You don't need extra hardware and there is no soldering, just plug in the USB cable and go.
 
 An excellent choice if you’re looking for a pixel style display for notifications, animations or just a clock/weather display. There are many ways to use it and you’ll probably find one that’s perfect for you. The 8x32 pixels don’t give you a whole lot of room to get very artistic, but there’s the [Pixoo64](https://collabs.shop/hpilym) for that and a review is in the works.
-
- 
 
 Built in temperature and humidity sensor is worthless for reading room temperature because it is enclosed with an ESP32 and a LED matrix who are both constantly heating it up.
 
