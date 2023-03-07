@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ulanzi Desktop Pixel Clock on esphome"
+title: "Ulanzi Desktop Pixel Clock on Esphome"
 author: blak
 categories: [ esphome, diy ]
 tags: [ ]
@@ -8,7 +8,7 @@ image: assets/images/header_ulanzi-esphome.jpg
 toc: true
 ---
 
-Guide on installing esphome on Ulanzi TC001 pixel clock I [reviewed](ulanzi-pixel-clock) and making it work with Home Assistant.
+Guide on installing Esphome on Ulanzi TC001 pixel clock I [reviewed](ulanzi-pixel-clock) and making it work with Home Assistant.
 
 _**Full disclosure:** This device is purchased with the help of your donations. Links in this article are affiliate links. By purchasing through them I also get a small commission that funds future projects!_
 
@@ -18,7 +18,7 @@ Ulanzi Smart Pixel Clock is available from the following stores:
 - [Aliexpress](https://www.aliexpress.com/item/1005005034439849.html?aff_fcid=d5a66d494fcb4a53b1eba0e6d34f656c-1677795402854-08330-_DkwGxYt&tt=CPS_NORMAL&aff_fsk=_DkwGxYt&aff_platform=shareComponent-detail&sk=_DkwGxYt&aff_trace_key=d5a66d494fcb4a53b1eba0e6d34f656c-1677795402854-08330-_DkwGxYt&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y)
 - [Amazon](https://www.amazon.com/dp/B0BS8Q9749?tag=blakaddertemp-20)
 
-In my internet searches for everything Ulanzi and Awtrix pixel clock related I found lubeda's [awtrix python script](https://github.com/lubeda/awtrix_python_script) for Home Assistant. I checked out lubeda's profile, as you usually do as a low key internet stalker, and a repository called [EsphoMaTrix](https://github.com/lubeda/EsphoMaTrix) was on the list. I don't know if it was the camel case of the title or the description "A simple DIY status display with an 8x32 RGB LED panel implemented with esphome.io" that drew me in. Well, I know some esphome and I like tight Home Assistant integrations so I put it on the "to try out" list. Meanwhile I also got a [Twitter ping](https://twitter.com/tompower31/status/1612856531632164864?s=20) mentioning the same project. 
+In my internet searches for everything Ulanzi and Awtrix pixel clock related I found lubeda's [awtrix python script](https://github.com/lubeda/awtrix_python_script) for Home Assistant. I checked out lubeda's profile, as you usually do as a low key internet stalker, and a repository called [EsphoMaTrix](https://github.com/lubeda/EsphoMaTrix) was on the list. I don't know if it was the camel case of the title or the description "A simple DIY status display with an 8x32 RGB LED panel implemented with esphome.io" that drew me in. Well, I know some Esphome and I like tight Home Assistant integrations so I put it on the "to try out" list. Meanwhile I also got a [Twitter ping](https://twitter.com/tompower31/status/1612856531632164864?s=20) mentioning the same project. 
 
 Almost two months later I got to try it out and, lo and behold, there was even support of Ulanzi TC001, albeit in an unfinished stage. Sometimes you unintentionally wait and others do the bulk of the work for you.
 
@@ -26,9 +26,9 @@ This will be a great solution for a Home Assistant or standalone user, if you're
 
 ## Installation
 
-First you need to have [esphome](https://esphome.io/). If you don't, install it using the appropriate method for your situation. For me it was a Docker container on my small Celeron J3455 home server.
+First you need to have [Esphome](https://esphome.io/). If you don't, install it using the appropriate method for your situation. For me it was a Docker container on my small Celeron J3455 home server.
 
-Open esphome dashboard and start a new project. Paste the yaml.
+Open Esphome dashboard and start a new project. Paste the yaml.
 
 {% raw %}
 ```yaml
@@ -371,13 +371,13 @@ display:
       id(rgb8x32)->draw();{% endraw %}
 ```
 
-Before installing download the [Calcium font](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=13577) and place it in the same location as the configuration yaml. Connect the Ulanzi via the USB-C port to the machine with esphome. Click install and choose "Plug into.." and wait for it to complete.
+Before installing download the [Calcium font](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=13577) and place it in the same location as the configuration yaml. Connect the Ulanzi via the USB-C port to the machine with Esphome. Click install and choose "Plug into.." and wait for it to complete.
 
 If that is not possible you can choose "Manual download", grab the built binary and flash it manually with esptool.py or [ESPHome-Flasher](https://github.com/esphome/esphome-flasher).
 
 ![esphome?](/assets/images/ulanzi-tc001/esphome.gif)
 
-This is just the skeleton configuration, you need to add (animated) icons you're going to use. Or do a deep dive and adapt it how you want it, it's just esphome.
+This is just the skeleton configuration, you need to add (animated) icons you're going to use. Or do a deep dive and adapt it how you want it, it's just Esphome.
 
 ## Buttons and Sensors
 
@@ -434,7 +434,7 @@ Some fonts will require different sizes, most likely 8 or 12 and many fonts will
 
 Depending on the font size and shape you might need to raise or lower `yoffset:` to make the entire font visible. 
 
-The `glyphs:` key just tells esphome which characters will be saved to flash memory and used by the display. If a character is missing from the font with a defined glyph it will be displayed as a white outlined square. If a glyph isn't defined that charcter it will be displayed as a white block. Adjust according to your use and font's capabilities. Fonts on Bitfontmaker2 have a GlyphMap link to display all available characters.
+The `glyphs:` key just tells Esphome which characters will be saved to flash memory and used by the display. If a character is missing from the font with a defined glyph it will be displayed as a white outlined square. If a glyph isn't defined that charcter it will be displayed as a white block. Adjust according to your use and font's capabilities. Fonts on Bitfontmaker2 have a GlyphMap link to display all available characters.
 
 I settled on Calcium because it looks nice and has a lot of included glyphs. Other contenders were [Awesome](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=13808) as a large font or, appropriately named, [smallfonts with symbols](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=608) or [DMD-Small](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=5993) as small font options. Small fonts are useful if you have day_of_week indicator enabled, make sure to set `yoffset: 6`. Honorable mention goes to [Fallout], font used in my favourite games Fallout 1 and 2
 
