@@ -12,6 +12,12 @@ Guide on installing esphome on Ulanzi TC001 pixel clock I [reviewed](ulanzi-pixe
 
 _**Full disclosure:** This device is purchased with the help of your donations. Links in this article are affiliate links. By purchasing through them I also get a small commission that funds future projects!_
 
+Ulanzi Smart Pixel Clock is available from the following stores:
+- [Ulanzi USA](https://www.ulanzi.com/products/ulanzi-pixel-smart-clock-2882?aff=800)
+- [Ulanzi Germany](https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882?ref=blakadder)
+- [Aliexpress](https://www.aliexpress.com/item/1005005034439849.html?aff_fcid=d5a66d494fcb4a53b1eba0e6d34f656c-1677795402854-08330-_DkwGxYt&tt=CPS_NORMAL&aff_fsk=_DkwGxYt&aff_platform=shareComponent-detail&sk=_DkwGxYt&aff_trace_key=d5a66d494fcb4a53b1eba0e6d34f656c-1677795402854-08330-_DkwGxYt&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y)
+- [Amazon](https://www.amazon.com/dp/B0BS8Q9749?tag=blakaddertemp-20)
+
 In my internet searches for everything Ulanzi and Awtrix pixel clock related I found lubeda's [awtrix python script](https://github.com/lubeda/awtrix_python_script) for Home Assistant. I checked out lubeda's profile, as you usually do as a low key internet stalker, and a repository called [EsphoMaTrix](https://github.com/lubeda/EsphoMaTrix) was on the list. I don't know if it was the camel case of the title or the description "A simple DIY status display with an 8x32 RGB LED panel implemented with esphome.io" that drew me in. Well, I know some esphome and I like tight Home Assistant integrations so I put it on the "to try out" list. Meanwhile I also got a [Twitter ping](https://twitter.com/tompower31/status/1612856531632164864?s=20) mentioning the same project. 
 
 Almost two months later I got to try it out and, lo and behold, there was even support of Ulanzi TC001, albeit in an unfinished stage. Sometimes you unintentionally wait and others do the bulk of the work for you.
