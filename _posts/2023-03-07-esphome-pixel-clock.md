@@ -71,7 +71,7 @@ web_server:
 
 font: 
   # adapt the filename to your local settings
-  - file: fonts/Calcium.ttf
+  - file: Calcium.ttf
     id: ehmtx_font
     size: 16
     glyphs:  |
