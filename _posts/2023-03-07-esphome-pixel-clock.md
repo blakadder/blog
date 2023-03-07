@@ -466,7 +466,7 @@ There's more than ten thousand melodies to choose from downloadable from [Picaxe
 I've just gone ahead and used the ehmtk [README.md] example because it's simple and effective.
 
 ```yaml
-alias: Ulanzi Display Stuff
+{% raw %}alias: Ulanzi Display Stuff
 description: "Create screens on Ulanzi TC001"
 trigger:
   - platform: state
@@ -486,7 +486,7 @@ action:
       text: >-
         {{ trigger.to_state.state }}{{ trigger.to_state.attributes.unit_of_measurement }}
 mode: queued
-max: 10
+max: 10{% endraw %}
 ```
 
 To make this work you have to configure icons in yaml with id's identical to the trigger id used. 
