@@ -401,11 +401,10 @@ There's a somewhat hidden feature in EsphoMaTrix to pull the icons directly just
       lameid: 7956
 ```
 
-I don't know for how long will this be possible and I strongly recommend to download the icons you intend to use and save them locally. Add the icon number to the url https://developer.lametric.com/content/apps/icon_thumbs/ and download it to the same folder as the configuration yaml file. Use with 
+I don't know for how long will this be possible and I strongly recommend to download the icons you intend to use and save them locally. Add the icon number to the url https://developer.lametric.com/content/apps/icon_thumbs/ and download it to the same folder as the configuration yaml file. Use with:
 
-:
 
-```
+```yaml
   icons: 
     - id: batman
       file: batman.gif
@@ -421,7 +420,7 @@ Not all fonts will work but there's a higher chance to find a suitable one here 
 
 Download the font and save it to the same folder as the configuration yaml file and change the filename in the yaml. 
 
-```
+```yaml
 font: 
   - file: fonts/BetterPixels.ttf
     id: ehmtx_font
