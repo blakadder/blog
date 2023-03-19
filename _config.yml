@@ -22,6 +22,11 @@ authors:
     twitter: https://twitter.com/blakadder_
     instagram: https://instagram.com/blak_adder
     description: "Chief shenaniganeer!"
+  yonah:
+    name: yonah
+    display_name: yonah
+    avatar: 'assets/images/yonah.png'
+    description: "Junior shenaniganeer!"
 
 # Plugins
 plugins:
