@@ -371,7 +371,7 @@ display:
       id(rgb8x32)->draw();{% endraw %}
 ```
 
-Before installing download the [Calcium font](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=13577) and place it in the same location as the configuration yaml. Connect the Ulanzi via the USB-C port to the machine with Esphome. Click install and choose "Plug into.." and wait for it to complete.
+Before installing download the [Calcium font](/assets/files/Calcium.ttf) and place it in the same location as the configuration yaml. Connect the Ulanzi via the USB-C port to the machine with Esphome. Click install and choose "Plug into.." and wait for it to complete.
 
 If that is not possible you can choose "Manual download", grab the built binary and flash it manually with esptool.py or [ESPHome-Flasher](https://github.com/esphome/esphome-flasher).
 
@@ -433,9 +433,9 @@ Some fonts will require different sizes, most likely 8 or 12 and many fonts will
 
 Depending on the font size and shape you might need to raise or lower `yoffset:` to make the entire font visible. 
 
-The `glyphs:` key just tells Esphome which characters will be saved to flash memory and used by the display. If a character is missing from the font with a defined glyph it will be displayed as a white outlined square. If a glyph isn't defined that charcter it will be displayed as a white block. Adjust according to your use and font's capabilities. Fonts on Bitfontmaker2 have a GlyphMap link to display all available characters.
+The `glyphs:` key just tells Esphome which characters will be saved to flash memory and used by the display. If a character is missing from the font with a defined glyph it will be displayed as a white outlined square. If a glyph isn't defined that character it will be displayed as a white block. Adjust according to your use and font's capabilities. Fonts on Bitfontmaker2 have a GlyphMap link to display all available characters.
 
-I settled on Calcium because it looks nice and has a lot of included glyphs. Other contenders were [Awesome](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=13808) as a large font or, appropriately named, [smallfonts with symbols](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=608) or [DMD-Small](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=5993) as small font options. Small fonts are useful if you have day_of_week indicator enabled, make sure to set `yoffset: 6`. Honorable mention goes to [Fallout], font used in my favourite games Fallout 1 and 2
+I settled on Calcium because it looks nice and has a lot of included glyphs. Other contenders were [Awesome](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=13808) as a large font or, appropriately named, [smallfonts with symbols](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=608) or [DMD-Small](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=5993) as small font options. Small fonts are useful if you have day_of_week indicator enabled, make sure to set `yoffset: 6`. Honorable mention goes to [Fallout](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=921), font used in my favourite games Fallout 1 and 2
 
 
 ## Services
