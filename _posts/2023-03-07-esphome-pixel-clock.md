@@ -8,7 +8,7 @@ image: assets/images/header_ulanzi-esphome.jpg
 toc: true
 ---
 
-Guide on installing Esphome on Ulanzi TC001 pixel clock I [reviewed](ulanzi-pixel-clock) and making it work with Home Assistant.
+Guide on installing Esphome on Ulanzi TC001 pixel clock I [reviewed](/ulanzi-pixel-clock) and making it work with Home Assistant.
 
 _**Full disclosure:** This device is purchased with the help of your donations. Links in this article are affiliate links. By purchasing through them I also get a small commission that funds future projects!_
 
