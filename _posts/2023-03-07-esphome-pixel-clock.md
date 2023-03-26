@@ -146,12 +146,6 @@ logger:
 # Enable Home Assistant API
 api:
   services:
-    - service: gauge
-      variables:
-        val: int
-      then:
-        lambda: |-
-          id(rgb8x32).set_gauge_value(val);
     - service: alarm
       variables:
         icon_name: string
@@ -160,79 +154,12 @@ api:
         lambda: |-
           id(rgb8x32)->add_screen(icon_name,text,7,true);
           id(rgb8x32)->force_screen(icon_name);
-    - service: screen
-      variables:
-        icon_name: string
-        text: string
-      then:
-        - ehmtx.add.screen:
-            id: rgb8x32
-            text: !lambda return text;
-            icon_name: !lambda return icon_name;
-            alarm: false
     - service: brightness
       variables:
         brightness: int
       then:
         lambda: |-
           id(rgb8x32)->set_brightness(brightness);
-    - service: status
-      then:
-        lambda: |-
-          id(rgb8x32)->get_status();
-    - service: del_screen
-      variables:
-        icon_name: string
-      then:
-        - ehmtx.delete.screen:
-            id: rgb8x32
-            icon_name: !lambda return icon_name;
-    - service: indicator_on
-      variables:
-        r: int
-        g: int
-        b: int
-      then:
-        - ehmtx.indicator.on:
-            id: rgb8x32
-            red: !lambda return r;
-            green: !lambda return g;
-            blue: !lambda return b;
-    - service: force_screen
-      variables:
-        icon_name: string
-      then:
-        - ehmtx.force.screen:
-            id: rgb8x32
-            icon_name: !lambda return icon_name;
-    - service: text_color
-      variables:
-        r: int
-        g: int
-        b: int
-      then:
-        lambda: |-
-          id(rgb8x32)->set_text_color(r,g,b);
-    - service: alarm_color
-      variables:
-        r: int
-        g: int
-        b: int
-      then:
-        lambda: |-
-          id(rgb8x32)->set_alarm_color(r,g,b);
-    - service: indicator_off
-      then:
-        - ehmtx.indicator.off:
-            id: rgb8x32
-    # - service: display_on
-    #   then:
-    #     - ehmtx.display.on:
-    #         id: rgb8x32
-    # - service: display_off
-    #   then:
-    #     - ehmtx.display.off:
-    #         id: rgb8x32
     - service: icons
       then:
         lambda: |-
@@ -241,12 +168,13 @@ api:
       then:
         lambda: |-
           id(rgb8x32)->skip_screen();
-    - service: tune
+    - service: tuneplay
       variables:
         tune: string
       then:
         - rtttl.play:
             rtttl: !lambda 'return tune;'
+
 number:
   - platform: template
     name: "$devicename brightness"
@@ -480,7 +408,7 @@ trigger:
     id: co2
 condition: []
 action:
-  - service: esphome.ulanzi_screen
+  - service: esphome.ulanzi_add_screen
     data:
       icon_name: "{{trigger.id}}"
       text: >-
