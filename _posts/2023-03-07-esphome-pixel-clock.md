@@ -485,6 +485,8 @@ action:
       icon_name: "{{trigger.id}}"
       text: >-
         {{ trigger.to_state.state }}{{ trigger.to_state.attributes.unit_of_measurement }}
+      lifetime: 2
+      alarm: false
 mode: queued
 max: 10{% endraw %}
 ```
