@@ -150,7 +150,7 @@ api:
         text: string
       then:
         lambda: |-
-          id(rgb8x32)->add_screen(icon_name,text,7,true);
+          id(rgb8x32)->add_screen(icon_name,text,7,20,true);
           id(rgb8x32)->force_screen(icon_name);
     - service: brightness
       variables:
