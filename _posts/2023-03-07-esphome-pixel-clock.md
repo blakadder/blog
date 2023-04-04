@@ -79,12 +79,11 @@ font:
 
 ehmtx:
   id: rgb8x32
-  display8x32: ehmtx_display
-  html: true
+  time_component: ehmtx_time
+  matrix_component: ehmtx_display
   show_clock: 5           # duration to display the clock after this time the date is display until next "show_screen"
   clock_interval: 60      # show the clock at least each x seconds
-  show_screen: 6          # duration to display a screen or a clock/date sequence
-  duration: 5             # lifetime of a screen in minutes
+  screen_time: 6          # duration to display a screen or a clock/date sequence
   date_format: "%d.%m"    # defaults "%d.%m." (use "%m.%d." for the US)
   time_format: "%H:%M"    # defaults "%H:%M" (use "%I:%M%p" for the US)
   show_dow: false         # draw the day indicator on the bottom of the screen, defaults to true
@@ -92,9 +91,8 @@ ehmtx:
   week_start_monday: true # default monday is first day of week, false = sunday
   yoffset: 8              # the text is aligned BASELINE_LEFT, the baseline defaults to 6
   xoffset: 1              # the text is aligned BASELINE_LEFT, the left defaults to 1
-  scroll_intervall: 80    # the interval in ms to scroll the text (default=80), should be a multiple of the update_interval from the display (default: 16ms)
-  anim_intervall: 192     # the interval in ms to display the next anim frame (default=192), should be a multiple of the update_interval from the display (default: 16ms)
-  time: ehmtx_time
+  scroll_interval: 80    # the interval in ms to scroll the text (default=80), should be a multiple of the update_interval from the display (default: 16ms)
+  frame_interval: 192     # the interval in ms to display the next anim frame (default=192), should be a multiple of the update_interval from the display (default: 16ms)
   font_id: ehmtx_font
   icons: 
     - id: ha
