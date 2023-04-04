@@ -87,7 +87,7 @@ ehmtx:
   duration: 5             # lifetime of a screen in minutes
   date_format: "%d.%m"    # defaults "%d.%m." (use "%m.%d." for the US)
   time_format: "%H:%M"    # defaults "%H:%M" (use "%I:%M%p" for the US)
-  dayofweek: false        # draw the day indicator on the bottom of the screen, defaults to true
+  show_dow: false         # draw the day indicator on the bottom of the screen, defaults to true
   show_date: true         # show the date for show_screen - show_clock seconds otherwise only shows the clock for show_screen seconds, defaults to true
   week_start_monday: true # default monday is first day of week, false = sunday
   yoffset: 8              # the text is aligned BASELINE_LEFT, the baseline defaults to 6
