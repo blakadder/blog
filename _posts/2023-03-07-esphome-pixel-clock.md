@@ -81,7 +81,7 @@ ehmtx:
   id: rgb8x32
   display8x32: ehmtx_display
   html: true
-  show_clock: 5           # duration to display the clock after this time the date is display until next "show_screen"
+  clock_time: 5           # duration to display the clock after this time the date is display until next "show_screen"
   clock_interval: 60      # show the clock at least each x seconds
   show_screen: 6          # duration to display a screen or a clock/date sequence
   duration: 5             # lifetime of a screen in minutes
