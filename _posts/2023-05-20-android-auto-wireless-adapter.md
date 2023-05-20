@@ -21,17 +21,21 @@ Android Auto Wireless Adapter can be found at:
 - [Amazon UK](https://www.amazon.co.uk/Android-Wireless-Multi-function-Converts-Gesuter-Black/dp/B0BXN7HS5C?&linkCode=ll1&tag=blakadders-20&linkId=4b91766c1df3bec50b49c145c977b044&language=en_GB&ref_=as_li_ss_tl)
 - [Amazon FR](https://www.amazon.fr/MASAYA-Adaptateur-Connexion-Automatique-2016-2022y/dp/B0BVZDVMKB?&linkCode=ll1&tag=blakaddertemp-21&linkId=c867b3c581deb11b0e9d4e6eaba07c2d&language=fr_FR&ref_=as_li_ss_tl)
 
-I randomly found this small dongle to convert your car's wired Android Auto to wireless and it looked like an elegant and cheap solution for my car. I ordered one shipped from France for 36€.
+I randomly found this small dongle to convert your car's wired Android Auto to wireless and it looked like a cheap and good solution. I was looking for one since my car only has wired Android Auto and plugging in the phone for shorter trips isn't practical at all.
 
-![](/assets/images/android-auto/product_image.jpg){: width="50%"}
+I ordered one for 36€, shipped from France.
+
+![Product image](/assets/images/android-auto/product_image.jpg){: width="50%"}
 
 It arrived in a week in a plain, unbranded box.
 
-[![](/assets/images/android-auto/box.jpg){: width="50%"}](/assets/images/android-auto/box.jpg)
+[![The box](/assets/images/android-auto/box.jpg){: width="50%"}](/assets/images/android-auto/box.jpg)
 
-You get the dongle, a USB-C to USB-A adapter, 3M double sided tape and the instructions leaflet. The adapter shell and the USB cable are made from a nice rubbery soft touch plastic.
+You get the dongle, a USB-C to USB-A adapter, 3M double sided tape and the instructions leaflet. 
 
-[![](/assets/images/android-auto/contents.jpg){: width="50%"}](/assets/images/android-auto/contents.jpg)
+[![Contents of the box](/assets/images/android-auto/contents.jpg){: width="50%"}](/assets/images/android-auto/contents.jpg)
+
+The adapter shell and the USB cable are made from a nice rubbery soft touch plastic.
 
 ## Installation and Use
 
