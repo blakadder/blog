@@ -2,7 +2,7 @@
 layout: post
 title: "Sideload Apps on Tuya T6E, S6E and S8E Android Smart Home Panels"
 author: blak
-categories: [ how-to, android, T6E, S6E, S8E, touch panel ]
+categories: [ how to, android, T6E, S6E, S8E, touch panel ]
 tags: [ ]
 image: assets/images/header_t6e-sideload.jpg
 toc: true

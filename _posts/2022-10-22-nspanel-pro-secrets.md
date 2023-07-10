@@ -2,7 +2,7 @@
 layout: post
 title: "Sonoff NSPanel Pro Secrets, Tips and Tricks"
 author: blak
-categories: [ how-to, android, nspanel pro, touch panel ]
+categories: [ how to, android, nspanel pro, touch panel ]
 tags: [ ]
 image: assets/images/header_nspanel-pro-secrets.jpg
 toc: true

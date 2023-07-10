@@ -2,7 +2,7 @@
 layout: post
 title: "Sideload Apps to Sonoff NSPanel Pro"
 author: blak
-categories: [ how-to, home assistant, android, touch panel, nspanel pro ]
+categories: [ how to, home assistant, android, touch panel, nspanel pro ]
 tags: [ ]
 image: assets/images/header_nspanelpro-sideload.jpg
 toc: true

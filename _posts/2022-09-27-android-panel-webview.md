@@ -2,7 +2,7 @@
 layout: post
 title: "Update WebView on NSPanel Pro and Tuya Smart Home Panels"
 author: blak
-categories: [ how-to, android, T6E, S6E, S8E, nspanel pro, touch panel ]
+categories: [ how to, android, T6E, S6E, S8E, nspanel pro, touch panel ]
 tags: [ ]
 image: assets/images/header_android-panel-webview.jpg
 toc: true

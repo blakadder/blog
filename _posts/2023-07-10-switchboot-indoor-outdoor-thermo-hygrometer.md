@@ -2,7 +2,7 @@
 layout: post
 title: "SwitchBot SwitchBot Indoor/Outdoor Thermo-Hygrometer"
 author: blak
-categories: [ review, bluetooth, home-assistant  ]
+categories: [ review, bluetooth, home assistant  ]
 tags: [ ]
 image: assets/images/header_switchbot_outdoor.jpg
 toc: true
