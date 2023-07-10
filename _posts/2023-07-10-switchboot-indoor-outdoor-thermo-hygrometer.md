@@ -66,7 +66,7 @@ When you open the back cover you can see the gasket around its lip that seals th
 
 After I took out the PCB I also noticed that the hole for the temperature sensor is likewise sealed. With all that there is no problem leaving it anywhere, potentially you can bring it in the shower if you want or need to.  
 
-The temperature and humidity sensor of choice is the [Sensirion SHT40](https://sensirion.com/products/catalog/SHT40). This sensor an operating range of −40-125 °C and 0-100 %RH. On top of that it boasts a ±1.5% humidity and ±0.1°C temperature sensor accuracy delta which is excellent for a domestic sensor.
+The temperature and humidity sensor of choice is the [Sensirion SHT40](https://sensirion.com/products/catalog/SHT40). This sensor has an operating range of −40-125 °C and 0-100 %RH. On top of that it boasts a ±1.5% humidity and ±0.1°C temperature sensor accuracy delta which is excellent for a domestic sensor.
 
 [![PCB](/assets/images/switchbot_outdoor/pcb.jpg){: width="50%"}](/assets/images/switchbot_outdoor/pcb.jpg)[![Sensor](/assets/images/switchbot_outdoor/sensor.jpg){: width="50%"}](/assets/images/switchbot_outdoor/sensor.jpg)
 
