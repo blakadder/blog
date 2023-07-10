@@ -122,9 +122,9 @@ The SHT4x line of sensors has already been performing exceptionally in my testin
 
 A very versatile temperature and humidity sensor that can go in many places other sensors shouldn't. Using standard batteries is always a big plus and due to how easy it is to integrate Bluetooth devices it being Bluetooth only doesn't matter as much.
 
-The standard price tag of 14.99$ (19.99€ in EU! VAT hurts!) looks a bit high (or very high for EU) at first glance but its still a fair price for the quality, accuracy and versatility of the sensor. There aren't many sensors that you can safely stick in a freezer, shower or outside in the sun long term.
+The standard price tag of 14.99$ (19.99€ in EU! VAT hurts!) for one looks a bit high (or very high for EU) at first glance but its still a fair price for the quality, accuracy and versatility of the sensor. There aren't many sensors that you can safely stick in a freezer, shower or outside in the sun long term.
 
-With the upcoming Prime Day sales the price drops down significantly and if you need sensors for those specials places you should get some.
+Cost per sensor gets cheaper if you buy them in packs and with the upcoming Prime Day sales the price drops down significantly. If you need sensors for those special places this is the ticket.
 
 SwitchBot SwitchBot Indoor/Outdoor Thermo-Hygrometer is available from:
 - [SwithcBot Store](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fproducts%2Fswitchbot%2Dindoor%2Doutdoor%2Dthermo%2Dhygrometer&afftrack=)
