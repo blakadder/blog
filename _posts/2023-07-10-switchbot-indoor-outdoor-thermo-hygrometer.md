@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwitchBot SwitchBot Indoor/Outdoor Thermo-Hygrometer Review"
+title: "SwitchBot Indoor/Outdoor Thermo-Hygrometer Review"
 author: blak
 categories: [ review, bluetooth, home assistant, mqtt  ]
 tags: [ ]
