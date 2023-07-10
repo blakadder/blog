@@ -78,7 +78,7 @@ It is well known I'm not that keen on using vendor apps or their hubs but there 
 
 [OpenMQTTGateway](https://docs.openmqttgateway.com/) turns an ESP32 (or ESP8266) device into a multiprotocol to MQTT bridge, BLE being one of them. It's a mature project, developed for many years and works on [many platforms](https://docs.openmqttgateway.com/prerequisites/board.html) and, more importantly, supports a [huge number of devices](https://compatible.openmqttgateway.com/). Being MQTT based it integrates easily with other smart home solutions such as [openHAB](https://docs.openmqttgateway.com/integrate/openhab3.html) or [Home Assistant](https://docs.openmqttgateway.com/integrate/home_assistant.html).
 
-For a quick and easy Bluetooth2MQTT gateway install it to one of the supported ESP32 boards using their web installer and configure it using the web UI.
+For a quick and easy Bluetooth2MQTT gateway install it to one of the supported ESP32 boards using their [web installer](https://docs.openmqttgateway.com/upload/web-install.html) and configure it using the web UI.
 
 After configuring Wi-Fi and MQTT, many devices started popping up in my Home Assistant MQTT integration and amongst them was the SwitchBot Indoor/Outdoor.
 
