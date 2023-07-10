@@ -94,7 +94,7 @@ Home Assistant 2023.7 finally brought support for this sensor in the [SwitchBot 
 
 [![SwitchBot integration in Home Assistant](/assets/images/switchbot_outdoor/bt_device_card.jpg)](/assets/images/switchbot_outdoor/bt_device_card.jpg)
 
-### Performance
+## Performance
 
 As soon as I got my pair of sensors I stuck one outside on the front doors. Its a spot slightly protected from rain but the sun is hitting it for most of the day. The sensor had the opportunity to test high humidity and rain since we had a week and a half straight with daily rain and even rainstorms.
 
