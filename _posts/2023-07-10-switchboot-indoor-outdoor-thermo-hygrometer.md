@@ -60,7 +60,7 @@ In the settings menu there's an option to calibrate the sensor further ensuring 
 
 ## Teardown
 
-When you open the back cover you can see the gasket around its lip that seals the device to make it dust and water proof. After taking out the PCB you can see that they sealed the hole for the temperature as well. 
+When you open the back cover you can see the gasket around its lip that seals the device to make it dust and water proof. 
 
 [![Gasket](/assets/images/switchbot_outdoor/gasket.jpg){: width="50%"}](/assets/images/switchbot_outdoor/gasket.jpg)[![SensorGasket](/assets/images/switchbot_outdoor/sensor_gasket.jpg){: width="50%"}](/assets/images/switchbot_outdoor/sensor_gasket.jpg)
 
