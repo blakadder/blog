@@ -41,7 +41,7 @@ Unfortunately (or fortunately?) it is Bluetooth. You can read the values using y
 
 But there are also other ways, SwitchBot is very open to third party implementations and we'll go over some of the options later in the article.
 
-The sensor uses good ole' AA batteries (already included in the package) that provide a long battery life and are easy to replace. It also looks good and blends in nicely.
+The sensor uses good ole' AAA batteries (already included in the package) that provide a long battery life and are easy to replace. It also looks good and blends in nicely.
 
 [![Batteries already included](/assets/images/switchbot_outdoor/batteries.jpg)](/assets/images/switchbot_outdoor/batteries.jpg)
 
