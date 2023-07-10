@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "SwitchBot SwitchBot Indoor/Outdoor Thermo-Hygrometer"
+title: "SwitchBot SwitchBot Indoor/Outdoor Thermo-Hygrometer Review"
 author: blak
-categories: [ review, bluetooth, home assistant  ]
+categories: [ review, bluetooth, home assistant, mqtt  ]
 tags: [ ]
 image: assets/images/header_switchbot_outdoor.jpg
 toc: true
 ---
 
-SwitchBot brings us a real rarity amongst sensors. A true outdoor sensor that is built to be outside and withstand the elements.
+SwitchBot brings us a real rarity amongst sensors. A true outdoor sensor that is built to be outside and withstand the elements. 
 
 _**Full disclosure:** This is a review sample sent to me free of charge by [SwitchBot](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=&afftrack=). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them which helps support my work_
 
