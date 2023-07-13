@@ -13,17 +13,13 @@ SwitchBot brings us a real rarity amongst sensors. A true outdoor sensor that is
 _**Full disclosure:** This is a review sample sent to me free of charge by [SwitchBot](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=&afftrack=). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them which helps support my work_
 
 SwitchBot SwitchBot Indoor/Outdoor Thermo-Hygrometer is available from:
-- [SwithcBot Store](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fproducts%2Fswitchbot%2Dindoor%2Doutdoor%2Dthermo%2Dhygrometer&afftrack=)
+- [SwithcBot Store](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=switch%2Dbot%2Ecom%2Fproducts%2Fswitchbot%2Dindoor%2Doutdoor%2Dthermo%2Dhygrometer&afftrack=)
 - [Amazon US](https://www.amazon.com/SwitchBot-Hygrometer-Thermometer-Bluetooth-Refrigerator/dp/B0BVZC9Q31?&linkCode=ll1&tag=blakadders-20&linkId=136ef4f52799773871ec1b218aa2580f&language=en_US&ref_=as_li_ss_tl)
 - [Amazon CA](https://www.amazon.ca/dp/B0BVZC9Q31?&linkCode=ll1&tag=tasmotatemp03-20&linkId=87600fd500cc6a77ef876d0a318413f9&language=en_CA&ref_=as_li_ss_tl)
 - [Amazon EU](https://www.amazon.de/dp/B0BVZC9Q31?&linkCode=ll1&tag=blakadders-20&linkId=ba068b630fc5655c8ea6e0bade8a52cf&language=en_GB&ref_=as_li_ss_tl)
 - [Amazon UK](https://www.amazon.co.uk/dp/B0BVZC9Q31?&linkCode=ll1&tag=blakadders-20&linkId=1feb3fe1af8748399d63c08d7aee95da&language=en_GB&ref_=as_li_ss_tl)
 
-SwitchBot will have 25% of every product on Amazon Prime day. Then an additional 5% off every product with the coupon code `XMSWITCHBOT`. That's a total discount of 30%!
-
-You can also buy directly from [SwitchBot online store](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fpages%2Fswitchbot%2Ddeals&afftrack=) and use code `30PRIME` for 30% discount and there are even some additional perks depending on the order during the Prime Day Sale. 
-
-A very good deal is the Indoor/Outdoor sensor + SwitchBot Hub 2 [combo pack](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fproducts%2Findoor%2Doutdoor%2Dthermo%2Dhygrometer%2Dcombo&afftrack=).
+The best deal is the sensor [4 pack](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=switch%2Dbot%2Ecom%2Fproducts%2Fswitchbot%2Dindoor%2Doutdoor%2Dthermo%2Dhygrometer%3Fvariant%3D42308352999589&afftrack=).
 
 ## Overview
 
@@ -37,7 +33,7 @@ First and foremost it is built for being placed outdoors. It is a splash proof, 
 
 It can be placed everywhere with the provided lanyard. No more double sided tape or screws, just hang it where you need it.
 
-Unfortunately (or fortunately?) it is Bluetooth. You can read the values using your smartphone and the SwitchBot app but for real automations you require one of SwitchBot's hubs. That's not that bad because [SwitchBot Hub 2](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fpages%2Fswitchbot%2Dhub%2D2&afftrack=) is a 4 in 1 device (hub, remote button, smart remote and thermo-hygrometer) that supports Homekit and Matter which allows you to add these sensors to your smart home using a Matter hub with a completely local protocol.
+Unfortunately (or fortunately?) it is Bluetooth. You can read the values using your smartphone and the SwitchBot app but for real automations you require one of SwitchBot's hubs. That's not that bad because [SwitchBot Hub 2](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=switch%2Dbot%2Ecom%2Fpages%2Fswitchbot%2Dhub%2D2&afftrack=) is a 4 in 1 device (hub, remote button, smart remote and thermo-hygrometer) that supports Homekit and Matter which allows you to add these sensors to your smart home using a Matter hub with a completely local protocol.
 
 But there are also other ways, SwitchBot is very open to third party implementations and we'll go over some of the options later in the article.
 
@@ -127,17 +123,13 @@ The standard price tag of 14.99$ (19.99€ in EU! VAT hurts!) for one looks a bi
 Cost per sensor gets cheaper if you buy them in packs and with the upcoming Prime Day sales the price drops down significantly. If you need sensors for those special places this is the ticket.
 
 SwitchBot SwitchBot Indoor/Outdoor Thermo-Hygrometer is available from:
-- [SwithcBot Store](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fproducts%2Fswitchbot%2Dindoor%2Doutdoor%2Dthermo%2Dhygrometer&afftrack=)
+- [SwithcBot Store](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=switch%2Dbot%2Ecom%2Fproducts%2Fswitchbot%2Dindoor%2Doutdoor%2Dthermo%2Dhygrometer&afftrack=)
 - [Amazon US](https://www.amazon.com/SwitchBot-Hygrometer-Thermometer-Bluetooth-Refrigerator/dp/B0BVZC9Q31?&linkCode=ll1&tag=blakadders-20&linkId=136ef4f52799773871ec1b218aa2580f&language=en_US&ref_=as_li_ss_tl)
 - [Amazon CA](https://www.amazon.ca/dp/B0BVZC9Q31?&linkCode=ll1&tag=tasmotatemp03-20&linkId=87600fd500cc6a77ef876d0a318413f9&language=en_CA&ref_=as_li_ss_tl)
 - [Amazon EU](https://www.amazon.de/dp/B0BVZC9Q31?&linkCode=ll1&tag=blakadders-20&linkId=ba068b630fc5655c8ea6e0bade8a52cf&language=en_GB&ref_=as_li_ss_tl)
 - [Amazon UK](https://www.amazon.co.uk/dp/B0BVZC9Q31?&linkCode=ll1&tag=blakadders-20&linkId=1feb3fe1af8748399d63c08d7aee95da&language=en_GB&ref_=as_li_ss_tl)
 
-SwitchBot will have 25% of every product on Amazon Prime day. Then an additional 5% off every product with the coupon code `XMSWITCHBOT`. That's a total discount of 30%!
-
-You can also buy directly from [SwitchBot online store](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fpages%2Fswitchbot%2Ddeals&afftrack=) and use code `30PRIME` for 30% discount and there are even some additional perks depending on the order during the Prime Day Sale. 
-
-A very good deal is the Indoor/Outdoor sensor + SwitchBot Hub 2 [combo pack](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=eu%2Eswitch%2Dbot%2Ecom%2Fproducts%2Findoor%2Doutdoor%2Dthermo%2Dhygrometer%2Dcombo&afftrack=).
+The best deal is the sensor [4 pack](https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink=switch%2Dbot%2Ecom%2Fproducts%2Fswitchbot%2Dindoor%2Doutdoor%2Dthermo%2Dhygrometer%3Fvariant%3D42308352999589&afftrack=).
 
 I just wish it has a better name or model number, writing Indoor/Outdoor sensor throughout this review was weird!
 
