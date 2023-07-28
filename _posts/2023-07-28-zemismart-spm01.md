@@ -8,7 +8,7 @@ image: assets/images/header_spm01.jpg
 toc: true
 ---
 
-Zemismart SPM01 is a small, high accuracy, bi-directional energy monitor with Zigbee or Wi-Fi connectivity.
+Zemismart SPM01 is a small, high accuracy, bi-directional energy monitor.
 
 _**Full disclosure:** This is a review sample sent to me free of charge by [Zemismart](https://www.zemismart.com/?DIST=QEVHGw%3D%3D). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
