@@ -40,8 +40,6 @@ The middle bar looks like it would be a battery status indicator but it isn't. I
 
 5th generation LiDAR navigation is great. It even does decent obstacle detection considering it doesn't have a front facing camera. It will not avoid its biggest nemesis, a stray USB cable and will gladly chew it up but it does not bump into furniture and is quite good at detecting humans jumping in front of it during work.
 
-<iframe width="463" height="823" src="https://www.youtube.com/embed/auDl9r4OMjs" title="Floobot X1 likes to hit things" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 The vacuum carries a whole array of standard robot vacuum sensors and a carpet detection sensor that, oddly, only works to boost vacuuming strength when it detects a carpet but when mopping its like it doesn't exist.
 
 ## Vacuuming
