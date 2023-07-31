@@ -56,7 +56,7 @@ Battery is a chunky 5200mAh one enabling it to vacuum for two hours on _strong_ 
 
 Vacuum dust bin capacity is 280ml which is emptied into the base station that holds a 2.5L dust bag which should be enough for two months. Since they're the same dust bags as with X1 it can go even longer.
 
-This base station also had the UV light to "sterilise" the dust bag contents. 
+This base station also has the UV light to "sterilise" the dust bag contents. 
 
 ## Mopping
 
