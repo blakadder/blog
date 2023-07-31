@@ -30,7 +30,7 @@ The vacuum unit has the typical round design with the LiDAR "tower" in the middl
 
 [![Unpacked](/assets/images/proscenic-m9/unpacked.jpg)](/assets/images/proscenic-m9/unpacked.jpg)
 
-The buttons on the vacuum feel quite janky. They're a one piece plastic cutout for standard push buttons and not touch buttons and isn't flush to the surface as you can see on the below image.
+The buttons on the vacuum feel quite janky. They're a one piece plastic cutout for standard push buttons and not touch buttons. They don't sit flush to the surface as you can see on the below image.
 
 [![Janky buttons](/assets/images/proscenic-m9/jankybuttons.jpg)](/assets/images/proscenic-m9/jankybuttons.jpg)
 
