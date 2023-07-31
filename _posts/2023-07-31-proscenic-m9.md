@@ -16,7 +16,9 @@ Proscenic M9 is available on [Amazon](https://www.amazon.de/dp/B0C33VZTQC?maas=m
 
 I've been given a discount code `4JNF2AIT` that brings the price down from 549€ MSRP to 479€ but is valid only until 06.08.2023.
 
-Vacuum comes double boxed 
+Vacuum comes in a plain brown shipping box which holds the retail box.
+
+[![Box](/assets/images/proscenic-m9/box1.jpg){: width="50%"}](/assets/images/proscenic-m9/box1.jpg)[![Box](/assets/images/proscenic-m9/box2.jpg){: width="50%"}](/assets/images/proscenic-m9/box2.jpg)
 
 On top of the box is an information sheet with a pictured quick start guide.
 
@@ -80,7 +82,7 @@ To use the vacuum you need to install ProscenicHome app ([Google](https://play.g
 
 The UI for the vacuum is the same as for other Proscenic vacuums. Some of the functions are represented as tiny icons and you'll need to play "click around and find out" for a while until you figure out and remember what they do. There is still an icon to trigger emptying of the dustbin which stops the current task and brings the vacuum back to base to empty the bin. Additional vacuum options are hidden not behind the gear icon but the one left of it, the four circles.
 
-[![Full map](/assets/images/proscenic-m9/fullmap.jpg)](/assets/images/proscenic-m9/fullmap.jpg){: width="25%"}[![Options](/assets/images/proscenic-m9/options.jpg)](/assets/images/proscenic-m9/options.jpg){: width="25%"}[![Autoempty](/assets/images/proscenic-m9/autoempty.jpg)](/assets/images/proscenic-m9/autoempty.jpg){: width="25%"}[![Tips](/assets/images/proscenic-m9/tips.jpg)](/assets/images/proscenic-m9/tips.jpg){: width="25%"}
+[![Full map](/assets/images/proscenic-m9/fullmap.jpg){: width="25%"}](/assets/images/proscenic-m9/fullmap.jpg)[![Options](/assets/images/proscenic-m9/options.jpg){: width="25%"}](/assets/images/proscenic-m9/options.jpg){: width="25%"}[![Autoempty](/assets/images/proscenic-m9/autoempty.jpg){: width="25%"}](/assets/images/proscenic-m9/autoempty.jpg){: width="25%"}[![Tips](/assets/images/proscenic-m9/tips.jpg){: width="25%"}](/assets/images/proscenic-m9/tips.jpg){: width="25%"}
 
 Once the map is completed you have options for customised cleaning such as: no-go zones, no-mop zones, room, point and area cleaning. You can set different vacuuming and/or mopping levels per room or custom area. Vacuum supports up to 5 saved maps for multi floor cleaning. It wasn't able to automatically detect which room it was dropped in and started a completely new map. You need to load the map manually when changing the location.
 
