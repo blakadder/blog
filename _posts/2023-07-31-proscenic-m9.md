@@ -86,11 +86,11 @@ The UI for the vacuum is the same as for other Proscenic vacuums. Some of the fu
 
 Once the map is completed you have options for customised cleaning such as: no-go zones, no-mop zones, room, point and area cleaning. You can set different vacuuming and/or mopping levels per room or custom area. Vacuum supports up to 5 saved maps for multi floor cleaning. It wasn't able to automatically detect which room it was dropped in and started a completely new map. You need to load the map manually when changing the location.
 
- [![Custom area](/assets/images/proscenic-m9/customarea.jpg)](/assets/images/proscenic-m9/customarea.jpg)
+ [![Custom area](/assets/images/proscenic-m9/customarea.jpg){: width="50%"}](/assets/images/proscenic-m9/customarea.jpg)
 
 You will receive standard error notification on your phone including reports from base station when the dust bag is full or missing.
 
-[![Notifications](/assets/images/proscenic-m9/notifications.jpg)](/assets/images/proscenic-m9/notifications.jpg)
+[![Notifications](/assets/images/proscenic-m9/notifications.jpg){: width="50%"}](/assets/images/proscenic-m9/notifications.jpg)
 
 ProscenicHome app integrates with Google Home and Alexa but only with basic commands for starting and stopping cleaning and adjusting suction levels.
 
@@ -121,7 +121,7 @@ This integration in Home Assistant doesn't include room cleaning and custom opti
 The price to features ratio on this vacuum is excellent. Good navigation, large battery, strong vacuum and on top of that an actual mopping system.
 Rotating mops are a giant improvement, if you have hardwood floors or tiles this is a must have feature and if you cannot splurge on the self cleaning versions the M9 doesn't have any competition at this price range. The closest serious competitor is the Roborock Q7 which still uses the old mop pad.
 
-[![Vacuuming](/assets/images/proscenic-m9/vacuuming.jpg)](/assets/images/proscenic-m9/vacuuming.jpg){: width="50%"}[![Mopping](/assets/images/proscenic-m9/mopping.jpg)](/assets/images/proscenic-m9/mopping.jpg){: width="50%"}
+[![Vacuuming](/assets/images/proscenic-m9/vacuuming.jpg){: width="50%"}](/assets/images/proscenic-m9/vacuuming.jpg)[![Mopping](/assets/images/proscenic-m9/mopping.jpg){: width="50%"}](/assets/images/proscenic-m9/mopping.jpg)
 
 Yes, the water tank is miniscule and handicaps mopping and the firmware would benefit from being a little less annoying. But at the mid-range price category it is currently unbeatable and with the running discount and coupon deal a good value.
 
