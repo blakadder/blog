@@ -24,11 +24,11 @@ On top of the box is an information sheet with a pictured quick start guide.
 
 [![Quick start guide](/assets/images/proscenic-m9/quickstart.jpg)](/assets/images/proscenic-m9/quickstart.jpg)
 
-Besides the vacuum and the base station there is a decent amount of spare parts (side brush, extra mop pad set, a HEPA filter, two dust bags) and, just like the [Floobot X1](floobot-x1), a remote control (batteries included). The remote control is a nice bonus control option that is missing in other brands. 
+Besides the vacuum and the base station there is a decent amount of spare parts (side brush, extra mop pad set, a HEPA filter, two dust bags) and, just like the [Floobot X1](/floobot-x1), a remote control (batteries included). The remote control is a nice bonus control option that is missing in other brands. 
 
 [![Everything unboxed](/assets/images/proscenic-m9/unboxed.jpg)](/assets/images/proscenic-m9/unboxed.jpg)
 
-The vacuum unit has the typical round design with the LiDAR "tower" in the middle. It is almost identical to my trusty Viomi S9. The top surface has tasteful smoky gray gradient but the large "P" on the LiDAR tower is a bit much for my liking and they definitely could've went without it. The logo on the vacuum has been redesigned compared to the one used on the previously reviewed [Floobot X1](floobot-x1).
+The vacuum unit has the typical round design with the LiDAR "tower" in the middle. It is almost identical to my trusty Viomi S9. The top surface has tasteful smoky gray gradient but the large "P" on the LiDAR tower is a bit much for my liking and they definitely could've went without it. The logo on the vacuum has been redesigned compared to the one used on the previously reviewed [Floobot X1](/floobot-x1).
 
 [![Unpacked](/assets/images/proscenic-m9/unpacked.jpg)](/assets/images/proscenic-m9/unpacked.jpg)
 
