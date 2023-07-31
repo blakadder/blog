@@ -34,7 +34,7 @@ The buttons on the vacuum feel quite janky. They're a one piece plastic cutout f
 
 [![Janky buttons](/assets/images/proscenic-m9/jankybuttons.jpg)](/assets/images/proscenic-m9/jankybuttons.jpg)
 
-The middle bar looks like it would be a battery status indicator but it isn't. Its a single LED light that does change colors and blink but it does not show battery percentage.
+The middle bar looks like it would be a battery status indicator but it isn't. It is just a single LED light that does change colors and blink but does not show battery percentage.
 
 ## Navigation
 
