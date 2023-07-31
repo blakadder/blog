@@ -46,7 +46,7 @@ The vacuum carries a whole array of standard robot vacuum sensors and a carpet d
 
 ## Vacuuming
 
-The Charging/dust empty station is identical to the one used with Floobot X1 but with the new logo. The dust bags used are interchangeable.
+The charging/dust empty station is identical to the one used with Floobot X1 but with the new logo. The dust bags used are interchangeable.
 
 [![Base station](/assets/images/proscenic-m9/basestation.jpg)](/assets/images/proscenic-m9/basestation.jpg)
 
