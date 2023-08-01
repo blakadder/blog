@@ -71,7 +71,7 @@ Official Tuya integration in HA added the SPM01 with all the readings.
 
 ### Zigbee2MQTT
 
-It is completely supported in Zigbee2MQTT with all the options.
+It is completely supported in Zigbee2MQTT with all the options and serves as a Zigbee router.
 
 [![Zigbee2MQTT device card](/assets/images/spm01/z2mdevice.jpg){: width="50%"}](/assets/images/spm01/z2mdevice.jpg)[![Zigbee2MQTT exposes](/assets/images/spm01/z2mexposes.jpg){: width="50%"}](/assets/images/spm01/z2mexposes.jpg)
 
