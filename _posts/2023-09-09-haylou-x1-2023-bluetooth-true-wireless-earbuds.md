@@ -18,6 +18,8 @@ Haylou Solar X1 2023 Bluetooth half in-ear earbuds are available in gray, white 
 - [Haylou store](https://haylou.com/products/haylou-x1-2023?ref=blakadder)
 - [AliExpress](https://www.aliexpress.com/item/1005005933760205.html?aff_fcid=569bc0df767641d89602ff8865c903d5-1694276946488-00330-_Dc7AdRh)
 
+Use discount code **HAYLOUTWS** for an additional discount-
+
 As their previous products I reviewed ([Haylou PurFree BC01 Bone Conducting Headphones](/haylou-purfree-bc01-bone-conducting-headphones) and [Haylou Solar Plus RT3 watch](/haylou-solar-plus)), Haylou again delivers their products in a simple but well designed and informative box.
 
 ![Box front](/assets/images/haylou-x1/box.jpg){: width="50%"}![Box back](/assets/images/haylou-x1/box_back.jpg){: width="50%"}
@@ -95,3 +97,5 @@ Haylou Solar X1 2023 Bluetooth half in-ear earbuds are available in gray, white 
 - [Shopee Brazil](https://bit.ly/3ErJ8fe) - special limited discount for only 16.99$
 - [AliExpress](https://www.aliexpress.com/item/1005005933760205.html?aff_fcid=569bc0df767641d89602ff8865c903d5-1694276946488-00330-_Dc7AdRh)
 - [Haylou store](https://haylou.com/products/haylou-x1-2023?ref=blakadder)
+
+Use discount code **HAYLOUTWS** for an additional discount.
