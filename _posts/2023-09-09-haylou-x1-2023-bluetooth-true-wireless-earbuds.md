@@ -8,7 +8,7 @@ image: assets/images/header_haylou-x1.jpg
 toc: true
 ---
 
-I've been a long time fan of budget but good sounding headphone and I used to visit [AudioBudget](https://audiobudget.com/) often to look for my daily driver earbuds. So when Haylou offered their new budget earbuds for testing and Ićm glad they did.
+I've been a long time fan of budget but good sounding headphone and I used to visit [AudioBudget](https://audiobudget.com/) often to look for my daily driver earbuds. When Haylou offered to send me their new budget earbuds for testing and review I reluctantly said yes because I thought they wouldn't be able to match my current daily drivers but I'm glad they did.
 
 _**Full disclosure:** This is a review sample sent to me free of charge by [Haylou](https://haylou.com/?ref=blakadder). Review is not influenced by that fact and is solely my opinion. Shopping links in this article are affiliate links and I earn a small commission when you buy through them_
 
