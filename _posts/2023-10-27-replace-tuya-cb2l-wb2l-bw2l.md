@@ -28,7 +28,7 @@ For this you will need the following:
 
 Work on a heat resistant surface. I use a cheap cooking silicone mat [(AliExpress)](https://www.aliexpress.com/item/4000219480501.html?aff_fcid=8e01861330754a3dadbc5371915e3366-1698590891606-04210-_DdGgqaj).
 
-Disassemble the device and take the PCB out if it makes it easier to work with. This example features the eWeLink E14 Candle bulb.
+Disassemble the device and take the PCB out if it makes it easier to work with. This example features the [eWeLink E14 Candle bulb](https://templates.blakadder.com/ewelink_candle.html).
 
 [![Prepare the PCB](/assets/images/replace-tuya-cb2l-wb2l-bw2l/1.jpg)](/assets/images/replace-tuya-cb2l-wb2l-bw2l/1.jpg)
 
