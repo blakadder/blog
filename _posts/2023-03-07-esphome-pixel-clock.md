@@ -26,6 +26,8 @@ This will be a great solution for a Home Assistant or standalone user, if you're
 
 ## Installation
 
+***This configuration will not work with new ESPhome versions and the component has been moved to V2 with a different configuration. Update for this configuration is in the works!***
+
 First you need to have [Esphome](https://esphome.io/). If you don't, install it using the appropriate method for your situation. For me it was a Docker container on my small Celeron J3455 home server.
 
 Open Esphome dashboard and start a new project. Paste the yaml.
@@ -147,7 +149,7 @@ api:
     - service: alarm
       variables:
         icon_name: string
-        text: string
+        message: string
       then:
         lambda: |-
           id(rgb8x32)->add_screen(icon_name,text,7,20,true);
