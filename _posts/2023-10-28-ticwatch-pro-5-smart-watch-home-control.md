@@ -15,8 +15,8 @@ _**Full disclosure:** This is a review sample sent to me free of charge by [Mobv
 
 Mobvoi TicWatch Pro 5 Wear OS smart watch is Obsidian and Sandstone:
 
-- [Mobvoi store](https://www.mobvoi.com/eu/products/ticwatchpro5?referral_code=IGYFYF) - ***BIG sale until 31st of October*** with the price 20% down to 287,99 EUR (or 279,99 USD for US markets) but with my code `IGYFYF` and a new user discount it drops below 250€
-- [Mobvoi Official AliExpress store](https://www.aliexpress.com/item/1005005578338329.html?aff_fcid=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&tt=CPS_NORMAL&aff_fsk=_Dnn9HeJ&aff_platform=shareComponent-detail&sk=_Dnn9HeJ&aff_trace_key=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y)
+- [Mobvoi store](https://www.mobvoi.com/eu/products/ticwatchpro5?referral_code=IGYFYF) 
+- [Mobvoi Official AliExpress store](https://www.aliexpress.com/item/1005005578338329.html?aff_fcid=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&tt=CPS_NORMAL&aff_fsk=_Dnn9HeJ&aff_platform=shareComponent-detail&sk=_Dnn9HeJ&aff_trace_key=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y) - **11.11 price drops under 300€** before a 19.11€ store coupon, then add code 11SALE40 for 40$ off 250$
 - [Amazon](https://www.amazon.com/Ticwatch-Smartwatch-Snapdragon-Resistance-Compatible/dp/B0CB12CPCY)
 
 I wear my smart watch as a quick way to quickly triage notifications, screen calls, reply to short messages and control my smart home. I'm not big on fitness or an outdoorsy guy although I enjoy a daily walk and an occasional bike so I won't value the fitness and health functions of the watch as much as battery life and practicality.
@@ -111,7 +111,9 @@ First tab shows you the fitness statistics, second tab is for configuring the wa
 
 [![App health tracking](/assets/images/ticwatchpro5/app_healthtracking.jpg){: width="33%"}](/assets/images/ticwatchpro5/app_healthtracking.jpg)[![App settings](/assets/images/ticwatchpro5/app_settings.jpg){: width="33%"}](/assets/images/ticwatchpro5/app_settings.jpg)[![App settings](/assets/images/ticwatchpro5/app_settings2.jpg){: width="33%"}](/assets/images/ticwatchpro5/app_settings2.jpg)
 
-The feature to sync DND modes between the phone and watch is great but I also miss the option to sync bedtime mode. Would really love to see that added in the future.
+<del>The feature to sync DND modes between the phone and watch is great but I also miss the option to sync bedtime mode. Would really love to see that added in the future.</del>
+
+Update 2023-11-09: With the firmware update RMDB.231019.002 released on November 6th the DND syncing option is removed from the watch but an option to schedule bedtime mode is added which is sort of what I wished for. Now you can customize notification vibration pattern in _Settings -> Vibration_.
 
 ## Smart Home on your Wrist
 
@@ -269,14 +271,14 @@ It is obvious Wear OS is still in the growth and development phase especially in
 
 ## Final Verdict
 
-Sure, it may be too large or too ugly for some of you. Yes, it doesn't have Google Assistant or latest Wear OS and it might even never get it but it is undeniable that TicWatch Pro 5 has the best battery life, best processor and the largest screen. I won't call it "the best" because, truthfully, there is no "best" watch. The demands and use cases for smart watches vary greatly and are deeply personal.
+Sure, it may be too large or too ugly for some of you. Yes, it doesn't have Google Assistant or latest Wear OS and it might even never get it (edit: it wasn't added with the latest update RMDB.231019.002 release on November 6th ) but it is undeniable that TicWatch Pro 5 has the best battery life, best processor and the largest screen. I won't call it "the best" because, truthfully, there is no "best" watch. The demands and use cases for smart watches vary greatly and are deeply personal.
 
 If you're looking for a substantial classical looking wrist piece that wears well, last a whole day and gives you a home control panel on your wrist, the TichWatch Pro 5 is not perfect but is the best value for money in the market. It's been on my wrist for the past month it will stay there until something better appears in the market or Mobvoi at least releases a stainless steel version!
 
 You can get your TicWatch Pro 5 from:
 
-- [Mobvoi store](https://www.mobvoi.com/eu/products/ticwatchpro5?referral_code=IGYFYF) - ***BIG sale until 31st of October*** with the price 20% down to 287,99 EUR (or 279,99 USD for US markets) but with my code `IGYFYF` and a new user discount it drops below 250€
-- [Mobvoi Official AliExpress store](https://www.aliexpress.com/item/1005005578338329.html?aff_fcid=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&tt=CPS_NORMAL&aff_fsk=_Dnn9HeJ&aff_platform=shareComponent-detail&sk=_Dnn9HeJ&aff_trace_key=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y)
+- [Mobvoi store](https://www.mobvoi.com/eu/products/ticwatchpro5?referral_code=IGYFYF)
+- [Mobvoi Official AliExpress store](https://www.aliexpress.com/item/1005005578338329.html?aff_fcid=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&tt=CPS_NORMAL&aff_fsk=_Dnn9HeJ&aff_platform=shareComponent-detail&sk=_Dnn9HeJ&aff_trace_key=ef734fab5280400289cb6af957c5a2cd-1698509975476-08378-_Dnn9HeJ&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y) - **11.11 price drops under 300€** before a 19.11€ store coupon, then add code 11SALE40 for 40$ off 250$
 - [Amazon](https://www.amazon.com/Ticwatch-Smartwatch-Snapdragon-Resistance-Compatible/dp/B0CB12CPCY)
 
 ![Red fluoro rubber strap](/assets/images/ticwatchpro5/end.jpg)
