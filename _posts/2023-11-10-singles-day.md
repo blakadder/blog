@@ -151,7 +151,8 @@ EU Direct KAIWEETS HT118A Digital AC/DC Multimeter TRMS 6000 Counts True RMS wit
 
 <a target="_blank" href="https://www.banggood.com/PTS200-V2-100W-Electric-Soldering-Iron-Portable-Quick-Warm-Up-Tin-Melting-Open-Source-Supports-PD3_0-Firmware-Upgradeable-Battery-Not-Included-T12-or-TS100-Compatible-p-1993106.html?p=CM27171011078201412U&custlinkid=3563798"><img src="https://imgaz.staticbg.com/images/oaupload/banggood/images/E0/4E/75e95ca9-6838-4a80-9395-c0e28b51a396.jpg" alt="" width="50%"></a>
 
-<a target="_blank" href="https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800" title="" >SEQUER SI012 Pro Max TS-B2 Portable OLED Soldering Iron with Color Ambience Light Chinese, English and Russian Menu Applicable TS Soldering Iron Tips Support PD|QC|3S-6S Battery Power Supply</a>
+<a target="_blank" href="https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800" title="" >SEQUER SI012 Pro Max TS-B2 Portable OLED Soldering Iron with Color Ambience TS Soldering Iron Tips Support PD|QC|3S-6S Battery Power Supply</a>
+
 <a target="_blank" href="https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800"><img src="https://imgaz.staticbg.com/images/oaupload/banggood/images/E7/5C/bbb036b8-c32a-4499-9dee-1531f5d7f000.jpg" alt="" width="50%"></a>
 
 ## Sovol
