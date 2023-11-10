@@ -19,7 +19,7 @@ The Big Kahuna of shopping has some extremely tantalising coupons and discounts 
 
 Find all the exclusive codes on the [Singles' Day Sale codes page.](https://campaign.aliexpress.com/wow/gcp-plus/ae/tupr?spm=a2g0o.tm1000005516.9507481230.1.47a86f3dFsWVBo&_immersiveMode=true&wx_navbar_hidden=true&wx_navbar_transparent=true&ignoreNavigationBar=true&wx_statusbar_hidden=true&wh_weex=true&wh_pid=300000486%2FCodePage&aecmd=true&aff_fcid=e543b5e446c14ab8ab0f46e995ac0375-1699641454665-07311-_Dm07m3Z&tt=CPS_NORMAL&aff_fsk=_Dm07m3Z&aff_platform=portals-tool&sk=_Dm07m3Z&aff_trace_key=e543b5e446c14ab8ab0f46e995ac0375-1699641454665-07311-_Dm07m3Z&terminal_id=f6d770ce532d41d9aee8c03b1a87a6b5)
 
-#### Poland only codes
+***Poland only codes***
 
 | Code | Discount in $ | Minimum spend in $ |
 |---|---|---|
@@ -30,7 +30,7 @@ Find all the exclusive codes on the [Singles' Day Sale codes page.](https://camp
 | SUPERPL50 | 50.00 | 300.00 |
 | SUPERPL100 | 100.00 | 500.00 |
 
-### My Recommendations and Finds
+### My Recommendations
 
 Smart watch [TicWatch Pro 5](https://s.click.aliexpress.com/e/_DFW5WKf) under 300€ before codes with shipping from EU warehouse. [My review](ticwatch-pro-5-smart-watch-home-control)
 
@@ -123,34 +123,34 @@ When you check out with PayPal, Klarna or debit/credit card you received additio
 
 ## Banggood
 
-<a target='_blank' href='https://www.banggood.com/marketing-Banggood-Global-Shopping-Festival/tid-58058.html?utmid=23655&utm_content=hilda&bid=57168&utm_design=153&p=CM27171011078201412U&custlinkid=3564027'><img src='https://img.staticbg.com/deals/affiliate_member_banner_new/202311/07/20231107201358_826.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/marketing-Banggood-Global-Shopping-Festival/tid-58058.html?utmid=23655&utm_content=hilda&bid=57168&utm_design=153&p=CM27171011078201412U&custlinkid=3564027'><img src='https://img.staticbg.com/deals/affiliate_member_banner_new/202311/07/20231107201358_826.jpg' alt=""></a>
 
-## My Recommendations and Finds
+### My Recommendations and Finds
 
 <a target='_blank' href='https://www.banggood.com/SONOFF-NSPanel-Pro-Smart-Home-Control-Panel-Smart-Scene-Wall-Switch-Voice-Control-Smart-Home-Thermostat-Display-Switch-Works-with-Alexa-EU-Version-p-1996049.html?p=CM27171011078201412U&custlinkid=3563792' title='' >SONOFF NSPanel Pro Smart Home Control Panel Smart Scene Wall Switch Voice Control Smart Home Thermostat Display Switch Works with Alexa EU Version</a>
-<a target='_blank' href='https://www.banggood.com/SONOFF-NSPanel-Pro-Smart-Home-Control-Panel-Smart-Scene-Wall-Switch-Voice-Control-Smart-Home-Thermostat-Display-Switch-Works-with-Alexa-EU-Version-p-1996049.html?p=CM27171011078201412U&custlinkid=3563792'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/50/29/ecacccb3-419a-46d0-9346-3f2b525ed551.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/SONOFF-NSPanel-Pro-Smart-Home-Control-Panel-Smart-Scene-Wall-Switch-Voice-Control-Smart-Home-Thermostat-Display-Switch-Works-with-Alexa-EU-Version-p-1996049.html?p=CM27171011078201412U&custlinkid=3563792'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/50/29/ecacccb3-419a-46d0-9346-3f2b525ed551.jpg' alt=""></a>
 
 <a target='_blank' href='https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-WIFI-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?ID=0&warehouse=CN&p=CM27171011078201412U&custlinkid=3581230' title='' >BlitzWolf® BW-SHP13 ZigBee3.0 Smart WIFI Socket 16A EU Plug Electricity Metering APP Remote Controller Timer Work with Amazon Alexa Google Home</a>
-<a target='_blank' href='https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-WIFI-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?p=CM27171011078201412U&custlinkid=3563780'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/39/C3/39717de8-3fee-4bd1-b78f-2eb8fbd351d9.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-WIFI-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?p=CM27171011078201412U&custlinkid=3563780'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/39/C3/39717de8-3fee-4bd1-b78f-2eb8fbd351d9.jpg' alt=""></a>
 
 <a target='_blank' href='https://www.banggood.com/SONOFF-SNZB-02D-LCD-Smart-Temperature-Humidity-Sensor-APP-Real-time-Monitoring-Work-with-ZB-Bridge-P-or-ZB-Dongle-or-NS-Panel-p-1985618.html?p=CM27171011078201412U&custlinkid=3563803' title='' >SONOFF SNZB-02D LCD Smart Temperature Humidity Sensor APP Real-time Monitoring Work with ZB Bridge-P/ ZB Dongle/ NS Panel</a>
-<a target='_blank' href='https://www.banggood.com/SONOFF-SNZB-02D-LCD-Smart-Temperature-Humidity-Sensor-APP-Real-time-Monitoring-Work-with-ZB-Bridge-P-or-ZB-Dongle-or-NS-Panel-p-1985618.html?p=CM27171011078201412U&custlinkid=3563803'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/47/E2/16708948-5df6-4074-96ca-973f6401d0f8.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/SONOFF-SNZB-02D-LCD-Smart-Temperature-Humidity-Sensor-APP-Real-time-Monitoring-Work-with-ZB-Bridge-P-or-ZB-Dongle-or-NS-Panel-p-1985618.html?p=CM27171011078201412U&custlinkid=3563803'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/47/E2/16708948-5df6-4074-96ca-973f6401d0f8.jpg' alt=""></a>
 
 <a target='_blank' href='https://www.banggood.com/Sonoff-ZBMINI-L2-Smart-Zigbe3_0-Switch-No-Neutral-Required-Intelligent-Two-way-Control-Relay-Module-Timer-Voice-Control-with-Alexa-Google-Zigbe-Hubs-p-1983093.html?p=CM27171011078201412U&custlinkid=3563806' title='' >Sonoff ZBMINI L2 Smart Zigbe3.0 Switch No Neutral Required Intelligent Two-way Control Relay Module Timer Voice Control with Alexa Google Zigbe Hubs</a>
-<a target='_blank' href='https://www.banggood.com/Sonoff-ZBMINI-L2-Smart-Zigbe3_0-Switch-No-Neutral-Required-Intelligent-Two-way-Control-Relay-Module-Timer-Voice-Control-with-Alexa-Google-Zigbe-Hubs-p-1983093.html?p=CM27171011078201412U&custlinkid=3563806'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/41/24/08d1fc5a-a313-43a5-b522-58d2b9f6e5bc.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/Sonoff-ZBMINI-L2-Smart-Zigbe3_0-Switch-No-Neutral-Required-Intelligent-Two-way-Control-Relay-Module-Timer-Voice-Control-with-Alexa-Google-Zigbe-Hubs-p-1983093.html?p=CM27171011078201412U&custlinkid=3563806'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/41/24/08d1fc5a-a313-43a5-b522-58d2b9f6e5bc.jpg' alt=""></a>
 
 <a target='_blank' href='https://www.banggood.com/WIFI-Digital-Wattmeter-EU-Plug-220V-AC-Power-Meter-Electricy-consumption-Energy-Meter-Power-Kilowatt-Wattage-Electricity-Meter-p-1996941.html?p=CM27171011078201412U&custlinkid=3563789' title='' >WIFI Digital Wattmeter EU Plug 220V AC Power Meter Electricy consumption Energy Meter Power Kilowatt Wattage Electricity Meter</a>
-<a target='_blank' href='https://www.banggood.com/WIFI-Digital-Wattmeter-EU-Plug-220V-AC-Power-Meter-Electricy-consumption-Energy-Meter-Power-Kilowatt-Wattage-Electricity-Meter-p-1996941.html?ID=6320826&warehouse=CN&p=CM27171011078201412U&custlinkid=3581232'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/FC/C0/914fda81-ee0f-4c20-baf3-19b38322905a.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/WIFI-Digital-Wattmeter-EU-Plug-220V-AC-Power-Meter-Electricy-consumption-Energy-Meter-Power-Kilowatt-Wattage-Electricity-Meter-p-1996941.html?ID=6320826&warehouse=CN&p=CM27171011078201412U&custlinkid=3581232'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/FC/C0/914fda81-ee0f-4c20-baf3-19b38322905a.jpg' alt=""></a>
 
 <a target='_blank' href='https://www.banggood.com/EU-Direct-KAIWEETS-HT118A-Digital-AC-or-DC-Multimeter-TRMS-6000-Counts-True-RMS-with-Flashlight-and-Safety-Features-Best-for-Household-and-Automotive-Testing-p-1997681.html?p=CM27171011078201412U&custlinkid=3563787' title='' >
 EU Direct KAIWEETS HT118A Digital AC/DC Multimeter TRMS 6000 Counts True RMS with Flashlight and Safety Features Best for Household and Automotive Testing</a>
-<a target='_blank' href='https://www.banggood.com/EU-Direct-KAIWEETS-HT118A-Digital-AC-or-DC-Multimeter-TRMS-6000-Counts-True-RMS-with-Flashlight-and-Safety-Features-Best-for-Household-and-Automotive-Testing-p-1997681.html?p=CM27171011078201412U&custlinkid=3563787'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/59/20/34fce8fe-dcad-4ab8-bb9a-f684ab026784.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/EU-Direct-KAIWEETS-HT118A-Digital-AC-or-DC-Multimeter-TRMS-6000-Counts-True-RMS-with-Flashlight-and-Safety-Features-Best-for-Household-and-Automotive-Testing-p-1997681.html?p=CM27171011078201412U&custlinkid=3563787'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/59/20/34fce8fe-dcad-4ab8-bb9a-f684ab026784.jpg' alt=""></a>
 
 <a target='_blank' href='https://www.banggood.com/PTS200-V2-100W-Electric-Soldering-Iron-Portable-Quick-Warm-Up-Tin-Melting-Open-Source-Supports-PD3_0-Firmware-Upgradeable-Battery-Not-Included-T12-or-TS100-Compatible-p-1993106.html?p=CM27171011078201412U&custlinkid=3563798' title='' >PTS200 V2 100W Electric Soldering Iron Portable Quick Warm-Up Tin Melting Open Source Supports PD3.0 Firmware Upgradeable Battery Not Included T12/TS100 Compatible</a>
-<a target='_blank' href='https://www.banggood.com/PTS200-V2-100W-Electric-Soldering-Iron-Portable-Quick-Warm-Up-Tin-Melting-Open-Source-Supports-PD3_0-Firmware-Upgradeable-Battery-Not-Included-T12-or-TS100-Compatible-p-1993106.html?p=CM27171011078201412U&custlinkid=3563798'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/E0/4E/75e95ca9-6838-4a80-9395-c0e28b51a396.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/PTS200-V2-100W-Electric-Soldering-Iron-Portable-Quick-Warm-Up-Tin-Melting-Open-Source-Supports-PD3_0-Firmware-Upgradeable-Battery-Not-Included-T12-or-TS100-Compatible-p-1993106.html?p=CM27171011078201412U&custlinkid=3563798'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/E0/4E/75e95ca9-6838-4a80-9395-c0e28b51a396.jpg' alt=""></a>
 
 <a target='_blank' href='https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800' title='' >SEQUER SI012 Pro Max TS-B2 Portable OLED Soldering Iron with Color Ambience Light Chinese, English and Russian Menu Applicable TS Soldering Iron Tips Support PD|QC|3S-6S Battery Power Supply</a>
-<a target='_blank' href='https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/E7/5C/bbb036b8-c32a-4499-9dee-1531f5d7f000.jpg' alt='' ></a>
+<a target='_blank' href='https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/E7/5C/bbb036b8-c32a-4499-9dee-1531f5d7f000.jpg' alt=""></a>
 
 ## Sovol
 
