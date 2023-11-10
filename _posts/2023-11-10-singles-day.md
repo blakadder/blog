@@ -75,12 +75,15 @@ Zigbee2MQTT and Home Assistant ZHA. Runs on CR2032 batteries.
 <a href="https://s.click.aliexpress.com/e/_DehqeNd" target="_blank"><img src="https://ae01.alicdn.com/kf/Sf8600d549c2b43aa98409487d4e31fdeK.jpg_80x80.jpg"></a>
 
 Addressable lights that aren't a LED strip. I've connected these lights to a WLED controller instead of using the Tuya one.
+
 <a href="https://s.click.aliexpress.com/e/_DnpKOuL" target="_blank"><img src="https://ae01.alicdn.com/kf/S60f5e03bae98420986e038b7484c66c3j.png_80x80.png" /></a> <a href="https://s.click.aliexpress.com/e/_DlFEpeL" target="_blank"><img src="https://ae01.alicdn.com/kf/S1e0ec4ef6c104100ba2de2c49cf6f8ebg.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_DlvvXf9" target="_blank"><img src="https://ae01.alicdn.com/kf/Sad88357bbe5845d4b02f2fbd20932297s.jpg_80x80.jpg" /></a>
 
 Presence sensors for DIY
+
 <a href="https://s.click.aliexpress.com/e/_DEYGEUj" target="_blank"><img src="https://ae01.alicdn.com/kf/S151423de93f94353827ca0eab468e829g.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_DDj9GUT" target="_blank"><img src="https://ae01.alicdn.com/kf/Sbc911210538f49899c7d84bdc9356905r.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_De9t0Th" target="_blank"><img src="https://ae01.alicdn.com/kf/S978d379851314c9998cb443f7735f97ai.jpg_80x80.jpg" /></a> 
 
 Tools I use in my escapades
+
 <a href="https://s.click.aliexpress.com/e/_DFh5Ir1" target="_blank"><img src="https://ae01.alicdn.com/kf/Se04ccaff01b6448b9f808916c992e7d3p.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_Dl2WnCJ" target="_blank"><img src="https://ae01.alicdn.com/kf/S56a282e2aea54f7c8af98b365865e2190.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_DnEpaeR" target="_blank"><img src="https://ae01.alicdn.com/kf/Sf8ad73471c9c4fcd93ac4a6b68921e87v.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_Dm4alYR" target="_blank"><img src="https://ae01.alicdn.com/kf/Sa02989eb81f34e3da85b0493703653c6G.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_DF2TEef" target="_blank"><img src="https://ae01.alicdn.com/kf/H1a8dee9abd8d4b0cae944528d9ed1aea7.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_DneJmjt" target="_blank"><img src="https://ae01.alicdn.com/kf/Sb72a4b91106d44a0b2d4f30c079d4cb94.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_Dm50eGj" target="_blank"><img src="https://ae01.alicdn.com/kf/S4c61ccca00f5450a9936679e162df5c0X.jpg_80x80.jpg" /></a> <a href="https://s.click.aliexpress.com/e/_DeE6RGn" target="_blank"><img src="https://ae01.alicdn.com/kf/Sde030709e35b48d69061924a477d1e30k.jpeg_80x80.jpeg" /></a>
 
 ## Geekbuying
