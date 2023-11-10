@@ -87,12 +87,30 @@ Tools I use in my escapades
 
 [Geekbuying 11.11 sale](https://www.geekbuying.com/go/89SZqe0n) coupons:
 
-- $50 OFF for orders over $550, CODE: `GKB231150`
-- $25 OFF for orders over $300, CODE: `GKB231125`
-- $20 OFF for orders over $200, CODE: `GKB231120`
-- 8% OFF site-wide(max $15), CODE: `GKB231115`
+- $50 OFF for orders over $550, CODE: GKB231150
+- $25 OFF for orders over $300, CODE: GKB231125
+- $20 OFF for orders over $200, CODE: GKB231120
+- 6% OFF site-wide(Max save $20), CODE: NNNAFFNOV
 
-When you check out with PayPal, Klarna or debit/credit card you received additional discounts of $15 OFF over $400 or $10 OFF over $250! Valid from Nov 6th to Nov 14th.
+Category coupons for e-bikes and scooters! *only 50 pieces per day
+- Bike: 
+  - $80 off orders over $1000 –  2311EB80C;
+  - $55 off orders over $700 –  2311EB55C
+- Scooter: 
+  - $40 off orders over $599 –  2311ES40C;
+  - $12 off orders over $199 – 2311ES12C
+
+Category coupons for 3D printers and lasers! *only 50 pieces per day
+- $70 off orders over $800 – 2311CE70C
+- $40 off orders over $450 – 2311CE40C
+- $25 off orders over $300 – 2311CE25C
+- $15 off orders over $200 – 2311CE15C
+
+Category coupon for power station! $50 off orders over $500 – 2311PP50C
+Category coupon for Home/ Computers, Tablets & Accessories $20 off orders over $200 – 2311LT20C
+Category coupon for Smart Home & Garden! $15 off orders over $150 – 2311SH15C
+
+When you check out with PayPal, Klarna or debit/credit card you received additional discounts of $30 OFF over $800, $15 OFF over $400 or $10 OFF over $250! Valid from Nov 6th to Nov 14th.
 
 <a href="https://www.geekbuying.com/dynamic-ads/link.html?id=3873" target="_blank"><img style="border:0px" src="https://www.geekbuying.com/dynamic-ads/banner970x90.jpg" width="970" height="90" alt="banner"></a>
 
