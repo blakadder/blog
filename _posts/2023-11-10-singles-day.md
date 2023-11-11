@@ -52,9 +52,11 @@ Smart watch [TicWatch Pro 5](https://s.click.aliexpress.com/e/_DFW5WKf) under 30
 
 <a href="https://s.click.aliexpress.com/e/_DmMe4Kr" target="_blank"><img src="https://ae01.alicdn.com/kf/Sec139cab9747498e92aabf7a0ea0812c2.jpg_80x80.jpg" /></a>
 
+[Athom sound reactive WLED controller](https://www.aliexpress.com/item/1005004929457839.html?aff_fcid=7a34d045f85044f6b130ecb9a6a85171-1699701907785-05685-_DFHE3GX&tt=CPS_NORMAL&aff_fsk=_DFHE3GX&aff_platform=shareComponent-detail&sk=_DFHE3GX&aff_trace_key=7a34d045f85044f6b130ecb9a6a85171-1699701907785-05685-_DFHE3GX&terminal_id=3f8c776975fd455ba956809c02d71a91&afSmartRedirect=y), the most complete and still affordable WLED controller in the market, just plug and play. Also available as a [kit with PSU and LED strip](https://s.click.aliexpress.com/e/_DCUiUoF).
 
-[iH-F001 Zigbee door/window sensor](https://s.click.aliexpress.com/e/_DmWwCdV). One of the smallest contact sensors, works with 
-Zigbee2MQTT and Home Assistant ZHA. Runs on CR2032 batteries.
+<a href="https://s.click.aliexpress.com/e/_DDfJ9UB" target="_blank"><img src="https://ae01.alicdn.com/kf/Sa5be6c0e5c614fb1aefd5995f9f65388k.png_80x80.png" /></a> <a href="https://s.click.aliexpress.com/e/_DCUiUoF" target="_blank"><img src="https://ae01.alicdn.com/kf/S3426e541e3e5472e8ac169d805054b6a3.png_80x80.png" /></a>
+
+[iH-F001 Zigbee door/window sensor](https://s.click.aliexpress.com/e/_DmWwCdV). One of the smallest contact sensors, works with Zigbee2MQTT and Home Assistant ZHA. Runs on CR2032 batteries.
 
 <a href="https://s.click.aliexpress.com/e/_DdDuMd9" target="_blank"><img src="https://ae01.alicdn.com/kf/S9dbb462d3f874c0a926348d3f8ab59e6r.jpg_80x80.jpg" /></a>
 
@@ -137,6 +139,8 @@ When you check out with PayPal, Klarna or debit/credit card you received additio
 [Singles day sales](https://www.domadoo.fr/en/190-single-day)
 
 [Sonoff presence sensor SNZB-06P](https://www.domadoo.fr/en/security/6827-zigbee-30-human-presence-sensor-radar-technology-sonoff.html?domid=14)
+
+[Nous Tasmota](https://t.co/VcipjDhdMJ) preflashed devices
 
 ## Banggood
 
