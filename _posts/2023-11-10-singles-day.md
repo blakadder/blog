@@ -187,8 +187,3 @@ Thank you for your support!
 ## Ulanzi
 
 [TC001 pixel clock](https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882?variant=40173809303607).  One for 45€, two for 81€!!! Shipping from German warehouse.
-
-## Divoom
-
-Pixel clocks galore, Bluetooth and Wi-Fi
-
