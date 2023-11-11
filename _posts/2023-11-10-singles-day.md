@@ -121,8 +121,22 @@ When you check out with PayPal, Klarna or debit/credit card you received additio
 
 - an [N100 mini PC](https://www.geekbuying.com/go/89SaR7mK) for your smart home server and more. This wipes the floor with the usually recommended SBCs with only 7w idle power consumption.
 - [BMAX MaxPad i9 Plus](https://www.geekbuying.com/go/7pF3OteD) tablet 10.1-inch. Cost effective tablet for a smart home dashboard, comes with clean stock Android. Warning, it is not fast enough for normal daily use.
-- Qidi 3D printers. [X-Smart 3](https://www.geekbuying.com/go/7sw4lI1t) as a small entry level printer or [X-Plus 3](https://www.geekbuying.com/go/89SbKr1t) that can print almost any filament you can get your hands on with its enclosed actively heated chamber. Qidi's support is excellent and reponsive and that's value you appreciate when you encounter issues. There's also [X-Max 3](https://www.geekbuying.com/go/89Sb4yMc) if you print HUGE things.
+- Qidi 3D printers: 
+  - [X-Smart 3](https://www.geekbuying.com/go/7sw4lI1t) as a small entry level printer. 339€ with coupon QIDIS3
+  - [X-Plus 3](https://www.geekbuying.com/go/89UKjChI
+) that can print almost any filament you can get your hands on with its enclosed actively heated chamber. 629$ with coupon PLUS3QIDIUS 
+  - There's also [X-Max 3](https://www.geekbuying.com/go/89Sb4yMc) if you print HUGE things. 949€ with code QIDIM3
+. Qidi's support is excellent and reponsive and that's value you appreciate when you encounter issues. 
 - [6kg of Creality ABS](https://www.geekbuying.com/go/89SaiLp2) in mixed colors. I really love how well it prints in my Qidi X-Plus 3.
+- [Aqara door/windows sensors](https://www.geekbuying.com/go/89UKmkrh) are the most recommended Zigbee contact sensors on Home Assistant discord
+- [Aqara wireless](https://www.geekbuying.com/go/89UKopNq) Zigbee wall switches have the typical great build quality and design Aqara provides
+- [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](sonoff-zbmini)
+
+## Domadoo
+
+[Singles day sales](https://www.domadoo.fr/en/190-single-day)
+
+[Sonoff presence sensor SNZB-06P](https://www.domadoo.fr/en/security/6827-zigbee-30-human-presence-sensor-radar-technology-sonoff.html?domid=14)
 
 ## Banggood
 
@@ -169,3 +183,8 @@ Thank you for your support!
 ## Ulanzi
 
 [TC001 pixel clock](https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882?variant=40173809303607).  One for 45€, two for 81€!!! Shipping from German warehouse.
+
+## Divoom
+
+Pixel clocks galore, Bluetooth and Wi-Fi
+
