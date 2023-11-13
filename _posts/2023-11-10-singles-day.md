@@ -90,34 +90,9 @@ Tools I use in my escapades
 
 ## Geekbuying
 
-[Geekbuying 11.11 sale](https://www.geekbuying.com/go/89SZqe0n) coupons:
+[Geekbuying Black Friday coupon page](https://www.geekbuying.com/go/89qPKBUZ).
 
-- $50 OFF for orders over $550, CODE: GKB231150
-- $25 OFF for orders over $300, CODE: GKB231125
-- $20 OFF for orders over $200, CODE: GKB231120
-- 6% OFF site-wide(Max save $20), CODE: NNNAFFNOV
-
-Category coupons for e-bikes and scooters! *only 50 pieces per day
-- Bike: 
-  - $80 off orders over $1000 –  2311EB80C;
-  - $55 off orders over $700 –  2311EB55C
-- Scooter: 
-  - $40 off orders over $599 –  2311ES40C;
-  - $12 off orders over $199 – 2311ES12C
-
-Category coupons for 3D printers and lasers! *only 50 pieces per day
-- $70 off orders over $800 – 2311CE70C
-- $40 off orders over $450 – 2311CE40C
-- $25 off orders over $300 – 2311CE25C
-- $15 off orders over $200 – 2311CE15C
-
-Category coupon for power station! $50 off orders over $500 – 2311PP50C
-Category coupon for Home/ Computers, Tablets & Accessories $20 off orders over $200 – 2311LT20C
-Category coupon for Smart Home & Garden! $15 off orders over $150 – 2311SH15C
-
-When you check out with PayPal, Klarna or debit/credit card you received additional discounts of $30 OFF over $800, $15 OFF over $400 or $10 OFF over $250! Valid from Nov 6th to Nov 14th.
-
-<a href="https://www.geekbuying.com/dynamic-ads/link.html?id=3873"  target="_blank"><img style="border:0px" src="https://www.geekbuying.com/dynamic-ads/banner970x90.jpg" width="970" height="90" alt="banner"></a>
+When you check out with PayPal, Klarna or debit/credit card you get additional 5€ OFF over 100€ order! 
 
 ### My Recommendations and Finds
 
@@ -133,6 +108,8 @@ When you check out with PayPal, Klarna or debit/credit card you received additio
 - [Aqara door/windows sensors](https://www.geekbuying.com/go/89UKmkrh) are the most recommended Zigbee contact sensors on Home Assistant discord
 - [Aqara wireless](https://www.geekbuying.com/go/89UKopNq) Zigbee wall switches have the typical great build quality and design Aqara provides
 - [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](sonoff-zbmini)
+
+[![Geekbuying banner](https://www.geekbuying.com/dynamic-ads/banner1200x628.jpg)](https://www.geekbuying.com/dynamic-ads/link.html?id=3873)
 
 ## Domadoo
 
