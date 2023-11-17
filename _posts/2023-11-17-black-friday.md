@@ -65,11 +65,13 @@ Great prices on Aqara T1 sensors, Sonoff NSPanel Pro
 
 ## Qidi
 
-Qidi's support is excellent and responsive and that's an added value you appreciate when you encounter issues. 
+[Great prices](https://s.zbanx.com/r/JOYXJvdGRuWQ) on their newest line of printers and filaments.
 
 - [X-Plus 3](hhttps://s.zbanx.com/r/txOSp5J6Yoij) that can print almost any filament you can get your hands on with its enclosed actively heated chamber. Mine has done PETG, ABS, ASA, PA12 and Nylon with ease and the prints turn out amazing. Only 589$ and 10$ off with QIDI10 code.
 - [X-Max 3](https://s.zbanx.com/r/VxFXX1yFW5yl) if you print HUGE (325x325) things with industrial filaments for just 899$ and 20$ off with QIDI20 code. This is a hardcore maker machine and the only machine like this in sub 1000$ price range. Next best thing is a Voron 2.4.
 - [X-Smart 3](https://s.zbanx.com/r/bhdKLjvBgdZj) as a small entry level fully enclosed core XY desktop printer for 299$. Can be upgraded with nozzles from its bigger brothers and print the same filaments.
+
+Qidi's support is excellent and responsive and that's an added value you appreciate when you encounter issues. 
 
 ## 3D Jake
 
