@@ -9,6 +9,8 @@ toc: true
 ---
 11.11 Singles' Day sales are upon us. Here are some things I use daily and recommend regularly on Discord and [Twitter/X](http;//twitter.com/blakadder_) and discount codes for online stores I frequent.
 
+Update: Singles day sales are over but [Black Friday](black-friday-2023) sales have begun.
+
 _**Full disclosure:** Shopping links in this article are affiliate links and I earn a small commission when you buy through them which helps fund future reviews and projects_
 
 ## AliExpress
