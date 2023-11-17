@@ -44,7 +44,7 @@ _**Full disclosure:** Shopping links in this article are affiliate links and I e
 [GratKit Firefly](https://www.amazon.de/-/en/Firefly-Filament-Controlled-Included-Effective/dp/B0CDC4Y58Z?crid=3AJ0ZVD41WUA1&keywords=gratkit&qid=1700213613&sprefix=gratkit%2Caps%2C105&sr=8-18&linkCode=li2&tag=blakadders-20&linkId=a6e7afdeabb8c66b50414f264330df67&language=en_GB&ref_=as_li_ss_il) Wi-Fi filament dryer.
 
 <a href="https://www.amazon.de/-/en/Firefly-Filament-Controlled-Included-Effective/dp/B0CDC4Y58Z?crid=3AJ0ZVD41WUA1&keywords=gratkit&qid=1700213613&sprefix=gratkit%2Caps%2C105&sr=8-18&linkCode=li2&tag=blakadders-20&linkId=a6e7afdeabb8c66b50414f264330df67&language=en_GB&ref_=as_li_ss_il" target="_blank"><img src="https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CDC4Y58Z&Format=_SL160_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=blakadders-20&language=en_GB" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=blakadders-20&language=en_GB&l=li2&o=3&a=B0CDC4Y58Z" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" />
-
+ 
 ## Domadoo
 
 [![Black Friday](https://www.domadoo.fr/img/cms/Visuels-categories/Black-Friday-Week-17-27Nov2023-C-EN.jpg) ](https://www.domadoo.fr/en/73-black-friday-smart-home?domid=14)
