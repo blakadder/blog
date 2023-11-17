@@ -63,6 +63,14 @@ Best European smart home store. Black Friday discounts:
 
 Great prices on Aqara T1 sensors, Sonoff NSPanel Pro
 
+## Qidi
+
+Qidi's support is excellent and responsive and that's an added value you appreciate when you encounter issues. 
+
+- [X-Plus 3](hhttps://s.zbanx.com/r/txOSp5J6Yoij) that can print almost any filament you can get your hands on with its enclosed actively heated chamber. Mine has done PETG, ABS, ASA, PA12 and Nylon with ease and the prints turn out amazing. Only 589$ and 10$ off with QIDI10 code.
+- [X-Max 3](https://s.zbanx.com/r/VxFXX1yFW5yl) if you print HUGE (325x325) things with industrial filaments for just 899$ and 20$ off with QIDI20 code. This is a hardcore maker machine and the only machine like this in sub 1000$ price range. Next best thing is a Voron 2.4.
+- [X-Smart 3](https://s.zbanx.com/r/bhdKLjvBgdZj) as a small entry level fully enclosed core XY desktop printer for 299$. Can be upgraded with nozzles from its bigger brothers and print the same filaments.
+
 ## 3D Jake
 
 [3D Jake](https://tidd.ly/40MBYMT) is one of my go-to stores for 3D printing accessories and filaments. They carry spare parts for my Qidi X-Plus 3 and Sovol SV06 printers as well as many others. Free shipping on orders over 49,90€
@@ -103,12 +111,6 @@ Extra discount for check out with PayPal, Klarna or Credit/Debit Card! €5 OFF 
 
 - an [N100 mini PC](https://www.geekbuying.com/go/89SaR7mK) for your smart home server and more. This wipes the floor with the usually recommended SBCs with only 7w idle power consumption.
 - [BMAX MaxPad i9 Plus](https://www.geekbuying.com/go/7pF3OteD) tablet 10.1-inch. Cost effective tablet for a smart home dashboard, comes with clean stock Android. Warning, it is not fast enough for normal daily use.
-- Qidi 3D printers: 
-  - [X-Smart 3](https://www.geekbuying.com/go/7sw4lI1t) as a small entry level printer. 339€ with coupon QIDIS3
-  - [X-Plus 3](https://www.geekbuying.com/go/89UKjChI
-) that can print almost any filament you can get your hands on with its enclosed actively heated chamber. 629$ with coupon PLUS3QIDIUS 
-  - There's also [X-Max 3](https://www.geekbuying.com/go/89Sb4yMc) if you print HUGE things. 949€ with code QIDIM3
-. Qidi's support is excellent and reponsive and that's value you appreciate when you encounter issues. 
 - [6kg of Creality ABS](https://www.geekbuying.com/go/89SaiLp2) in mixed colors. I really love how well it prints in my Qidi X-Plus 3.
 - [Aqara door/windows sensors](https://www.geekbuying.com/go/89UKmkrh) are the most recommended Zigbee contact sensors on Home Assistant discord
 - [Aqara wireless](https://www.geekbuying.com/go/89UKopNq) Zigbee wall switches have the typical great build quality and design Aqara provides
@@ -137,9 +139,10 @@ If you don't need Klipper the [standard SV06](https://www.sovol3d.com/products/s
 ![Ulanzi TC001](https://cdn.shopify.com/s/files/1/0136/3119/3188/files/564e1faf7ad5e37ee0db1d4f34975b9f_medium.jpg?v=1700190130)
 
 [TC001 pixel clock](https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882?variant=40173809303607) is 20% off (or 22% for orders over 199€). One for 39,96€, two for 71,93€! Shipping from German warehouse.
-## Divoom
 
+## Divoom
 
 ![Pixoo64](https://cdn.shopify.com/s/files/1/0082/4105/3814/products/Pixoo-64.jpg?v=1699871278&width=283&height=283&crop=center)
 
 [Pixoo64](https://collabs.shop/hpilym) is a larger (64x64 pixels), more capable and more expensive pixel display. 131,95€ during the Black Friday sale but using my link gives a 10% discount which brings the price down to 118,75€. The API is open, there are various apps for controlling it and also a [Home Assistant integration](https://github.com/gickowtf/pixoo-homeassistant).
+
