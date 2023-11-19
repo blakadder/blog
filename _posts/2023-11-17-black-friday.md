@@ -109,7 +109,7 @@ Extra discount for check out with PayPal, Klarna or Credit/Debit Card! €5 OFF 
 
 [Geekbuying Black Friday coupon page](https://www.geekbuying.com/go/89qPKBUZ). When you check out with PayPal, Klarna or debit/credit card you get additional 5€ OFF over 100€ order! 
 
-### My Recommendations and Finds
+My recommendations:
 
 - an [N100 mini PC](https://www.geekbuying.com/go/89SaR7mK) for your smart home server and more. This wipes the floor with the usually recommended SBCs with only 7w idle power consumption.
 - [BMAX MaxPad i9 Plus](https://www.geekbuying.com/go/7pF3OteD) tablet 10.1-inch. Cost effective tablet for a smart home dashboard, comes with clean stock Android. Warning, it is not fast enough for normal daily use.
@@ -135,6 +135,19 @@ Extra discount for check out with PayPal, Klarna or Credit/Debit Card! €5 OFF 
 [Sovol SV06 with Klipper support](https://www.sovol3d.com/products/sovol-sv06-3d-printer-and-klipper-bundles?sca_ref=3309524.Vd4MGn0pGL&sca_source=base) is 289$ -20$ with code K20. It's a good beginner printer for someone who wants to tinker and learn more about 3D printers and the built in Klipper opens it up for faster and better printing. 
 
 If you don't need Klipper the [standard SV06](https://www.sovol3d.com/products/sovol-sv06-best-budget-3d-printer-for-beginner?sca_ref=3309524.Vd4MGn0pGL&sca_source=base) is only 195$ and if you need a large print surface (300x300) there's the [SV06 Plus](https://www.sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure?sca_ref=3309524.Vd4MGn0pGL&sca_source=base) for 279$. 
+
+## Sonoff
+
+[![Sonoff Black Friday](/assets/images/black-friday/sonoff-bf.webp)](https://itead.cc/sonoff-black-friday-sale-2023/ref/34)
+
+The good old [Sonoff](https://itead.cc/sonoff-black-friday-sale-2023/ref/34) has nice codes $10 OFF $69+ with Code BF10 | $15 OFF $99+ with Code BF15 | $30 OFF $159+ with Code BF30 on top of good deals:
+
+- [NSPanel Pro](https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/34) for 77.90$
+- [iHost Smart Home Hub 4Gb](https://itead.cc/product/sonoff-ihost-smart-home-hub/ref/34) version 79.90$. Can [run Home Assistant OS](https://community.home-assistant.io/t/sonoff-ihost-smart-home-hub-computer-from-itead-can-it-be-hacked-to-run-home-assistant-os-with-bluetooth-thread-matter-and-zha-integrations/545962/81) with full Zigbee support
+- [ZBDongle-P ](https://itead.cc/product/sonoff-zigbee-3-0-usb-dongle-plus/ref/34) USB Zigbee coordinator with CC2652P chip for 17.90$
+- [Zigbee Curtain Motor](https://itead.cc/product/sonoff-zigbee-smart-curtain-motor/ref/34) is 20% off for 59.90$
+- [Zigbee Radiator Valve](https://itead.cc/product/sonoff-zigbee-thermostatic-radiator-valve/) for 24.21$
+- at least 10% discount on all other devices like [LCD Temperature Sensor](https://itead.cc/product/sonoff-snzb-02d-zigbee-lcd-smart-temperature-humidity-sensor/) or [ZBMINIL2](https://itead.cc/product/sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required/ref/34)
 
 ## Ulanzi
 
