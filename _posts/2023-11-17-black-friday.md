@@ -73,23 +73,25 @@ After a massive 11.11 sale comes their Black Friday sale with similar deals and 
 
 Not applicable in UA, MX, RU, AE, UZ, BH, KR, AM, KW, FR, SA, ES, KZ, QA, BR, TJ, BY, MD, AZ, TM, KG, GE, OM, US
 
-| Code | Discount in $ | Minimum spend in $ |
+| Code | Discount | Minimum spend|
 |---|---|---|
-| BF8 | 6.00 | 45.00 |
-| BF10 | 10.00 | 80.00 |
-| BF20 | 20.00 | 150.00 |
-| BF50 | 50.00 | 300.00 |
-| BF80 | 80.00 | 450.00 |
+| 23AE10 | 9€ | 75€ |
+| 23AE20 | 14€ | 140€ |
+| BF8 | 6$ | 45$ |
+| BF10 | 10$ | 80$ |
+| BF20 | 20$ | 150$ |
+| BF50 | 50$ | 300$ |
+| BF80 | 80$ | 450$ |
 
 #### Poland Only
 
 | Code | Discount in $ | Minimum spend in $ |
 |---|---|---|
-| SPBF6 | 6.00 | 45.00 |
-| SPBF10 | 10.00 | 80.00 |
-| SPBF20 | 20.00 | 150.00 |
-| SPBF50 | 50.00 | 300.00 |
-| SPBF80 | 80.00 | 450.00 |
+| SPBF6 | 6$ | 45$ |
+| SPBF10 | 10$ | 80$ |
+| SPBF20 | 20$ | 150$ |
+| SPBF50 | 50$ | 300$ |
+| SPBF80 | 80$ | 450$ |
 
 You can see [my recommendations in the 11.11 guide](singles-day/#my-recommendations). 
 
@@ -125,15 +127,19 @@ I like these:
 
 Discount codes with USD! (usable for any order and from any country)
 
-- GKB23BFP1 $400-$30
-- GKB23BFP2  $250-$20
-- GKB23BFP3  5% OFF for any order, max $10 savings
+* code: GKB23BF50, $550-$50
+* code: GKB23BF25, $300-$25
+* code: GKB23BF20, $200-$20
+* code: GKB23BF10, $100-$10
+* code: GKB23BF3,  $20-$3
 
 Discount codes with EUR! (usable for any order and from any country)
 
-- GKB23BFPE1  €400-€30
-- GKB23BFPE2  €250-€20
-- GKB23BFPE3  5% OFF for any order, max €10 savings
+* code: GKB23BF50E, €550-€50 
+* code: GKB23BF25E, €300-€25 
+* code: GKB23BF20E, €200-€20 
+* code: GKB23BF10E, €100-€10 
+* code: GKB23BF3E,  €20-€3
 
 Extra discount for check out with PayPal, Klarna or Credit/Debit Card! €5 OFF orders over €100 or $5 OFF orders over $100
 
