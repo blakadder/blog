@@ -7,7 +7,7 @@ tags: [ ]
 image: assets/images/header_singlesday.jpg
 toc: true
 ---
-11.11 Singles' Day sales are upon us. Here are some things I use daily and recommend regularly on Discord and [Twitter/X](http;//twitter.com/blakadder_) and discount codes for online stores I frequent.
+<del>11.11 Singles' Day sales are upon us.</del> Here are some things I use daily and recommend regularly on Discord and [Twitter/X](http;//twitter.com/blakadder_) and discount codes for online stores I frequent.
 
 Update: Singles day sales are over but [Black Friday](black-friday-2023) sales have begun.
 

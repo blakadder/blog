@@ -63,6 +63,36 @@ Best European smart home store. Black Friday discounts:
 
 Great prices on Aqara T1 sensors, Sonoff NSPanel Pro
 
+## AliExpress
+
+![AliExpress Black Friday](/assets/images/black-friday/aliexpress-bf.jpg)
+
+After a massive 11.11 sale comes their Black Friday sale with similar deals and a new set of discount codes.
+
+#### Discounts
+
+Not applicable in UA, MX, RU, AE, UZ, BH, KR, AM, KW, FR, SA, ES, KZ, QA, BR, TJ, BY, MD, AZ, TM, KG, GE, OM, US
+
+| Code | Discount in $ | Minimum spend in $ |
+|---|---|---|
+| BF8 | 6.00 | 45.00 |
+| BF10 | 10.00 | 80.00 |
+| BF20 | 20.00 | 150.00 |
+| BF50 | 50.00 | 300.00 |
+| BF80 | 80.00 | 450.00 |
+
+#### Poland Only
+
+| Code | Discount in $ | Minimum spend in $ |
+|---|---|---|
+| SPBF6 | 6.00 | 45.00 |
+| SPBF10 | 10.00 | 80.00 |
+| SPBF20 | 20.00 | 150.00 |
+| SPBF50 | 50.00 | 300.00 |
+| SPBF80 | 80.00 | 450.00 |
+
+You can see [my recommendations in the 11.11 guide](singles-day/#my-recommendations). 
+
 ## Qidi
 
 [Great prices](https://s.zbanx.com/r/JOYXJvdGRuWQ) on their newest line of printers and filaments.
