@@ -7,9 +7,9 @@ tags: [ ]
 image: assets/images/header_singlesday.jpg
 toc: true
 ---
-<del>11.11 Singles' Day sales are upon us.</del> Here are some things I use daily and recommend regularly on Discord and [Twitter/X](http;//twitter.com/blakadder_) and discount codes for online stores I frequent.
+<del>11.11 Singles' Day sales are upon us.</del> Here are some things I use daily and recommend regularly on Discord and [Twitter/X](http://twitter.com/blakadder_) and discount codes for online stores I frequent.
 
-Update: Singles day sales are over but [Black Friday](black-friday-2023) sales have begun.
+Update: Singles day sales are over but [Black Friday](/black-friday-2023) sales have begun.
 
 _**Full disclosure:** Shopping links in this article are affiliate links and I earn a small commission when you buy through them which helps fund future reviews and projects_
 
@@ -34,7 +34,7 @@ Find all the exclusive codes on the [Singles' Day Sale codes page.](https://camp
 
 ### My Recommendations
 
-Smart watch [TicWatch Pro 5](https://s.click.aliexpress.com/e/_DFW5WKf) under 300€ before codes with shipping from EU warehouse. [My review](ticwatch-pro-5-smart-watch-home-control)
+Smart watch [TicWatch Pro 5](https://s.click.aliexpress.com/e/_DFW5WKf) under 300€ before codes with shipping from EU warehouse. [My review](/ticwatch-pro-5-smart-watch-home-control)
 
 <a href="https://s.click.aliexpress.com/e/_DCwwiaf"  target="_blank"><img src="https://ae01.alicdn.com/kf/S28a980f685f045f1b0496927e8921cb6p.jpg_80x80.jpg" /></a>
 
@@ -109,7 +109,7 @@ When you check out with PayPal, Klarna or debit/credit card you get additional 5
 - [6kg of Creality ABS](https://www.geekbuying.com/go/89SaiLp2) in mixed colors. I really love how well it prints in my Qidi X-Plus 3.
 - [Aqara door/windows sensors](https://www.geekbuying.com/go/89UKmkrh) are the most recommended Zigbee contact sensors on Home Assistant discord
 - [Aqara wireless](https://www.geekbuying.com/go/89UKopNq) Zigbee wall switches have the typical great build quality and design Aqara provides
-- [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](sonoff-zbmini)
+- [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](/sonoff-zbmini)
 
 [![Geekbuying banner](https://www.geekbuying.com/dynamic-ads/banner1200x628.jpg)](https://www.geekbuying.com/dynamic-ads/link.html?id=3873)
 

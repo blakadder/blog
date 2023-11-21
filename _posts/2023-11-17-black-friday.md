@@ -7,13 +7,13 @@ tags: [ ]
 image: assets/images/header_blakfriday.jpg
 toc: true
 ---
-Black Friday sales are upon us. Here are deals I found for items I use daily and recommend regularly on Discord and [Twitter/X](http;//twitter.com/blakadder_).
+Black Friday sales are upon us. Here are deals I found for items I use daily and recommend regularly on Discord and [Twitter/X](http://twitter.com/blakadder_).
 
 _**Full disclosure:** Shopping links in this article are affiliate links and I earn a small commission when you buy through them which helps fund future reviews and projects. As an Amazon Associate, I earn from qualifying purchases._
 
 ## Amazon
 
-[Indoor/Outdoor Thermometer Hygrometer](https://www.amazon.de/-/en/SwitchBot-Thermometer-Hygrometer-Bluetooth-Temperature/dp/B0BVZC9Q31?crid=3KR83UT451MHH&keywords=switchbot&qid=1700210167&sprefix=switchbot%2Caps%2C114&sr=8-6&th=1&linkCode=li2&tag=blakadders-20&linkId=c526225057d91fac4d72c149a7750cc8&language=en_GB&ref_=as_li_ss_il) 40% off (29,99€) for three. [My review](switchbot-indoor-outdoor-thermo-hygrometer)
+[Indoor/Outdoor Thermometer Hygrometer](https://www.amazon.de/-/en/SwitchBot-Thermometer-Hygrometer-Bluetooth-Temperature/dp/B0BVZC9Q31?crid=3KR83UT451MHH&keywords=switchbot&qid=1700210167&sprefix=switchbot%2Caps%2C114&sr=8-6&th=1&linkCode=li2&tag=blakadders-20&linkId=c526225057d91fac4d72c149a7750cc8&language=en_GB&ref_=as_li_ss_il) 40% off (29,99€) for three. [My review](/switchbot-indoor-outdoor-thermo-hygrometer)
 
 <a href="https://www.amazon.de/-/en/SwitchBot-Thermometer-Hygrometer-Bluetooth-Temperature/dp/B0BVZC9Q31?crid=3KR83UT451MHH&keywords=switchbot&qid=1700210167&sprefix=switchbot%2Caps%2C114&sr=8-6&th=1&linkCode=li2&tag=blakadders-20&linkId=c526225057d91fac4d72c149a7750cc8&language=en_GB&ref_=as_li_ss_il" target="_blank"><img src="https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BVZC9Q31&Format=_SL160_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=blakadders-20&language=en_GB" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=blakadders-20&language=en_GB&l=li2&o=3&a=B0BVZC9Q31" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" />
 
@@ -21,7 +21,7 @@ _**Full disclosure:** Shopping links in this article are affiliate links and I e
 
 <a href="https://www.amazon.de/dp/B0BHYV871T?th=1&linkCode=li2&tag=blakadders-20&linkId=2818ba9b86cfe7f53559dcd5d7276162&language=en_GB&ref_=as_li_ss_il" target="_blank"><img src="https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BHYV871T&Format=_SL160_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=blakadders-20&language=en_GB" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=blakadders-20&language=en_GB&l=li2&o=3&a=B0BHYV871T" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" />
 
-[TicWatch Pro 5](https://www.amazon.de/dp/B0CB12CPCY?_encoding=UTF8&th=1&linkCode=li2&tag=blakadders-20&linkId=77e243f8252b56cebc434e0bd11cc0d2&language=en_GB&ref_=as_li_ss_il), both black and sandstone are 279€ and there's an additional 28€ voucher.  [My review](ticwatch-pro-5-smart-watch-home-control).
+[TicWatch Pro 5](https://www.amazon.de/dp/B0CB12CPCY?_encoding=UTF8&th=1&linkCode=li2&tag=blakadders-20&linkId=77e243f8252b56cebc434e0bd11cc0d2&language=en_GB&ref_=as_li_ss_il), both black and sandstone are 279€ and there's an additional 28€ voucher.  [My review](/ticwatch-pro-5-smart-watch-home-control).
 
 <a href="https://www.amazon.de/dp/B0CB12CPCY?_encoding=UTF8&th=1&linkCode=li2&tag=blakadders-20&linkId=77e243f8252b56cebc434e0bd11cc0d2&language=en_GB&ref_=as_li_ss_il" target="_blank"><img border="0" src="https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CB12CPCY&Format=_SL160_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=blakadders-20&language=en_GB" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=blakadders-20&language=en_GB&l=li2&o=3&a=B0CB12CPCY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
@@ -77,6 +77,7 @@ Not applicable in UA, MX, RU, AE, UZ, BH, KR, AM, KW, FR, SA, ES, KZ, QA, BR, TJ
 |---|---|---|
 | 23AE10 | 9€ | 75€ |
 | 23AE20 | 14€ | 140€ |
+| 23AE50 | 47€ | 280€ |
 | BF8 | 6$ | 45$ |
 | BF10 | 10$ | 80$ |
 | BF20 | 20$ | 150$ |
@@ -152,9 +153,9 @@ My recommendations:
 - [6kg of Creality ABS](https://www.geekbuying.com/go/89SaiLp2) in mixed colors. I really love how well it prints in my Qidi X-Plus 3.
 - [Aqara door/windows sensors](https://www.geekbuying.com/go/89UKmkrh) are the most recommended Zigbee contact sensors on Home Assistant discord
 - [Aqara wireless](https://www.geekbuying.com/go/89UKopNq) Zigbee wall switches have the typical great build quality and design Aqara provides
-- [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](sonoff-zbmini)
+- [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](/sonoff-zbmini)
 - [Ender-3 V3 SE](https://www.geekbuying.com/go/8AXeV0IA) 3D printer is a starter printer that's aimed at users who just want to print, without any tinkering or tuning with auto bed leveling and auto Z offset adjustment.
-- [Proscenic T21](https://www.geekbuying.com/go/8AXyUBrg) air fryer. I wrote about [Tasmotizing this one](proscenic-in-home-assistant) back in 2021 but its still functioning and is used at least twice a week.
+- [Proscenic T21](https://www.geekbuying.com/go/8AXyUBrg) air fryer. I wrote about [Tasmotizing this one](/proscenic-in-home-assistant) back in 2021 but its still functioning and is used at least twice a week.
 
 ## SwitchBot
 
