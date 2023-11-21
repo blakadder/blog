@@ -151,6 +151,7 @@ My recommendations:
 - an [N100 mini PC](https://www.geekbuying.com/go/89SaR7mK) for your smart home server and more. This wipes the floor with the usually recommended SBCs with only 7w idle power consumption.
 - [BMAX MaxPad i9 Plus](https://www.geekbuying.com/go/7pF3OteD) tablet 10.1-inch. Cost effective tablet for a smart home dashboard, comes with clean stock Android. Warning, it is not fast enough for normal daily use.
 - [6kg of Creality ABS](https://www.geekbuying.com/go/89SaiLp2) in mixed colors. I really love how well it prints in my Qidi X-Plus 3.
+- [4kg Eryone Matte PLA](https://www.geekbuying.com/go/8BFQnm4p). I have a few of these and they're amazing and easy to print with!
 - [Aqara door/windows sensors](https://www.geekbuying.com/go/89UKmkrh) are the most recommended Zigbee contact sensors on Home Assistant discord
 - [Aqara wireless](https://www.geekbuying.com/go/89UKopNq) Zigbee wall switches have the typical great build quality and design Aqara provides
 - [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](/sonoff-zbmini)
