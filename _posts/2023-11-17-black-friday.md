@@ -94,7 +94,7 @@ Not applicable in UA, MX, RU, AE, UZ, BH, KR, AM, KW, FR, SA, ES, KZ, QA, BR, TJ
 | SPBF50 | 50$ | 300$ |
 | SPBF80 | 80$ | 450$ |
 
-You can see [my recommendations in the 11.11 guide](singles-day/#my-recommendations). 
+You can see [my recommendations in the 11.11 guide](/singles-day/#my-recommendations). 
 
 ## Qidi
 
