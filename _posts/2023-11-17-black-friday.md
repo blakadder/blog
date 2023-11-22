@@ -167,6 +167,7 @@ My recommendations:
 - [Sonoff ZBMINI](https://www.geekbuying.com/go/89UKw0KI) Zigbee relay module. [My review](/sonoff-zbmini)
 - [Ender-3 V3 SE](https://www.geekbuying.com/go/8AXeV0IA) 3D printer is a starter printer that's aimed at users who just want to print, without any tinkering or tuning with auto bed leveling and auto Z offset adjustment.
 - [Proscenic T21](https://www.geekbuying.com/go/8AXyUBrg) air fryer. I wrote about [Tasmotizing this one](/proscenic-in-home-assistant) back in 2021 but its still functioning and is used at least twice a week.
+- [Roborock S7 Max Ultra](https://www.geekbuying.com/go/8BQcl0Iy) for 829€ before discounts. Always highly recommended and has an [official integration](https://www.home-assistant.io/integrations/roborock/) for Home Assistant
 
 ## SwitchBot
 
