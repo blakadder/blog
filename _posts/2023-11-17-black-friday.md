@@ -69,7 +69,7 @@ Great prices on Aqara T1 sensors, Sonoff NSPanel Pro
 
 After a massive 11.11 sale comes their Black Friday sale with similar deals and a new set of discount codes.
 
-#### Discounts
+##### Discounts
 
 Not applicable in UA, MX, RU, AE, UZ, BH, KR, AM, KW, FR, SA, ES, KZ, QA, BR, TJ, BY, MD, AZ, TM, KG, GE, OM, US
 
@@ -84,9 +84,19 @@ Not applicable in UA, MX, RU, AE, UZ, BH, KR, AM, KW, FR, SA, ES, KZ, QA, BR, TJ
 | BF50 | 50$ | 300$ |
 | BF80 | 80$ | 450$ |
 
-#### Poland Only
+##### US Only
 
-| Code | Discount in $ | Minimum spend in $ |
+| Code | Discount | Minimum spend |
+|---|---|---|
+| USAFF6 | 6$ | 45$ |
+| USAFF10 | 10$ | 80$ |
+| USAFF20 | 20$ | 150$ |
+| USAFF50 | 50$ | 260$ |
+| USAFF80 | 80$ | 450$ |
+
+##### Poland Only
+
+| Code | Discount | Minimum spend |
 |---|---|---|
 | SPBF6 | 6$ | 45$ |
 | SPBF10 | 10$ | 80$ |
@@ -199,3 +209,20 @@ The good old [Sonoff](https://itead.cc/sonoff-black-friday-sale-2023/ref/34) has
 
 [Pixoo64](https://collabs.shop/hpilym) is a larger (64x64 pixels), more capable and more expensive pixel display. 131,95€ during the Black Friday sale but using my link gives a 10% discount which brings the price down to 118,75€. The API is open, there are various apps for controlling it and also a [Home Assistant integration](https://github.com/gickowtf/pixoo-homeassistant).
 
+## Banggood
+
+<a target="_blank" href="https://www.banggood.com/marketing-Banggood-Global-Shopping-Festival/tid-58058.html?utmid=23655&utm_content=hilda&bid=57168&utm_design=153&p=CM27171011078201412U&custlinkid=3564027"><img src="https://img.staticbg.com/deals/affiliate_member_banner_new/202311/07/20231107201358_826.jpg" alt="" width="50%"></a>
+
+### My Recommendations and Finds
+
+[JM-8192](https://www.banggood.com/JM-8192-Multi-Functional-180-in-1-Precision-Screwdriver-Tool-Set-Chrome-Vanadium-Bits-Stripped-Screw-Extractors-Mobile-Phone-Repair-DIY-Tools-Home-Improvement-p-1997351.html?ID=0&warehouse=CN&p=CM27171011078201412U&custlinkid=3604005) 180-in-1 precision screwdriver tool set has you covered for opening electronics.
+
+<a target='_blank' href='https://www.banggood.com/JM-8192-Multi-Functional-180-in-1-Precision-Screwdriver-Tool-Set-Chrome-Vanadium-Bits-Stripped-Screw-Extractors-Mobile-Phone-Repair-DIY-Tools-Home-Improvement-p-1997351.html?ID=0&warehouse=CN&p=CM27171011078201412U&custlinkid=3604005'><img src='https://imgaz.staticbg.com/images/oaupload/banggood/images/7C/31/df10c045-a06a-4089-a16e-7fa6dce86738.jpg' alt='' width="30%"></a>
+
+<a target="_blank" href="https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800" title="" >SEQUER SI012 Pro Max TS-B2 Portable OLED Soldering Iron with Color Ambience TS Soldering Iron Tips Support PD|QC|3S-6S Battery Power Supply</a>
+
+<a target="_blank" href="https://www.banggood.com/SEQUER-SI012-Pro-Max-TS-B2-Portable-OLED-Soldering-Iron-with-Color-Ambience-Light-Chinese,English-and-Russian-Menu-Applicable-TS-Soldering-Iron-Tips-Support-PD-or-QC-or-3S-6S-Battery-Power-Supply-p-1991598.html?p=CM27171011078201412U&custlinkid=3563800"><img src="https://imgaz.staticbg.com/images/oaupload/banggood/images/E7/5C/bbb036b8-c32a-4499-9dee-1531f5d7f000.jpg" alt="" width="30%"></a>
+
+<a target="_blank" href="https://www.banggood.com/PTS200-V2-100W-Electric-Soldering-Iron-Portable-Quick-Warm-Up-Tin-Melting-Open-Source-Supports-PD3_0-Firmware-Upgradeable-Battery-Not-Included-T12-or-TS100-Compatible-p-1993106.html?p=CM27171011078201412U&custlinkid=3563798" title="" >PTS200 V2 100W Electric Soldering Iron Portable Quick Warm-Up Tin Melting Open Source Supports PD3.0 Firmware Upgradeable Battery Not Included T12/TS100 Compatible</a>
+
+<a target="_blank" href="https://www.banggood.com/PTS200-V2-100W-Electric-Soldering-Iron-Portable-Quick-Warm-Up-Tin-Melting-Open-Source-Supports-PD3_0-Firmware-Upgradeable-Battery-Not-Included-T12-or-TS100-Compatible-p-1993106.html?p=CM27171011078201412U&custlinkid=3563798"><img src="https://imgaz.staticbg.com/images/oaupload/banggood/images/E0/4E/75e95ca9-6838-4a80-9395-c0e28b51a396.jpg" alt="" width="30%"></a>
