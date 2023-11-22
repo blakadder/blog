@@ -53,7 +53,7 @@ Since I already have a Bluetooth proxy running I've opened my HA dashboard and, 
 
 Clicking on configure opens a configuration dialog where you enter your SwitchBot account credentials. This is required only to grab the lock key from SwitchBot, the control of the lock will be all local. Unfortunately this part works only with a SwitchBot account created with an email address and not with a Google login so I had to recreate the account and repeat the pairing process. As the old Latin saying goes: "Repetition is the mother of learning".
 
-![Discovered in HA](/assets/images/switchbot_lock/ha_discovered.jpg)
+![Credentials entry in HA](/assets/images/switchbot_lock/ha_credentials.jpg)
 
 Now I can integrate the Lock and it's glorious. There's even a door sensor! Everything is fast and responsive but that's to be expected for fully local communication. I'm loving this!
 
