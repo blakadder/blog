@@ -51,7 +51,7 @@ Honestly I expected more configurability from a this sensor considering the pric
 
 ## Performance
 
-Presence detection is equally fast as the other presence sensors I've tested (such as the [ZY-M100](ZY-M100)). Motion detection distance is slightly above the promised 6m range while the motionless presence detection is accurate up to 4 meters. The sensor uses 0.48W of power during operation. It serves as a Zigbee router.
+Presence detection is equally fast as the other presence sensors I've tested (such as the [ZY-M100](/zy-m100)). Motion detection distance is slightly above the promised 6m range while the motionless presence detection is accurate up to 4 meters. The sensor uses 0.48W of power during operation. It serves as a Zigbee router.
 
 What grinds my gears is the front LED which blinks very brightly when presence is detected which would be passable but it keeps on blinking in a steady interval as long as its detecting presence. Engineers did not think this would be annoying to some users so they didn't leave any way to disable the LED from the software. Guess we'll have to do it physically.
 
@@ -106,7 +106,7 @@ The light sensor is sandwiched in the middle of the two LEDs and the blinking of
 
 The stupid blinking LED is extremely annoying. Yes, there's a way to deal with it but why isn't there a simple toggle in the settings. On top of that, the minimum of 10 seconds for non presence detection and limited configuration options do not make it any more desirable. The size of the sensor, specifically its thickness is something I'm personally not a fan of when there are thinner options floating around but it's not that big of a deal.
 
-You can get a lot more from a presence sensor for less than 20€ with a [ZY-M100](zy-m100) or the new candidate I'm testing: ZG-205 ([AliExpress](https://www.aliexpress.com/item/1005005951964477.html?aff_fcid=2296362ef35549d1b085e7f7188f7b4d-1696890047820-09063-_DmuFAd1)).
+You can get a lot more from a presence sensor for less than 20€ with a [ZY-M100](/zy-m100) or the new candidate I'm testing: ZG-205 ([AliExpress](https://www.aliexpress.com/item/1005005951964477.html?aff_fcid=2296362ef35549d1b085e7f7188f7b4d-1696890047820-09063-_DmuFAd1)).
 
 If you're not at all deterred by the above, can't deny the fact it uses a proven 24Ghz radar that's responsive and accurate. The power usage is very low and it acts as a Zigbee router.
 
