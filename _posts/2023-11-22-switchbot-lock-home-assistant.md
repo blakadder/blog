@@ -218,3 +218,4 @@ SwitchBot Lock is available from:
 * [Amazon UK](https://amzn.to/3RbVUpx) - 30% OFF during Black Friday sales
 * [Amazon US](https://amzn.to/3GhWHyB) - also 30% off but US price is only 69.99$ which is an awesome deal
 * [Amazon CA](https://amzn.to/47qxGgJ) - 30% off as well
+
