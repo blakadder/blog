@@ -132,6 +132,7 @@ When you save the script note down its entity id. Now you need to make a [templa
 
 Add the following in `configuration.yaml`:
 
+{% raw %}
 ```yaml
 lock:
   - platform: template
@@ -145,6 +146,7 @@ lock:
       target:
         entity_id: lock.lock_ae13
 ```
+{% endraw %}
 
 The `value_template` and `target` entities are the entity id of the SwitchBot Lock. Now, when you go to lock the new entity from Home Assistant it will call the service we created and check whether the multi-point latch is engaged or not then execute the appropriate action.
 

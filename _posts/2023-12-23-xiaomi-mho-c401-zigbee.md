@@ -188,6 +188,10 @@ Click **CALL SERVICE** to send the new configuration. If successful the button w
 
 [![Set comfort levels](/assets/images/mho-c401/set_comfort.jpg)](/assets/images/mho-c401/set_comfort.jpg)
 
+Video of the setting process:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/A38mhNQ1Jw4?si=zTZtQr_uOpK7QnSH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### OTA Upgrade / Revert to BLE firmware
 
 pvvx's firmware has the option to upgrade the firmware OTA and that includes "upgrading" back to the BLE version of the firmware.
